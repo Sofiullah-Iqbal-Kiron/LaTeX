@@ -1,0 +1,22 @@
+\documentclass[11 pt]{article}
+\usepackage{tkz-graph, tcolorbox}
+
+\begin{document}
+
+ \begin{tcolorbox}[title = Title Bar, colback = blue!21, colframe = black!90]
+  This is a simple "\textbf{tcolorbox}".
+  \tcblower
+  This is the lower part of this text.\\So, whats up guys?
+  
+   \begin{tcolorbox}[title = NEST, colframe = blue!99]
+    Nested tcolorbox.
+   \end{tcolorbox}
+   
+ \end{tcolorbox}
+ 
+ \tcbox[tikznode]{Hello\\World}
+ 
+ \begin{tcolorbox}
+ \end{tcolorbox}
+ 
+\end{document}

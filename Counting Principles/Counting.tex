@@ -1,0 +1,135 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage
+{
+ authblk,
+}
+
+
+\usetheme{AnnArbor}
+\usecolortheme{beaver}
+\usefonttheme{default}
+\useinnertheme{rounded}
+%\useoutertheme{}
+\setbeamercolor{normal text}{bg=red!5}
+
+
+\title[Counting]{Basic Counting Principle}
+\subtitle{Combinatorics}
+\author[Kiron]{Sofiullah Iqbal Kiron \\ \texttt{sofiul.k.1023@gmail.com}}
+\date[Pohela Boishakh]{14 April, 2020}
+\institute[BSMRSTU]{Bongobondhu Sheikh Mujibur Rahman Science and Technology University}
+\affil{Department of CSE}
+\logo{\includegraphics[height=1 cm]{Logo.png}}
+
+
+%It will show currentsection by using feature of \tableofcontents at the beginning pf each section.
+\AtBeginSection[]
+{
+ \begin{frame}
+  \frametitle{Now we on\dots}
+  \tableofcontents[currentsection]
+ \end{frame}
+}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Fulfilment}
+\tableofcontents
+\end{frame}
+
+\section{5.1}
+%Frame 1,
+\begin{frame}
+\frametitle{Two Basic Counting Principle}
+
+\begin{enumerate}
+\item Product Rule\pause
+\item Sum Rule\pause
+\end{enumerate}
+
+\begin{columns}
+\column{0.4\textwidth}
+\textbf{Product Rule:} Suppose that a procedure can be broken down into a sequence of two tasks. If there are $n_1$ ways to do the first task and for each of these ways of doing the first task, there are $n_2$ ways to do the second task, then there are $n_1n_2$ ways to do the procedure.\pause
+\transwipe
+
+\column{0.5\textwidth}
+\textbf{Sum Rule:} If a task can be done either in one of $n_1$ ways or in one of $n_2$ ways, where none of the set of $n_1$ ways is same as the any of set $n_2$ ways. Then there are $n_1+n_2$ ways to do the task.
+\end{columns}
+\end{frame}
+%Frame 1 over.
+
+%Frame 2,
+\begin{frame}
+\frametitle{Inclusion-Exclusion Principle}
+Suppose that a task can be done in $n_1$ ways or in $n_2$ ways, but that some of the set of $n_1$ ways is same as some of the set of $n_2$ ways.
+\\
+To \alert{correctly count} the ways to do the two task:
+\\We add\\
+\begin{itemize}
+\item<1-> The number of ways to do it in one way
+\item<2-> The number of ways to do it in another way
+\end{itemize}
+then subtract.
+\\
+\begin{block}{So\dots}
+The number of ways to do the task in a way that is both among the set of $n_1$ ways and the set of $n_2$ ways.\\
+This technique is called \textbf{Inclusion-Exclusion}.
+\end{block}
+\end{frame}
+%Frame 2 over.
+
+\section{5.2}
+
+%Frame 3,
+\begin{frame}
+\frametitle{The pigeonhole principle}
+Let's consider that, there are 10 pigeon and 9 pigeonhole at your home. So, there must a hole that contains two pigeon.\pause\\
+\begin{center}
+\begin{tabular}{|c | c | c|}
+\hline
+\includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png}\\
+\hline
+\includegraphics[width=30 px]{Pigeon.png}\includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png}\\
+\hline
+\includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png} & \includegraphics[width=30 px]{Pigeon.png}\\
+\hline
+\end{tabular}\pause
+\end{center}
+
+\begin{block}{Principle:}
+$k$ is a positive integer. There are $n$ objects $(n>k)$ placed in $k$ boxes, then there are at least one box containing two or more objects.
+\end{block}
+\end{frame}
+%Frame 3 over.
+
+%Frame 4,
+\begin{frame}
+\begin{block}{Corollary 1}
+A function $(f)$ from set with $k+1$ of more elements to a set of $k$ elements, not $one-to-one$.
+\end{block}
+\textbf{Proof:} We can proof this by pigeonhole principle. Suppose elements of $x$ is pigeon(Domain), $y$ elements are pigeonhole(Co-domain). Then there are at least one pigeonhole(Co-domain) that contains more than one element.\\
+That's mean, the function is not $one-to-one$.
+\end{frame}
+%Frame 4 over.
+
+%Frame 5,
+\begin{frame}
+\frametitle{Generalized Pigeonhole Principle}
+If $N$ objects are placed into $K$ boxes, then there is at least one box that containing at least $ceil(N/K)$ elements.
+\end{frame}
+%Frame 5 over.
+
+%Frame 6,
+\begin{frame}
+\frametitle{Generalized Pigeonhole Principle}
+If $N$ objects are placed into $K$ boxes, then there is at least one box that containing at least $ceil(N/K)$ \textcolor{red}{elements}.
+\end{frame}
+%Frame 6 over.
+
+\end{document}

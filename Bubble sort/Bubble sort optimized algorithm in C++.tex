@@ -1,0 +1,54 @@
+\documentclass[11 pt]{article}
+
+\usepackage{listings, xcolor, hyperref}
+
+\lstset
+{
+ language = c++, backgroundcolor=\color{green!11}, basicstyle=\footnotesize, keywordstyle=\color{red}, captionpos=b, numbers=left, numberstyle=\tiny, commentstyle=\color{purple}}
+
+\begin{document}
+
+Reference: \href{https://www.geeksforgeeks.org/bubble-sort/}{GeeksforGeeks}\\
+
+ This is the simple and optimized code for \textcolor{blue!70}{\textbf{bubble sort}}.
+ \\The worst time complexity is: $O(n^2)$.
+ \\Best time complexity is $O(n)$ when the array is already sorted.
+ \\Average time complexity $O\left(\frac{n(n+1)}{2}\right)$.
+ \begin{lstlisting}[caption=Bubble sort, frame=TBRl]
+ 
+  \\Function for bubble sort(Optimized version)
+  void bubble_sort(int arr[], int &size)
+  {
+      int i, j;
+      bool swapped;
+      for(i=0; i<size-1; i++)
+      {
+          swapped = false;
+          for(j=0; j<size-i-1; j++)
+          {
+              if(arr[j]>arr[j+1])
+              {
+                  swap(arr[j], arr[j+1]);
+                  swapped = true;
+              }
+          }
+          if(swapped = false)
+          {
+              break;
+              /*If no two elements were swapped, means the array
+              is already sorted. This method will save much more 
+              time. Chill!*/
+          }
+      }
+  }
+ 
+ \end{lstlisting}
+ 
+\section*{}
+Bubble sort is not practical sorting algorithm, cause it is more complex than other sorting algorithm. Bubble sort should be avoided in the case of large collection. It will not be efficient in the case of a reverse-ordered collection which will occur the time-complexity $O(n^2)$.
+If the smallest element is at the end of the list, it will take $n-1$ passes to move it to the beginning.
+
+\section*{Questions related to Sorting}
+1.Sort by name with integer ID.
+
+\end{document}

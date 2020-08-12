@@ -1,0 +1,46 @@
+\documentclass[11 pt]{article}
+
+\usepackage{listings, xcolor}
+\usepackage[utf8]{inputenc}
+
+\lstset
+{
+ language=c++,
+ backgroundcolor=\color{green!50},
+ keywordstyle=\color{magenta},
+ stringstyle=\color{blue},
+ commentstyle=\color{violet},
+ numbers=left,
+ frame=tbr,
+ numberstyle=\tiny\color{gray},
+ captionpos=b,
+ showspaces=false
+}
+
+\begin{document}
+
+Here is the illustration of recursive bubble sort.
+
+\begin{lstlisting}[caption={C++ code for recursive bubble sort}, frame=shadowbox, rulesepcolor=\color{violet!70}]
+void recursive_bubble(int arr[], int &size)
+{
+    if(size==1)
+    {
+        return;
+        /*Use "return" in external function,
+        not return 0 or anything else.*/
+    }
+
+    for(int i=0; i<size-1; i++)
+    {
+        if(arr[i]>arr[i+1])
+        {
+            swap(arr[i], arr[i+1]);
+        }
+    }
+
+    recursive_bubble(arr, size-1);
+}
+ \end{lstlisting}
+
+\end{document}
