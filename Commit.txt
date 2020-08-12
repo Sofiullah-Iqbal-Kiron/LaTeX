@@ -1,1 +1,1 @@
-Now this is a several git repository.
+Now, this is a several git repository.
