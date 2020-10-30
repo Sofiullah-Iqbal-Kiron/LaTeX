@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  30 MAY 2020 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 OCT 2020 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -592,10 +592,6 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count304
 \l__pdf_internal_box=\box61
 )
-
-LaTeX Warning: Unused global option(s):
-    [pt=100].
-
 (./Graph.aux)
 \openout1 = `Graph.aux'.
 
@@ -685,44 +681,44 @@ Overfull \hbox (63.64943pt too wide) in paragraph at lines 225--226
 [][] 
  []
 
-
-Overfull \hbox (40.28566pt too wide) in paragraph at lines 236--237
+[5]
+Overfull \hbox (40.28566pt too wide) in paragraph at lines 292--293
 [][] 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 352--361
 \OT1/cmr/m/n/10 1$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 352--361
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 352--361
 
  []
 
-[6]
-Underfull \hbox (badness 7522) in paragraph at lines 305--312
+[7]
+Underfull \hbox (badness 7522) in paragraph at lines 361--368
 []\OT1/cmr/bx/n/10 Complete bi-nary tree: \OT1/cmr/m/n/10 All the leafs are in 
 same level.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--312
+Underfull \hbox (badness 10000) in paragraph at lines 361--368
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--312
+Underfull \hbox (badness 10000) in paragraph at lines 361--368
 
  []
 
 
-Overfull \hbox (14.69554pt too wide) in paragraph at lines 359--361
+Overfull \hbox (14.69554pt too wide) in paragraph at lines 415--417
 \OT1/cmr/m/n/10 Now we ob-tain that list by \OT1/cmr/bx/n/10 Pre-order Tra-vers
 e: $\OT1/cmr/m/n/10 [10\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \
 OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr
@@ -731,8 +727,8 @@ OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr
 ML/cmm/m/it/10 ; \OT1/cmr/m/n/10 22]$.
  []
 
-[7]
-Overfull \hbox (52.5266pt too wide) in paragraph at lines 400--402
+[8]
+Overfull \hbox (52.5266pt too wide) in paragraph at lines 456--458
 \OT1/cmr/m/n/10 When we tra-verse the tree in \OT1/cmr/m/it/10 lnr \OT1/cmr/m/n
 /10 form, we ob-tain that list: $[1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm
 /m/it/10 ; \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9\OML/cmm/m/it/1
@@ -741,22 +737,22 @@ T1/cmr/m/n/10 11\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 14\OML/cmm/m/it/10 ; \OT1/cm
 r/m/n/10 20\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 22]$.
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
-
- []
-
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
 
  []
 
-[10] [11] (./Graph.aux) ) 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
+
+ []
+
+[11] [12] (./Graph.aux) ) 
 Here is how much of TeX's memory you used:
- 26395 strings out of 481239
- 648326 string characters out of 5921778
- 1144524 words of memory out of 5000000
- 41242 multiletter control sequences out of 15000+600000
+ 26426 strings out of 481239
+ 648735 string characters out of 5921778
+ 1144520 words of memory out of 5000000
+ 41273 multiletter control sequences out of 15000+600000
  539404 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,12n,98p,701b,1650s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -773,10 +769,10 @@ amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
 ><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Graph.pdf (11 pages, 151093 bytes).
+Output written on Graph.pdf (12 pages, 157678 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

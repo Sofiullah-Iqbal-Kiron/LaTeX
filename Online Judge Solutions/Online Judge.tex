@@ -1,0 +1,76 @@
+\documentclass[11 pt]{book}
+
+\usepackage
+{
+	listings,
+	xcolor
+}
+
+\title{Online Judge}
+\author
+{
+	Sofiullah Iqbal Kiron
+}
+
+\lstset
+{
+ language = Java,
+ backgroundcolor = \color{black!5},
+ basicstyle = \footnotesize\ttfamily,
+ keywordstyle = \color{blue},
+ commentstyle = \color{green!80},
+ showstringspaces = false,
+ stringstyle = \color{red},
+ captionpos = b
+}
+
+\begin{document}
+
+\maketitle % How to format date presentation?
+
+\chapter{Toph}
+
+\section{String}
+
+\subsection{Monu Mia}
+\begin{lstlisting} [frame = shadowbox, rulesepcolor = \color{blue!80}]
+import java.util.Scanner;
+
+public class MonuMia
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        StringBuffer sb = new StringBuffer(input.nextLine());
+        System.out.println(sb.reverse());
+    }
+}
+\end{lstlisting}
+
+\subsection{Formatted Number}
+\begin{lstlisting} [frame = shadowbox, rulesepcolor = \color{blue!80}]
+import java.util.Scanner;
+
+public class Formatted Number
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        StringBuffer sb = new StringBuffer(input.nextLine());
+        sb = sb.reverse();
+        for (int i = 3; i <= sb.length(); i += 3)
+        {
+            sb.insert(i, ',');
+            i++;
+        }
+        if (sb.charAt(0) == ',')
+            sb.deleteCharAt(0);
+        if (sb.charAt(sb.length() - 1) == ',')
+            sb.deleteCharAt(sb.length() - 1);
+
+        System.out.println(sb.reverse());
+    }
+}
+\end{lstlisting}
+
+\end{document}

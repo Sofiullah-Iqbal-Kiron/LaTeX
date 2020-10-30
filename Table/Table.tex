@@ -1,0 +1,110 @@
+\documentclass[11 pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl
+}
+\usepackage[table]{xcolor}
+
+\begin{document}
+
+%% Table with fixed length:
+%-> The aligning option 'm' for "middle",
+%					    'p' for "top",
+%						'b' for "bottom".
+
+%% This table is for "Programming Document" LaTeX file.
+\begin{center}
+\rowcolors{3}{green!35}{green!70}
+\arrayrulecolor{white}
+	\begin{longtable}{|| m{1 em} || m{15 em} m{17 em} ||}
+		\hline\hline
+		\rowcolor{teal!20}
+		\multicolumn{3}{c}{\textbf{\textsf{\textcolor{black}{IntelliJ IDEA Commands and Shortcuts}}}}\\
+		\hline\hline
+		1 & Debug Program & shift + f9\\
+		\hline
+		2 & Run Program & shift + f10\\
+		\hline
+		3 & Format Codes & ctrl + alt + L\\
+		\hline
+		4 & public static void main() & main / psvm\\
+		\hline
+		5 & System.out.println() & sout\\
+		\hline
+		6 & To warp a code block in a construct & ctrl + alt + T\\
+		\hline
+		7 & Search anything in project & double click shift (For a technical reason, I turned off the system)\\
+		\hline
+		8 & Invoke commit changes dialog & ctrl + K\\
+		\hline
+		9 & Select several words and edit together & press and hold shift + alt and double click on the word.\\
+		\hline
+		10 & Fill the code construct & start typing method declaration and press ctrl + shift + enter\\
+		\hline
+		11 & Join two statement in one line and remove unnecessary spaces & ctrl + shift + J\\
+		\hline
+		12 & Jump highlighted syntax error & f2 / shift + f2\\
+		\hline
+		13 & ctrl + shift + E & recently viewed or changed code fragment\\
+		\hline
+		14 & Change name of the function from main method & highlight method name then press shift + f6 and re-write\\
+		\hline
+		\rowcolor{red}
+		15 & Quick scheme & view | Quick Switch Scheme or ctrl +  \\
+		\hline
+		16 & To evaluate any expression while debugging program & select the expression in the editor and press Alt + F8\\
+		\hline
+		17 & Create a new class & alt + ins (Now, not working perfectly)\\
+		\hline
+		18 & To see all the live template that are valid for this current method or context & ctrl + J (Close this by pressing "esc")\\
+		\hline
+		19 & Complete syntax with dot from code completion helper(highlighted) & ctrl + dot\\
+		\hline
+		20 & To close all editor tabs except current one & keep alt pressed and click cross button of current tab\\
+		\hline
+		21 & To see how to call an action & ctrl + shift + A\\
+		\hline
+		22 & To select multiple fragment in column mode & press alt + shift + insert and then hold ctrl + shift + alt and drag the mouse\\
+		\hline
+		23 & Rename an identifier and change all uses of it & Look at the leftmost side(gutter), here is a pencil marker. Click on this and click again Rename.\\
+		\hline
+		24 & To select a block of code & Double click of its opening brace.\\
+		\hline
+		25 & Invoke rename action box & mark down the field and press shift + f6\\
+		\hline
+		26 & Move statement up/down in current block only & put cursor at the end of the statement and hold shift + ctrl then press uparrow/downarrow\\
+		\hline
+		27 & Move line up/down at any place & shift + alt + up/down\\
+		\hline
+		28 & To scroll a file horizontally & Turn the mouse wheel while keeping Shift pressed\\
+		\hline
+		29 & Compare to different directories & select the file on form project (Press and hold shift and then one click on the directory) and press ctrl + D\\
+		\hline
+		30 & To delete the whole line at the caret & ctrl + Y\\
+		\hline\hline
+	\end{longtable}
+\end{center}
+
+%% Multi-Page table
+%  When we have to insert a very long table which takes up to or more pages, use longtable package.
+%  It allow table to flow over the page boundaries.
+
+%% Colored table. Why color is not working?!
+\rowcolors{2}{green!80!yellow!50}{green!70!yellow!40}
+\begin{tabular}{| p{5 em} | p{5 em} |}
+	\hline\hline
+	\multicolumn{2}{c}{Student}\\
+	\hline\hline
+	Kiron & 65\\
+	\hline
+	Miron & 66\\
+	\hline
+	Chiron & 67\\
+	\hline
+\end{tabular}
+
+\end{document}

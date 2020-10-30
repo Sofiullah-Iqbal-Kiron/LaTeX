@@ -1,11 +1,10 @@
-\BOOKMARK [0][-]{chapter.1}{ONE}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Comment}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Variable}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{Value Assignment}{section.1.3}% 5
-\BOOKMARK [2][-]{subsection.1.3.2}{Value changing}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.3}{String Variable}{section.1.3}% 7
-\BOOKMARK [1][-]{section.1.4}{Loop}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.4.1}{For Loop}{section.1.4}% 9
-\BOOKMARK [1][-]{section.1.5}{Functions}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.5.1}{Multiple return value}{section.1.5}% 11
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Comment}{}% 2
+\BOOKMARK [1][-]{section.0.3}{Variable}{}% 3
+\BOOKMARK [2][-]{subsection.0.3.1}{Value Assignment}{section.0.3}% 4
+\BOOKMARK [2][-]{subsection.0.3.2}{Value changing}{section.0.3}% 5
+\BOOKMARK [2][-]{subsection.0.3.3}{String Variable}{section.0.3}% 6
+\BOOKMARK [1][-]{section.0.4}{Loop}{}% 7
+\BOOKMARK [2][-]{subsection.0.4.1}{For Loop}{section.0.4}% 8
+\BOOKMARK [1][-]{section.0.5}{Functions}{}% 9
+\BOOKMARK [2][-]{subsection.0.5.1}{Multiple return value}{section.0.5}% 10

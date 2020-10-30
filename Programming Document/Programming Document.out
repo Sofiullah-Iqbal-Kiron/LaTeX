@@ -31,24 +31,43 @@
 \BOOKMARK [1][-]{section.2.12}{Python}{chapter.2}% 31
 \BOOKMARK [2][-]{subsection.2.12.1}{Why we use Python}{section.2.12}% 32
 \BOOKMARK [0][-]{chapter.3}{Java}{}% 33
-\BOOKMARK [1][-]{section.3.1}{IntelliJ IDEA}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.1}{IntelliJ IDEA: The IDE}{chapter.3}% 34
 \BOOKMARK [1][-]{section.3.2}{Syntax Difference between C++ and Java}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.3}{Matcher Class}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.1}{Package}{section.3.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.2}{Properties}{section.3.3}% 38
-\BOOKMARK [0][-]{chapter.4}{JavaScript}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Why We Should Learn JS}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.2}{Variable}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.3}{String}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.4}{Comments}{chapter.4}% 43
-\BOOKMARK [0][-]{chapter.5}{Coursera Algorithm}{}% 44
-\BOOKMARK [0][-]{chapter.6}{Windows Command Prompt}{}% 45
-\BOOKMARK [0][-]{chapter.7}{Type Setting}{}% 46
-\BOOKMARK [1][-]{section.7.1}{Formatting}{chapter.7}% 47
-\BOOKMARK [1][-]{section.7.2}{Font}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.3}{Code Listing parameters}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.4}{Shadow frame in code listing}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.5}{Themes we can use in BEAMER class}{chapter.7}% 51
-\BOOKMARK [2][-]{subsection.7.5.1}{Presentation themes without navigation bar}{section.7.5}% 52
-\BOOKMARK [2][-]{subsection.7.5.2}{Presentation theme with a tree-like navigation bar}{section.7.5}% 53
-\BOOKMARK [1][-]{section.7.6}{List of Greek letters and math symbols}{chapter.7}% 54
+\BOOKMARK [1][-]{section.3.3}{Arrays Class}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.1}{parallelSort\(\) Method}{section.3.3}% 37
+\BOOKMARK [1][-]{section.3.4}{Matcher Class}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.5}{Interface}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.6}{Anonymous Class}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.7}{Lambda Expression}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.8}{Object Ordering}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.8.1}{Implement own comparable type}{section.3.8}% 43
+\BOOKMARK [2][-]{subsection.3.8.2}{Comparators}{section.3.8}% 44
+\BOOKMARK [1][-]{section.3.9}{Math Class}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.9.1}{Beyond Math Class}{section.3.9}% 46
+\BOOKMARK [2][-]{subsection.3.9.2}{Constants and Basic Methods}{section.3.9}% 47
+\BOOKMARK [2][-]{subsection.3.9.3}{Random Numbers}{section.3.9}% 48
+\BOOKMARK [1][-]{section.3.10}{Graph}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.10.1}{Representation}{section.3.10}% 50
+\BOOKMARK [1][-]{section.3.11}{Find Integer Root}{chapter.3}% 51
+\BOOKMARK [0][-]{chapter.4}{JavaScript}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Why We Should Learn JS}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{Variable}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.3}{String}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.4}{Comments}{chapter.4}% 56
+\BOOKMARK [0][-]{chapter.5}{Julia}{}% 57
+\BOOKMARK [0][-]{chapter.6}{Coursera Algorithm}{}% 58
+\BOOKMARK [0][-]{chapter.7}{Windows Command Prompt}{}% 59
+\BOOKMARK [0][-]{chapter.8}{Type Setting}{}% 60
+\BOOKMARK [1][-]{section.8.1}{Formatting}{chapter.8}% 61
+\BOOKMARK [1][-]{section.8.2}{Font}{chapter.8}% 62
+\BOOKMARK [1][-]{section.8.3}{Code Listing parameters}{chapter.8}% 63
+\BOOKMARK [1][-]{section.8.4}{Shadow frame in code listing}{chapter.8}% 64
+\BOOKMARK [1][-]{section.8.5}{Themes we can use in BEAMER class}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.5.1}{Presentation themes without navigation bar}{section.8.5}% 66
+\BOOKMARK [2][-]{subsection.8.5.2}{Presentation theme with a tree-like navigation bar}{section.8.5}% 67
+\BOOKMARK [1][-]{section.8.6}{List of Greek letters and math symbols}{chapter.8}% 68
+\BOOKMARK [1][-]{section.8.7}{Available Document Structure Commands}{chapter.8}% 69
+\BOOKMARK [2][-]{subsection.8.7.1}{BOOK and REPORT}{section.8.7}% 70
+\BOOKMARK [2][-]{subsection.8.7.2}{ARTICLE}{section.8.7}% 71
+\BOOKMARK [1][-]{section.8.8}{XeLaTeX}{chapter.8}% 72
+\BOOKMARK [1][-]{section.8.9}{The "hyperref" Package}{chapter.8}% 73
