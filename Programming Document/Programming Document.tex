@@ -927,8 +927,9 @@ Java has two types of error. Syntax error and Semantic error. Syntax error is gr
 		\hline
 		30 & To delete the whole line at the caret & ctrl + Y\\
 		\hline\hline
-	\end{longtable}
 	\caption{Commands and Shortcuts: Intellij IDEA}
+	\end{longtable}
+	
 \end{center}
 
 \section{Syntax Difference between \textcolor{blue!90}{C++} and \textcolor{blue!90}{Java}}
@@ -950,6 +951,13 @@ Java has two types of error. Syntax error and Semantic error. Syntax error is gr
 	\end{tabular}
 	\caption{Syntax Difference between \textcolor{blue!90}{\huge C++} and \textcolor{blue!90}{\huge Java}}
 \end{table}
+
+\section{Object Oriented Programming (OOP) with \textbf{JAVA}}
+As I mentioned, Java is full object oriented language and do not provide low level programming features like pointer, operator overloading etc. as C / C++ does. Every byte of code of Java are written in a class with same name of that file. Now, what is object? An object is a collection of data (of primitive type) belongs to a class and that class provides methods for manipulate this object. So, Java is "object-oriented" means it uses object to represent data and provide methods related to them. To create a new object in Java, must use \textcolor{blue}{new} keyword. Java has a huge amount of built-in classes, \textbf{Point} and \textbf{Rectangle} are two of them. You can see details of that two classes from oracles Java documentation. As we know from previous section, some of same type classes are wrapped in a package. Point class is belongs to \textbf{awt} package of Java source code library. Variables that belong to an object are usually called \textbf{attribute}, but you might also see them called \textbf{fields}. Both are correct. To access an attribute of an object, Java uses \textbf{dot notation}. Syntax:-\hfill
+\begin{lstlisting}[language = java]
+	dataType variable = objectName.attribute;
+\end{lstlisting}
+Objects are pass by reference to the method. In Java, keyword \textcolor{blue}{null} means "No Objects". When you try to use a null value, \textbf{NullPointerException} will be thrown. But you can return or send a null value to a method.
 
 \section{Arrays Class}
 Arrays class are used to manipulate arrays. Arrays class is a member of the java Collections Framework. We can initialize Array like this, \texttt{int anArray[];} which is not conventional way.\\
