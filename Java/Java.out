@@ -1,0 +1,20 @@
+\BOOKMARK [0][-]{chapter.1}{Java}{}% 1
+\BOOKMARK [1][-]{section.1.1}{IntelliJ IDEA: The IDE}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Syntax Difference between C++ and Java}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Object Oriented Programming \(OOP\) with JAVA}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Arrays Class}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.4.1}{parallelSort\(\) Method}{section.1.4}% 6
+\BOOKMARK [1][-]{section.1.5}{Matcher Class}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{Interface}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{Anonymous Class}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.8}{Lambda Expression}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.9}{Object Ordering}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.9.1}{Implement own comparable type}{section.1.9}% 12
+\BOOKMARK [2][-]{subsection.1.9.2}{Comparators}{section.1.9}% 13
+\BOOKMARK [1][-]{section.1.10}{Math Class}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.10.1}{Beyond Math Class}{section.1.10}% 15
+\BOOKMARK [2][-]{subsection.1.10.2}{Constants and Basic Methods}{section.1.10}% 16
+\BOOKMARK [2][-]{subsection.1.10.3}{Random Numbers}{section.1.10}% 17
+\BOOKMARK [1][-]{section.1.11}{Graph}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.11.1}{Representation}{section.1.11}% 19
+\BOOKMARK [1][-]{section.1.12}{Find Integer Root}{chapter.1}% 20
