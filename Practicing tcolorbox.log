@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  29 APR 2020 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  23 DEC 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,7 +397,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box64
 )
-No file "Practicing tcolorbox".aux.
+(./Practicing tcolorbox.aux)
 \openout1 = `"Practicing tcolorbox.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -414,7 +414,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
@@ -441,17 +441,17 @@ e
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Practicing tcolorbox.aux) ) 
 Here is how much of TeX's memory you used:
- 14623 strings out of 481239
- 306745 string characters out of 5921778
+ 14629 strings out of 481239
+ 306868 string characters out of 5921778
  520033 words of memory out of 5000000
- 29680 multiletter control sequences out of 15000+600000
+ 29684 multiletter control sequences out of 15000+600000
  532946 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,79p,825b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,8n,79p,825b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb>
-Output written on "Practicing tcolorbox.pdf" (1 page, 27765 bytes).
+Output written on "Practicing tcolorbox.pdf" (1 page, 28303 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream

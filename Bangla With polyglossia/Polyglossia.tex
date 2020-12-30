@@ -1,0 +1,18 @@
+%% The package "polyglossia" provides a complete Babel replacement for users of LuaLatex and
+% XeLatex. It relies on the "fontspec" package. (Relies: Depends)
+% It supports: Arabic(arabic), Bangla(bengali), Hindi(hindi) and many of languages.
+% \setdefaultlanguage[<options>]{<lang>}
+%
+
+\documentclass{article}
+
+\usepackage{polyglossia}
+
+\setdefaultlanguage[numerals=Devanagari]{bengali}
+\newfontfamily\bengalifont[Script=Bengali]{Kalpurush}
+
+\begin{document}
+
+বাংলা আমার ভালোবাসা।
+
+\end{document}

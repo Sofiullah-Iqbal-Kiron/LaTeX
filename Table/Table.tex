@@ -145,4 +145,26 @@
 	\end{longtable}
 \end{center}
 
+%% Complex Table in tabular{} environment
+%	l: left aligned.
+%	r: right aligned.
+%	c: center aligned.
+%%
+
+\section*{A Complex Table}
+
+\rowcolors{1}{white}{white}
+\arrayrulecolor{black}
+\begin{tabular}{| c | l | l |}
+
+	\hline
+	11One & 12Two & 13Three\\
+	\hline
+	21Four & 22Five & 23Six\\
+	\cline{1-1}
+	31Seven & 32Eight & 33Nine\\
+	\hline
+
+\end{tabular}
+
 \end{document}

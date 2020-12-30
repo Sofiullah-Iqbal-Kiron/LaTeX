@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  1 MAY 2020 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  29 DEC 2020 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1113,10 +1113,10 @@ Package rerunfilecheck Info: File `Counting.out' has not changed.
 (rerunfilecheck)             Checksum: DCB04D378201672A858E93764AF3F76B;76.
  ) 
 Here is how much of TeX's memory you used:
- 18201 strings out of 481239
- 348813 string characters out of 5921778
+ 18203 strings out of 481239
+ 348829 string characters out of 5921778
  596469 words of memory out of 5000000
- 32974 multiletter control sequences out of 15000+600000
+ 32976 multiletter control sequences out of 15000+600000
  539382 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,67p,775b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1127,7 +1127,7 @@ st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb>
-Output written on Counting.pdf (16 pages, 124500 bytes).
+Output written on Counting.pdf (16 pages, 124599 bytes).
 PDF statistics:
  524 PDF objects out of 1000 (max. 8388607)
  476 compressed objects within 5 object streams
