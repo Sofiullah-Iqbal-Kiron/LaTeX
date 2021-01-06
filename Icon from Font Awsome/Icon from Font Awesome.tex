@@ -1,0 +1,48 @@
+\documentclass[9 pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage
+{
+	authblk,
+	hyperref,
+	mVersion, % Version count controller.	
+	fontawesome 
+}
+\usepackage[short, nodayofweek, level, 12hr]{datetime} % Time manipulator.
+
+\title{Working with ICON: Font Awesome}
+\author
+{
+	Sofiullah Iqbal Kiron\\
+	\href{mailto:sofiul.k.1023@gmail.com}{sofiul.k.1023@gmail.com}
+}
+\date{31 Dec, 2020 \\ \currenttime \\ Version: \version}
+\affil{BSMRSTU, Department of CSE \\ SHIICT}
+
+\increaseBuild % Will update version as soon as the document recompiled.
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+{The fontawesome package grants access to 634 web-related icons provided by the included Font Awesome font, designed by Dave Gandy and released under the open SIL Open Font License.}\par
+{This package works both with XE(LA)TEX and Lua(LA)TEX (using fontspec to load the included original otf font), as well as (pdf)(LA)TEX (using an included type1 conversion and character mapping of the font).}\par
+\end{abstract}
+
+Here I'm gonna put some Icon from font awesome.\\
+\begin{center}
+\begin{tabular}{c c}
+Adjust & \faAdjust \\
+Ambulance & \faAmbulance \\
+Android & {\Huge \faAndroid} \\
+Arrow Left & \faArrowLeft \\
+Code Fork & \faCodeFork \\
+Linux & \faLinux \\
+Twitter & \faTwitter \\
+WiFi & \faWifi \\
+YouTube & \faYoutube
+\end{tabular}
+\end{center}
+
+\end{document}

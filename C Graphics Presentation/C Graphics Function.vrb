@@ -1,0 +1,5 @@
+\frametitle{Any Font Size}
+\framesubtitle{Still not arrived!}
+\begin{block}{Description}
+You can give any size of a font as you want by using \textit{anyfontsize} package. And then the command.
+\end{block}

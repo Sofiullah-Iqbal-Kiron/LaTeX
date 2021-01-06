@@ -20,11 +20,13 @@
  tikz, % Graphical plot
  pgfplots, % Graph plots
  tabularx, % More flexible formatted table
- lipsum,
+ lipsum, % Give lipsum article
  mVersion, % Adding version later of date
  framed, % For make a frame to CodeListing or any place.
  longtable, % Create and break out large / long table
  wrapfig, % Wrap the figure with text
+ fontawesome, % Print free icons form font awesome.
+ import % Add external (.tex)files( in this doc.
 }
 
 \usepackage[hidelinks]{hyperref} % Add hyperlink / clickable link
@@ -41,26 +43,34 @@
 	\href{mailto:sofiul.k.1023@gmail.com}{sofiul.k.1023@gmail.com}
 }
 \date{11 April, 2020 \\ \currenttime \\ Version: \version}
-\affil{BSMRSTU, Department of CSE \\ SHIICT}
+\affil
+{
+	BSMRSTU, Department of CSE \\
+	SHIICT \\
+	{\tiny Copyright\faCopyright\hspace{2pt} under Sofiullah Book Agency}
+}
+% \institute{Bangabandhu Sheikh Mujibur Rahman Science and Technology University}(Omit this, replaced by \affil{})
 
-
+% Setting up code listing environment properties.
 \lstset
 {
  language = C++,
  backgroundcolor = \color{black!5},
- basicstyle = \footnotesize\ttfamily,
+ basicstyle = \footnotesize\ttfamily, % Add all style properties without comma separator.
  keywordstyle = \color{blue},
  commentstyle = \color{green!80},
  showstringspaces = false,
  stringstyle = \color{red},
- captionpos = b
+ captionpos = b %, b: bottom
+ % numbers=left/right
 }
 
 
+% Setting up link properties.
 \hypersetup
 {
 	colorlinks = true,
-	linkcolor = violet,
+	linkcolor = red,
 	filecolor = magenta,
 	urlcolor = cyan,
 	pdftitle = {Wanna be a programmer?},
@@ -78,7 +88,6 @@
 
 \begin{document}
 
-
 \pagecolor{green!90}
 \maketitle
 \pagecolor{white}
@@ -87,13 +96,14 @@
 \listoftables
 
 {
-	\raggedleft\vfill\itshape\Longstack[l] %You can change this properties to add more formation. As, \Longstack[l], \hfill, \raggedright, not \itshape, etc.
+	\raggedleft\vfill\itshape\Longstack[l] %You can change this properties to add more formation. As, \Longstack[l], \hfill, \raggedright, not \itshape, etc. (Style)
 		{
 			Thank You,\\
 			Sofiullaha Iqbal Kiron.
 		}\par
 }
 
+% Chapter One (1).
 \chapter{Quotes}
 \begin{flushleft}
 	\begin{tcolorbox}[arc=3mm, width=6.8 cm, colback=red!5!white, colframe=red!75!black]
@@ -135,13 +145,13 @@ You lost?
 	\end{tcolorbox}
 \end{flushright}
 
-%Chapter 2.
+%Chapter Two 2.
 \chapter{C++, Problems and Algorithm}
 \section{Evolution of C}
 \begin{figure}[hbtp]
 \centering
 \includegraphics[width=200 px]{Timeline of C language.png}
-\caption{Evolution Graph of C}
+\caption{Evolution of C: Table Representation}
 \end{figure}
 C supports variable sized arrays from C99 standard.
 
@@ -929,8 +939,9 @@ Java has two types of error. Syntax error and Semantic error. Syntax error is gr
 		\hline\hline
 	\caption{Commands and Shortcuts: Intellij IDEA}
 	\end{longtable}
-	
 \end{center}
+
+\pagebreak
 
 \section{Syntax Difference between \textcolor{blue!90}{C++} and \textcolor{blue!90}{Java}}
 \begin{table}[h!] % h! : In-place command.
@@ -953,7 +964,7 @@ Java has two types of error. Syntax error and Semantic error. Syntax error is gr
 \end{table}
 
 \section{Object Oriented Programming (OOP) with \textbf{JAVA}}
-As I mentioned, Java is full object oriented language and do not provide low level programming features like pointer, operator overloading etc. as C / C++ does. Every byte of code of Java are written in a class with same name of that file. Now, what is object? An object is a collection of data (of primitive type) belongs to a class and that class provides methods for manipulate this object. So, Java is "object-oriented" means it uses object to represent data and provide methods related to them. To create a new object in Java, must use \textcolor{blue}{new} keyword. Java has a huge amount of built-in classes, \textbf{Point} and \textbf{Rectangle} are two of them. You can see details of that two classes from oracles Java documentation. As we know from previous section, some of same type classes are wrapped in a package. Point class is belongs to \textbf{awt} package of Java source code library. Variables that belong to an object are usually called \textbf{attribute}, but you might also see them called \textbf{fields}. Both are correct. To access an attribute of an object, Java uses \textbf{dot notation}. Syntax:-\hfill
+As I mentioned, Java is full object oriented language and do not provide low level programming features like pointer, operator overloading etc. as C / C++ does. Every byte of code of Java are written in a class with same name of that file. Now, what is object? An object is a collection of data (of primitive type) belongs to a class and that class provides methods for manipulate this object. So, Java is "object-oriented" means it uses object to represent data and provide methods related to them. To create a new object in Java, must use new keyword. Java has a huge amount of built-in classes, \textbf{Point} and \textbf{Rectangle} are two of them. You can see details of that two classes from oracles Java documentation. As we know from previous section, some of same type classes are wrapped in a package. Point class is belongs to \textbf{awt} package of Java source code library. Variables that belong to an object are usually called \textbf{attribute}, but you might also see them called \textbf{fields}. Both are correct. To access an attribute of an object, Java uses \textbf{dot notation}. Syntax:- \\
 \begin{lstlisting}[language = java]
 	dataType variable = objectName.attribute;
 \end{lstlisting}
@@ -1176,9 +1187,7 @@ This class also includes more than 40 static methods.
 	
 \subsection{Random Numbers}
 The random() method returns a pseudo-randomly selected number between 0.0 and 1.0
-	\begin{lstlisting} [language = java]
-		
-	\end{lstlisting}
+	\begin{enumerate}
 		\item[primitive abs(primitive arg)] Returns the absolute value of "arg".
 		\item[ceil()]
 		\item[floor()]
@@ -1193,9 +1202,8 @@ The random() method returns a pseudo-randomly selected number between 0.0 and 1.
 		\item [double atan2(double y, double x)] Converts rectangular coordinates (x, y) to polar coordinate (r, $\theta$) and returns $\theta$.
 		\item double toDegrees(double d);
 		\item double toRadians(double d);
+		\item con(angle)
 	\end{enumerate}
-	con(angle);
-\end{lstlisting}
 
 \section{Graph}
 
@@ -1290,7 +1298,8 @@ Multiline comment: /*\dots*/
 
 \chapter{Julia}
 Julia is a high-level, high-performance, dynamic programming language. Many of its feature are well-suited for numerical analysis and computational science. This language first appeared on 2012: 8 years ago and we get a stable release 1.5.2 on 24 September, 2020. Mainly implemented by C / C++, Scheme and motivated from some high performed languages. Runs on Windows, Linux, macOS and FreeBSD. Licensed form MIT. In this language, all library functions of C and FORTRAN can be call directly. It is a general purpose programming language, originally designed for numerical / technical computing. Indentation and code formatting are closer to Python. Here is a code for implement Sir Isaac Newtons root finding method:
-\begin{lstlisting} [language = julia]
+\begin{lstlisting} [language = C]
+# Mainly, the language is julia but listings package does not provide this.
 	x0 = 1		# The initial guess
 	
 	f(x) = x^2 - 2		# The function whose root we are trying to find
@@ -1383,8 +1392,8 @@ Here the picture guide of Font-Size That we can use in "basicstyle" parameter at
 \includegraphics[scale=1]{../Font size.png} 
 
 \section{Code Listing parameters}
-Code listing parameters:\\
-\includegraphics[scale=1]{../Code listing parameters.png} 
+Code listing parameters/options:\\
+\includegraphics[width=290pt, height=300pt]{../Code listing parameters.png} 
 
 \section{Shadow frame in code listing}
 Picture guide of shadow fraem in listing:\\
@@ -1406,7 +1415,9 @@ Picture guide of shadow fraem in listing:\\
 \end{enumerate}
 
 \subsection{Presentation theme with a tree-like navigation bar}
+\columnseprule = 0 mm
 \begin{enumerate}
+\begin{multicols}{2}
  \item Antibes
  \item JuanLesPins
  \item Montpellier
@@ -1421,6 +1432,7 @@ Picture guide of shadow fraem in listing:\\
  \item Frankfurt
  \item Singapore
  \item Szeged
+\end{multicols}
 \end{enumerate}
 
 \section{\href{https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols}{List of Greek letters and math symbols}}
@@ -1480,5 +1492,8 @@ For adding hyperlink / clickable link. \textit{hidelinks} will remove red frame 
 		OVER
 	\end{tcolorbox}
 \end{center}
+
+\chapter{Import Practice}
+\import{C:/Users/Hp/Documents/LaTeX/Java}{C:/Users/Hp/Documents/LaTeX/Java/Java.tex}
 
 \end{document}

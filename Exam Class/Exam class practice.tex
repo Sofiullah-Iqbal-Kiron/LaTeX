@@ -1,0 +1,34 @@
+\documentclass[addpoints, 12pt]{exam}
+
+\title{Class exam Practice}
+
+\begin{document}
+
+\maketitle
+
+{
+	The "EXAM" class used to create and maintain many exam question paper sheet. As:
+	\begin{enumerate}
+		\item Exam Paper
+		\item Paper Part
+		\item Paper Subpart
+		\item Include point value at each question
+		\item Print grading table
+		\item Include header(left, center, right) and footer(left, center, right).
+	\end{enumerate}
+}\par
+
+Left a blank space for student for instructor's name:
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+
+Now, talking about question environment: (Similar/Close to enumeration environment)\\
+{
+I'm gonna ask you some questions\dots
+\begin{questions}
+\question[1] What is your name?
+\question[2] Where you from?
+\question[3] Where your home district?
+\question[4] What the name of your institute?
+\end{questions}
+}\par
+\end{document}
