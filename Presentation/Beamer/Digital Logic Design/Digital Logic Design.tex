@@ -1,0 +1,81 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage
+{
+ authblk,
+}
+\usepackage[fleqn, tbtags]{mathtools}
+
+
+\usetheme{AnnArbor}
+\usecolortheme{beaver}
+\usefonttheme{default}
+\useinnertheme{rounded}
+%\useoutertheme{}
+\setbeamercolor{normal text}{bg=gray!3}
+
+
+\title[CSE203]{Computer Logic Design Course}
+\subtitle{Digital Logic Design}
+\author[S. I. Kiron]
+{
+	Sofiullah Iqbal Kiron \\
+	\href{mailto:sofiul.k.1023@gmail.com}{sofiul.k.1023@gmail.com}
+}
+\date[8 Jan]{January 8, 2021}
+\institute[BSMRSTU]{Bongobondhu Sheikh Mujibur Rahman Science and Technology University}
+\affil{Department of CSE}
+\logo{\includegraphics[scale=0.05]{../Counting Principles/Logo.png}}
+
+
+%It will show currentsection by using feature of \tableofcontents at the beginning pf each section.
+\AtBeginSection[]
+{
+ \begin{frame}
+  \frametitle{Now we on\dots}
+  \tableofcontents[currentsection]
+ \end{frame}
+}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Fulfilment}
+\tableofcontents
+\end{frame}
+
+\section{Complements}
+
+% Frame One Start.
+\begin{frame}
+\frametitle{Kind of Complements}
+% \framesubtitle{}
+
+There are two basic types of complements:
+\begin{enumerate}
+	\item $r$'s complement
+	\item $(r-1)$'s complement
+\end{enumerate}
+\end{frame}
+% Frame One Over.
+
+% Frame Two Start.
+\begin{frame}
+\frametitle{$r$'s complement}
+
+If there is a number called $N$ in base $r$ and that has $n$ number of digits in the integer part, then $r$'s complement of $N$ will be:
+\[
+\begin{rcases*}
+r^n-N
+\end{rcases*} \quad N\neq0
+\]
+
+\begin{block}{Sample}
+$10$'s complement of $(52520)_10$ is $10^5-52520=47480$
+\end{block}
+\end{frame}
+% Frame Two Over.
+
+\end{document}
