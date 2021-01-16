@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.21)  7 JAN 2021 15:21
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.21)  12 JAN 2021 08:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,61 +179,61 @@ Package polyglossia Info: Option: Bengali, numerals=devanagari.
 )
 Package polyglossia Info: Default language is bengali.
 
-Package fontspec Info: Kalpurush scale = 0.9493368825075454.
+Package fontspec Info: Vrinda scale = 0.9271897085421858.
 
 
-Package fontspec Info: Kalpurush scale = 0.9493368825075454.
+Package fontspec Info: Vrinda scale = 0.9271897085421858.
 
 
-Package fontspec Info: Kalpurush scale = 0.9493368825075454.
+Package fontspec Info: Vrinda scale = 0.9271897085421858.
 
 
-Package fontspec Info: Kalpurush scale = 0.9493368825075454.
+Package fontspec Info: Vrinda scale = 0.9271897085421858.
 
 
-Package fontspec Info: Kalpurush scale = 0.9493368825075454.
+Package fontspec Info: Vrinda scale = 0.9271897085421858.
 
 
-Package fontspec Info: Font family 'bmfont' created for font 'Kalpurush' with
-(fontspec)             options [Script=Bengali,Scale=
-(fontspec)             {MatchLowercase},NFSSFamily=bmfont,WordSpace=
-(fontspec)             {1.1},AutoFakeSlant,AutoFakeBold].
+Package fontspec Info: Font family 'bmfont' created for font 'Vrinda' with
+(fontspec)             options
+(fontspec)             [Script=Bengali,Scale=MatchLowercase,NFSSFamily=bmfont,W
+ordSpace=1,AutoFakeSlant,AutoFakeBold].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9493368825075454]"Kalpurush/OT:script=bng2;langu
-age=dflt;"
+(fontspec)             <->s*[0.9271897085421858]"Vrinda/OT:script=bng2;language
+=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1.1\fontdimen 2\font \fontdimen
-(fontspec)             3\font =1.1\fontdimen 3\font \fontdimen 4\font
-(fontspec)             =1.1\fontdimen 4\font 
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =1\fontdimen 3\font \fontdimen 4\font =1\fontdimen
+(fontspec)             4\font 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9493368825075454]"Kalpurush/OT:script=bng2;langu
-age=dflt;embolden=1.5;"
+(fontspec)             <->s*[0.9271897085421858]"Vrinda/OT:script=bng2;language
+=dflt;embolden=1.5;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1.1\fontdimen 2\font \fontdimen
-(fontspec)             3\font =1.1\fontdimen 3\font \fontdimen 4\font
-(fontspec)             =1.1\fontdimen 4\font 
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =1\fontdimen 3\font \fontdimen 4\font =1\fontdimen
+(fontspec)             4\font 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9493368825075454]"Kalpurush/OT:script=bng2;langu
-age=dflt;slant=0.2;"
+(fontspec)             <->s*[0.9271897085421858]"Vrinda/OT:script=bng2;language
+=dflt;slant=0.2;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1.1\fontdimen 2\font \fontdimen
-(fontspec)             3\font =1.1\fontdimen 3\font \fontdimen 4\font
-(fontspec)             =1.1\fontdimen 4\font 
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =1\fontdimen 3\font \fontdimen 4\font =1\fontdimen
+(fontspec)             4\font 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.9493368825075454]"Kalpurush/OT:script=bng2;langu
-age=dflt;slant=0.2;embolden=1.5;"
+(fontspec)             <->s*[0.9271897085421858]"Vrinda/OT:script=bng2;language
+=dflt;slant=0.2;embolden=1.5;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1.1\fontdimen 2\font \fontdimen
-(fontspec)             3\font =1.1\fontdimen 3\font \fontdimen 4\font
-(fontspec)             =1.1\fontdimen 4\font 
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =1\fontdimen 3\font \fontdimen 4\font =1\fontdimen
+(fontspec)             4\font 
 
 
 Package fontspec Info: Font family 'bttfont' created for font 'SiyamRupali'
@@ -535,7 +535,7 @@ LaTeX Warning: Unused global option(s):
 
 (./Bangla writing practice.aux
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 9.49341pt on input line 19.
+(Font)              scaled to size 9.27185pt on input line 19.
 )
 \openout1 = `"Bangla writing practice.aux"'.
 
@@ -644,25 +644,25 @@ LaTeX Info: Redefining \nameref on input line 9.
 \openout3 = `"Bangla writing practice.out"'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-0.
+1.
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 6.64539pt on input line 10.
+(Font)              scaled to size 6.4903pt on input line 11.
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -697,9 +697,8 @@ braces):
 >  {bengali/babelname}  =>  {bengali}
 >  {bengali/localnumeral}  =>  {bengalinumerals}
 >  {bengali/Localnumeral}  =>  {bengalinumerals}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
-Missing character: There is no १ in font Kalpurush/OT:script=bng2;language=dflt
-;!
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+Missing character: There is no १ in font Vrinda/OT:script=bng2;language=dflt;!
 
 (c:/texlive/2019/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -707,22 +706,22 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
 
 (./Bangla writing practice.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `"Bangla writing practice".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
  13839 strings out of 479819
- 264590 string characters out of 5897101
- 591772 words of memory out of 5000000
+ 264560 string characters out of 5897101
+ 592696 words of memory out of 5000000
  30770 multiletter control sequences out of 15000+600000
  540375 words of font info for 47 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,4n,119p,817b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,6n,119p,817b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Bangla writing practice.pdf (1 page).
