@@ -1,0 +1,39 @@
+\begin{flushleft}
+	\begin{tcolorbox}[arc=3mm, width=6.8 cm, colback=red!5!white, colframe=red!75!black]
+		Examples are better than $1000$ words.
+	\end{tcolorbox}
+\end{flushleft}
+
+\begin{flushright}
+	\begin{tcolorbox}[enhanced, title=Steve Jobs, attach boxed title to bottom right, boxed title style={arc=3mm, colframe=green}, drop large lifted shadow=blue!70, sharp corners]
+		Everybody should learn how to program a computer because it teaches how to \textcolor{blue}{THINK}.
+	\end{tcolorbox}
+\end{flushright}
+
+\begin{tcolorbox}[title=Winner, after title={\hfill\colorbox{blue}{Muhammad Ali}},
+colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries, sharp corners]
+	I hated every minute of training. But I said, "don't quit, suffer now and live the rest of your life as a champion."
+\end{tcolorbox}
+
+\tcbset{frogbox/.style={enhanced,colback=green!10,colframe=green!65!black,
+enlarge top by=5.5mm,
+overlay={\foreach \x in {2cm, 3.5cm} {
+\begin{scope}[shift={([xshift=\x]frame.north west)}]
+\path[draw=green!65!black,fill=green!10,line width=1mm] (0,0) arc (0:180:5mm);
+\path[fill=black] (-0.2,0) arc (0:180:1mm);
+\end{scope}}}}}
+\begin{flushright}
+\begin{tcolorbox}[frogbox, arc=3 mm, width=4 cm]
+You lost?
+\end{tcolorbox}
+\end{flushright}
+
+\begin{tcolorbox}[width=7cm]
+	Just practice and keep learning...
+\end{tcolorbox}
+
+\begin{flushright}
+	\begin{tcolorbox}[title={Juma Ikangaa, marathoner}, colback=red!5!white, colframe=red!75!black, fonttitle=\bfseries]
+		The will to win means nothing without the will to prepare.
+	\end{tcolorbox}
+\end{flushright}

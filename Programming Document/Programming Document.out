@@ -61,16 +61,19 @@
 \BOOKMARK [0][-]{chapter.8}{Type Setting}{}% 61
 \BOOKMARK [1][-]{section.8.1}{Formatting}{chapter.8}% 62
 \BOOKMARK [1][-]{section.8.2}{Font}{chapter.8}% 63
-\BOOKMARK [1][-]{section.8.3}{Code Listing parameters}{chapter.8}% 64
-\BOOKMARK [1][-]{section.8.4}{Shadow frame in code listing}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.5}{Themes we can use in BEAMER class}{chapter.8}% 66
-\BOOKMARK [2][-]{subsection.8.5.1}{Presentation themes without navigation bar}{section.8.5}% 67
-\BOOKMARK [2][-]{subsection.8.5.2}{Presentation theme with a tree-like navigation bar}{section.8.5}% 68
-\BOOKMARK [1][-]{section.8.6}{List of Greek letters and math symbols}{chapter.8}% 69
-\BOOKMARK [1][-]{section.8.7}{Available Document Structure Commands}{chapter.8}% 70
-\BOOKMARK [2][-]{subsection.8.7.1}{BOOK and REPORT}{section.8.7}% 71
-\BOOKMARK [2][-]{subsection.8.7.2}{ARTICLE}{section.8.7}% 72
-\BOOKMARK [1][-]{section.8.8}{XeLaTeX}{chapter.8}% 73
-\BOOKMARK [1][-]{section.8.9}{The "hyperref" Package}{chapter.8}% 74
-\BOOKMARK [0][-]{chapter.9}{Import Practice}{}% 75
-\BOOKMARK [0][-]{chapter.10}{No Chapter}{}% 76
+\BOOKMARK [2][-]{subsection.8.2.1}{Font Size}{section.8.2}% 64
+\BOOKMARK [2][-]{subsection.8.2.2}{Font Face}{section.8.2}% 65
+\BOOKMARK [1][-]{section.8.3}{Code Listing parameters}{chapter.8}% 66
+\BOOKMARK [1][-]{section.8.4}{Shadow frame in code listing}{chapter.8}% 67
+\BOOKMARK [1][-]{section.8.5}{Themes we can use in BEAMER class}{chapter.8}% 68
+\BOOKMARK [2][-]{subsection.8.5.1}{Presentation themes without navigation bar}{section.8.5}% 69
+\BOOKMARK [2][-]{subsection.8.5.2}{Presentation theme with a tree-like navigation bar}{section.8.5}% 70
+\BOOKMARK [1][-]{section.8.6}{List of Greek letters and math symbols}{chapter.8}% 71
+\BOOKMARK [1][-]{section.8.7}{Available Document Structure Commands}{chapter.8}% 72
+\BOOKMARK [2][-]{subsection.8.7.1}{BOOK and REPORT}{section.8.7}% 73
+\BOOKMARK [2][-]{subsection.8.7.2}{ARTICLE}{section.8.7}% 74
+\BOOKMARK [1][-]{section.8.8}{XeLaTeX}{chapter.8}% 75
+\BOOKMARK [1][-]{section.8.9}{The "hyperref" Package}{chapter.8}% 76
+\BOOKMARK [1][-]{section.8.10}{Background Image}{chapter.8}% 77
+\BOOKMARK [2][-]{subsection.8.10.1}{Package "background"}{section.8.10}% 78
+\BOOKMARK [0][-]{chapter.9}{Import Practice}{}% 79

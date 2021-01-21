@@ -1,12 +1,13 @@
 \documentclass[9 pt]{article}
 
 \usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
 \usepackage
 {
 	authblk,
 	hyperref,
 	mVersion, % Version count controller.	
-	fontawesome 
+	fontawesome
 }
 \usepackage[short, nodayofweek, level, 12hr]{datetime} % Time manipulator.
 
@@ -25,12 +26,13 @@
 
 \maketitle
 
+\justify
 \begin{abstract}
 {The fontawesome package grants access to 634 web-related icons provided by the included Font Awesome font, designed by Dave Gandy and released under the open SIL Open Font License.}\par
 {This package works both with XE(LA)TEX and Lua(LA)TEX (using fontspec to load the included original otf font), as well as (pdf)(LA)TEX (using an included type1 conversion and character mapping of the font).}\par
 \end{abstract}
 
-Here I'm gonna put some Icon from font awesome.\\
+Here I'm gonna put some Icon from font awesome. \\
 \begin{center}
 \begin{tabular}{c c}
 Adjust & \faAdjust \\

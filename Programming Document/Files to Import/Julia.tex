@@ -1,0 +1,31 @@
+Julia is a high-level, high-performance, dynamic programming language. Many of its feature are well-suited for numerical analysis and computational science. This language first appeared on 2012: 8 years ago and we get a stable release 1.5.2 on 24 September, 2020. Mainly implemented by C / C++, Scheme and motivated from some high performed languages. Runs on Windows, Linux, macOS and FreeBSD. Licensed form MIT. In this language, all library functions of C and FORTRAN can be call directly. It is a general purpose programming language, originally designed for numerical / technical computing. Indentation and code formatting are closer to Python. Here is a code for implement Sir Isaac Newtons root finding method:
+\begin{lstlisting} [language = C]
+# Mainly, the language is julia but listings package does not provide this.
+	x0 = 1		# The initial guess
+	
+	f(x) = x^2 - 2		# The function whose root we are trying to find
+	
+	fprime(x) = 2x		# Derivative of f(x)
+	
+	tolerance = 1e - 7		# 7 digit accuracy is desired
+	
+	epsilon = 1e - 14		# Do not divide by a number smaller than this
+	
+	maxIterations = 20
+	
+	solutionFound = false
+	
+	for i =1 : maxIterations
+		y = f(x0)
+		yprime = fprime(x0)
+		
+		if abs(yprime) < epsilon
+			break
+		end
+		
+		global x1 = x0 - y / yprime		# Do Sir Newtons computation
+		
+		if abs(x1 - x0) <= tolerance
+			global solutionFound = true
+			break
+\end{lstlisting}

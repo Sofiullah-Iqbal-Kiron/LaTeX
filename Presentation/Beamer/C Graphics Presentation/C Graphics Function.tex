@@ -27,13 +27,16 @@
 %\begin{proof}
 %\end{proof}
 
+
 \documentclass[9 pt]{beamer}
 
 \usepackage
 {
 	listings, % Program Code Listing.
 	authblk, % Redefines \author command. Permits footnote type affiliation.
-	anyfontsize
+	anyfontsize,
+	graphicx,
+	transparent % Control image/text transparency. OR, make a transparent photo from photoshop.
 }
 
 \title[Graphics Tutorial]{C Graphics Function}
@@ -59,6 +62,7 @@
  captionpos = b
 }
 
+
 %\usetheme[progressbar=foot, numbering=fraction, background=light]{metropolis}
 \usetheme{Madrid}
 \useinnertheme{rounded}
@@ -66,9 +70,12 @@
 
 \begin{document}
 
+{ % Local background surrendered in a pair of curly brace. Wanna add globally? put command at preamble.
+\usebackgroundtemplate{\transparent{0.4}{\includegraphics[width=\paperwidth, height=\paperheight]{Picture/TitlePage Background Original.jpg}}}
 \frame
 {
 	\titlepage
+}
 }
 
 \begin{frame}[fragile]
@@ -87,6 +94,7 @@ Now, take a color form the \emph{enum} list.
 	BROWN, LIGHTGRAY, DARKGRAY, LIGHTBLUE, LIGHTGREEN,
 	LIGHTCYAN, LIGHTRED, LIGHTMAGENTA, YELLOW, WHITE };
 \end{lstlisting}
+{\texttransparent{0.2}{Hello}}
 \end{frame}
 
 \begin{frame}[fragile]
