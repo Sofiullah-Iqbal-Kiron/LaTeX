@@ -1,17 +1,20 @@
-\documentclass[11 pt]{book}
+\documentclass[10 pt]{book}
 
 
-%\usepackage[utf8]{inputenc} % Input encoder, basically for English
+% Packages with options.
+\usepackage[utf8]{inputenc} % Input encoder, basically for English
 \usepackage[table]{xcolor} % Color your document
 \usepackage[skins]{tcolorbox} % Colored / nice textbox
 \usepackage[document]{ragged2e} % Various text alignment.
 \usepackage[short, nodayofweek, level, 12hr]{datetime}
 \usepackage[usestackEOL]{stackengine}
-\usepackage[left=3cm, right=3cm, top=3cm, bottom=2cm]{geometry}
+\usepackage[hidelinks]{hyperref} % Add hyperlink / clickable link
+\usepackage[left=3cm, right=3cm, top=3cm, bottom=2cm]{geometry} % Controls output page attributes.
 
 \usepackage{multicol} % Distribute paragraph in muticolumn
-\columnseprule = 0.5 mm % Column separator rule width
+\columnseprule = 0.5 mm % Column separator rule width, array package hold this commmand.
 
+% Packages without options.
 \usepackage
 {
  array, % Manipulate the table rules
@@ -23,34 +26,18 @@
  tabularx, % More flexible formatted table
  lipsum, % Give lipsum article
  mVersion, % Adding version later of date
- framed, % For make a frame to CodeListing or any place.
+ framed, % Make a frame to CodeListing or any place.
  longtable, % Create and break out large / long table
  wrapfig, % Wrap the figure with text
- fontawesome, % Print free icons form font awesome.
- import % Add external (.tex)files in this doc.
+ fontawesome, % Print free icons from font awesome.
+ import, % Add external (.tex)files in this doc.
+ %fontspec % Change font faces.
 }
-
-\usepackage[hidelinks]{hyperref} % Add hyperlink / clickable link
 
 
 \setVersion{0.0}
 \increaseBuild % Will update version at each recompilation
 
-
-\title{Programming Document}
-\author
-{
-	Sofiullah Iqbal Kiron\\
-	\href{mailto:sofiul.k.1023@gmail.com}{sofiul.k.1023@gmail.com}
-}
-\date{11 April, 2020 \\ \currenttime \\ Version: \version}
-\affil
-{
-	BSMRSTU, Department of CSE \\
-	SHIICT \\
-	{\tiny Copyright\faCopyright\hspace{2pt} under Sofiullah Book Agency}
-}
-% \institute{Bangabandhu Sheikh Mujibur Rahman Science and Technology University}(Omit this, replaced by \affil{})
 
 % Setting up code listing environment properties.
 \lstset
@@ -82,9 +69,30 @@
 	frenchlinks = false, % Use small caps instead of colours for links
 }
 
+% Setting up font faces/families.
+%\setmainfont[Ligatures=TeX]{Times New Roman}
+
+\newcommand{\myName}{Sofiullah Iqbal Kiron}
+\newcommand{\myMail}{sofiul.k.1023@gmail.com}
 
 \renewcommand\contentsname{A-Z Menu}
 \renewcommand\chaptername{Unit}
+
+
+\title{Programming Document}
+\author
+{
+	\myName \\
+	\href{mailto:\myMail}{\myMail}
+}
+\date{11 April, 2020 \\ \currenttime \\ Version: \version}
+\affil
+{
+	BSMRSTU, Department of CSE \\
+	SHIICT \\
+	{\tiny Copyright\faCopyright\hspace{2pt} under Sofiullah Book Agency}
+}
+% \institute{Bangabandhu Sheikh Mujibur Rahman Science and Technology University}(Omit this, replaced by \affil{})
 
 
 \begin{document}
@@ -98,11 +106,12 @@
 \listoffigures
 \listoftables
 \justify
+
 {
 	\raggedleft\vfill\itshape\Longstack[l] %You can change this properties to add more formation. As, \Longstack[l], \hfill, \raggedright, not \itshape, etc. (Style)
 		{
 			Thank You,\\
-			Sofiullaha Iqbal Kiron.
+			\myName .
 		}\par
 }
 

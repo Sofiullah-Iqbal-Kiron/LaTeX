@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.2.21)  21 JAN 2021 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  26 JAN 2021 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,14 +11,14 @@ Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (c:/texlive/2019/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count163
-\c@section=\count164
-\c@subsection=\count165
-\c@subsubsection=\count166
-\c@paragraph=\count167
-\c@subparagraph=\count168
-\c@figure=\count169
-\c@table=\count170
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
@@ -27,20 +27,17 @@ File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 (c:/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
@@ -58,8 +55,9 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \everycr=\toks17
 \minrowclearance=\skip51
 )
-\rownum=\count171
+\rownum=\count175
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -111,7 +109,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
@@ -139,34 +137,29 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@yd=\dimen150
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count172
-\c@pgf@countb=\count173
-\c@pgf@countc=\count174
-\c@pgf@countd=\count175
+\c@pgf@counta=\count176
+\c@pgf@countb=\count177
+\c@pgf@countc=\count178
+\c@pgf@countd=\count179
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
-\pgf@sys@id@count=\count176
+\pgf@sys@id@count=\count180
  (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2020/01/08 v3.1.5b (3.1.5b)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2020/01/08 v3.1.5b (3.1.5b)
+(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
-)
-\pgfsys@objnum=\count177
 )))
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count178
-\pgfsyssoftpath@bigbuffer@items=\count179
+\pgfsyssoftpath@smallbuffer@items=\count181
+\pgfsyssoftpath@bigbuffer@items=\count182
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -178,7 +171,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen151
-\pgfmath@count=\count180
+\pgfmath@count=\count183
 \pgfmath@box=\box48
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
@@ -202,7 +195,7 @@ x)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count181
+\c@pgfmathroundto@lastzeros=\count184
 ))
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -239,7 +232,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box49
 \pgf@hbox=\box50
 \pgf@layerbox@main=\box51
-\pgf@picture@serial@count=\count182
+\pgf@picture@serial@count=\count185
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -270,8 +263,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen175
-\pgf@sys@shading@range@num=\count183
-\pgf@shadingcount=\count184
+\pgf@sys@shading@range@num=\count186
+\pgf@shadingcount=\count187
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -324,15 +317,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
+\etb@tempcnta=\count188
 )
 \tcb@titlebox=\box54
 \tcb@upperbox=\box55
 \tcb@lowerbox=\box56
 \tcb@phantombox=\box57
-\c@tcbbreakpart=\count186
-\c@tcblayer=\count187
-\tcolorbox@number=\count188
+\c@tcbbreakpart=\count189
+\c@tcblayer=\count190
+\tcolorbox@number=\count191
 \tcb@temp=\box58
 \tcb@temp=\box59
 \tcb@temp=\box60
@@ -363,7 +356,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count189
+\pgf@plot@mark@count=\count192
 \pgfplotmarksize=\dimen180
 )
 \tikz@lastx=\dimen181
@@ -378,18 +371,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
 \tikz@tempbox@bg=\box65
-\tikztreelevel=\count190
-\tikznumberofchildren=\count191
-\tikznumberofcurrentchild=\count192
-\tikz@fig@count=\count193
+\tikztreelevel=\count193
+\tikznumberofchildren=\count194
+\tikznumberofcurrentchild=\count195
+\tikz@fig@count=\count196
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count194
-\pgfmatrixcurrentcolumn=\count195
-\pgf@matrix@numberofcolumns=\count196
+\pgfmatrixcurrentrow=\count197
+\pgfmatrixcurrentcolumn=\count198
+\pgf@matrix@numberofcolumns=\count199
 )
-\tikz@expandcount=\count197
+\tikz@expandcount=\count266
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -409,7 +402,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks34
 \footnotemargin=\dimen189
-\c@pp@next@reset=\count198
+\c@pp@next@reset=\count267
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -438,8 +431,6 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 Package: fmtcount 2020/01/30 v3.06
 
 (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
@@ -453,55 +444,51 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count199
+\XKV@depth=\count268
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 Package: fcprefix 2012/09/28
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count266
+\fc@digit@counter=\count269
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks37
 \ex@=\dimen190
 )
-\c@padzeroesN=\count267
-\fc@tmpcatcode=\count268
-\@DT@modctr=\count269
-\@ordinalctr=\count270
-\@orgargctr=\count271
-\@strctr=\count272
-\@tmpstrctr=\count273
-\@DT@loopN=\count274
-\@DT@X=\count275
+\c@padzeroesN=\count270
+\fc@tmpcatcode=\count271
+\@DT@modctr=\count272
+\@ordinalctr=\count273
+\@orgargctr=\count274
+\@strctr=\count275
+\@tmpstrctr=\count276
+\@DT@loopN=\count277
+\@DT@X=\count278
 )
 (c:/texlive/2019/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count276
-\@month=\count277
-\@year=\count278
-\c@HOUR=\count279
-\c@HOURXII=\count280
-\c@MINUTE=\count281
-\c@TOHOUR=\count282
-\c@TOMINUTE=\count283
-\c@SECOND=\count284
-\currenthour=\count285
-\currentminute=\count286
-\currentsecond=\count287
+\@day=\count279
+\@month=\count280
+\@year=\count281
+\c@HOUR=\count282
+\c@HOURXII=\count283
+\c@MINUTE=\count284
+\c@TOHOUR=\count285
+\c@TOMINUTE=\count286
+\c@SECOND=\count287
+\currenthour=\count288
+\currentminute=\count289
+\currentsecond=\count290
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count288
-\dayofyear=\count289
-\dayofweek=\count290
+\@dtctr=\count291
+\dayofyear=\count292
+\dayofweek=\count293
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks38
 \dt@b=\toks39
@@ -512,124 +499,26 @@ ways
 
 (c:/texlive/2019/texmf-dist/tex/generic/listofitems/listofitems.sty
 (c:/texlive/2019/texmf-dist/tex/generic/listofitems/listofitems.tex
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 105 replaced by U+FFFD.
-\loi_cnt_foreach_nest=\count291
-Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 222 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 222 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 223 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 223 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 243 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 243 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 310 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 310 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 324 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 337 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 337 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 339 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 354 replaced by U+FFFD.
-\loi_nestcnt=\count292
-Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 377 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 378 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 398 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 398 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 414 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 422 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 422 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 433 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 433 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 441 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 441 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 442 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 448 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 448 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 451 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 455 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 455 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 458 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 458 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 475 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 508 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 508 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 519 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+\loi_cnt_foreach_nest=\count294
+\loi_nestcnt=\count295
 )
 Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
 sep char (CT)
 )
 (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count293
-\calc@Bcount=\count294
+\calc@Acount=\count296
+\calc@Bcount=\count297
 \calc@Adimen=\dimen191
 \calc@Bdimen=\dimen192
 \calc@Askip=\skip66
 \calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count295
+\calc@Ccount=\count298
 \calc@Cskip=\skip68
 )
-\c@@stackindex=\count296
+\c@@stackindex=\count299
 \@boxshift=\skip69
 \stack@tmplength=\skip70
 \temp@stkl=\skip71
@@ -638,26 +527,21 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \@anchorbox=\box68
 \stackedbox=\box69
 \@centerbox=\box70
-\c@ROWcellindex@=\count297
+\c@ROWcellindex@=\count300
 )
 (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+)
 (c:/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count298
+\c@tracingmulticols=\count301
 \mult@box=\box71
 \multicol@leftmargin=\dimen193
-\c@unbalance=\count299
-\c@collectmore=\count300
-\doublecol@number=\count301
-\multicoltolerance=\count302
-\multicolpretolerance=\count303
+\c@unbalance=\count302
+\c@collectmore=\count303
+\doublecol@number=\count304
+\multicoltolerance=\count305
+\multicolpretolerance=\count306
 \full@width=\dimen194
 \page@free=\dimen195
 \premulticols=\dimen196
@@ -708,23 +592,23 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box112
 \@tempa=\box113
 \@tempa=\box114
-\c@minrows=\count304
-\c@columnbadness=\count305
-\c@finalcolumnbadness=\count306
+\c@minrows=\count307
+\c@columnbadness=\count308
+\c@finalcolumnbadness=\count309
 \last@try=\dimen199
 \multicolovershoot=\dimen256
 \multicolundershoot=\dimen257
 \mult@nat@firstbox=\box115
 \colbreak@box=\box116
-\mc@col@check@num=\count307
+\mc@col@check@num=\count310
 )
 (c:/texlive/2019/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip75
 \@affilsep=\skip76
-\c@Maxaffil=\count308
-\c@authors=\count309
-\c@affil=\count310
+\c@Maxaffil=\count311
+\c@authors=\count312
+\c@affil=\count313
 )
 (c:/texlive/2019/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -736,8 +620,8 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
 \pgfplots@tmpa=\dimen258
-\c@pgfplots@coordindex=\count311
-\c@pgfplots@scanlineindex=\count312
+\c@pgfplots@coordindex=\count314
+\c@pgfplots@scanlineindex=\count315
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -753,13 +637,13 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count313
+\c@pgfplotsarray@tmp=\count316
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count314
+\c@pgfplotstable@counta=\count317
 \t@pgfplotstable@a=\toks43
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
@@ -771,14 +655,10 @@ tex))
 x)
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count315
+\c@pgfplotslibrarysurf@no=\count318
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
-ding.pgfsys-xetex.def
-(c:/texlive/2019/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
-ding.pgfsys-dvipdfmx.def
-\c@pgfplotslibrarysurf@streamlen=\count316
-))))
+ding.pgfsys-pdftex.def)))
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
@@ -803,7 +683,7 @@ ex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen261
 \pgfdecoratedinputsegmentremainingdistance=\dimen262
 \pgf@decorate@distancetomove=\dimen263
-\pgf@decorate@repeatstate=\count317
+\pgf@decorate@repeatstate=\count319
 \pgfdecorationsegmentamplitude=\dimen264
 \pgfdecorationsegmentlength=\dimen265
 )
@@ -817,7 +697,7 @@ orations.pathmorphing.code.tex))
 brarydecorations.pathreplacing.code.tex
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
-\pgfplots@numplots=\count318
+\pgfplots@numplots=\count320
 \pgfplots@xmin@reg=\dimen266
 \pgfplots@xmax@reg=\dimen267
 \pgfplots@ymin@reg=\dimen268
@@ -839,13 +719,13 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen274
 \TX@target=\dimen275
 \TX@delta=\dimen276
-\TX@cols=\count319
+\TX@cols=\count321
 \TX@ftn=\toks44
 )
 (c:/texlive/2019/texmf-dist/tex/latex/mversion/mVersion.sty
 Package: mVersion 2013/03/11 v1.0.1 easy versioning for LaTeX
 \versionfile=\read4
-\c@buildcounter=\count320
+\c@buildcounter=\count322
 )
 (c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
@@ -853,16 +733,16 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip78
 \LTpre=\skip79
 \LTpost=\skip80
-\LTchunksize=\count321
+\LTchunksize=\count323
 \LTcapwidth=\dimen277
 \LT@head=\box118
 \LT@firsthead=\box119
 \LT@foot=\box120
 \LT@lastfoot=\box121
-\LT@cols=\count322
-\LT@rows=\count323
-\c@LT@tables=\count324
-\c@LT@chunks=\count325
+\LT@cols=\count324
+\LT@rows=\count325
+\c@LT@tables=\count326
+\c@LT@chunks=\count327
 \LT@p@ftn=\toks45
 )
 (c:/texlive/2019/texmf-dist/tex/latex/imakeidx/imakeidx.sty
@@ -893,7 +773,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -917,11 +797,13 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen278
-\Hy@linkcounter=\count326
-\Hy@pagecounter=\count327
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 (c:/texlive/2019/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -929,7 +811,8 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count328
+\Hy@SavedSpaceFactor=\count330
+\pdfmajorversion=\count331
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -937,7 +820,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count329
+\c@Hy@tempcnt=\count332
 
 (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -953,7 +836,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count330
+\Fld@menulength=\count333
 \Field@Width=\dimen280
 \Fld@charsize=\dimen281
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -969,34 +852,24 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (c:/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count331
-\c@Item=\count332
-\c@Hfootnote=\count333
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
-
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box122
-\c@Hy@AnnotLevel=\count334
-\HyField@AnnotCount=\count335
-\Fld@listcount=\count336
-\c@bookmark@seq@number=\count337
-
-(c:/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (c:/texlive/2019/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
+
+(c:/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
 (c:/texlive/2019/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -1021,10 +894,7 @@ File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \openout7 = `version.dat'.
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 63.
- (c:/texlive/2019/texmf-dist/tex/generic/stringenc/se-ascii-print.def
-File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
-)
 
 Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 63.
@@ -1040,12 +910,10 @@ Package hyperref Info: Option `frenchlinks' set `false' on input line 63.
 \openout8 = `"Assignment Of Moinul Vai.idx"'.
 
 Writing index file "Assignment Of Moinul Vai".idx
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count338
-\l__pdf_internal_box=\box123
-\g__pdf_backend_object_int=\count339
-\g__pdf_backend_annotation_int=\count340
+(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count339
+\l__pdf_internal_box=\box122
 )
 (./Assignment Of Moinul Vai.aux)
 \openout1 = `"Assignment Of Moinul Vai.aux"'.
@@ -1059,14 +927,6 @@ LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-0.
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -1074,17 +934,35 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
 
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count340
+\scratchdimen=\dimen282
+\scratchbox=\box123
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count343
+\MPscratchDim=\dimen283
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks47
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 ABD: EveryShipout initializing macros
 Package ragged2e Info: ABD: executing \RaggedRight on input line 70.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 70.
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fc-english.def
-Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 File: fc-english.def 2016/01/12
 )
 
@@ -1104,7 +982,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count346
 )
 LaTeX Info: Redefining \ref on input line 70.
 LaTeX Info: Redefining \pageref on input line 70.
@@ -1114,334 +992,418 @@ LaTeX Info: Redefining \nameref on input line 70.
 \@outlinefile=\write9
 \openout9 = `"Assignment Of Moinul Vai.out"'.
 
+\GPT@outputbox=\box125
  [1
 
-] [2]
-(./Assignment Of Moinul Vai.toc
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10.95> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
- [3])
+(Font)              <6> on input line 94.
+
+Overfull \hbox (121.91425pt too wide) in paragraph at lines 94--111
+[][]  
+ []
+
+[3] (./Assignment Of Moinul Vai.toc [4])
 \tf@toc=\write10
 \openout10 = `"Assignment Of Moinul Vai.toc"'.
 
- [4] (./Assignment Of Moinul Vai.lof)
+ [5] (./Assignment Of Moinul Vai.lof)
 \tf@lof=\write11
 \openout11 = `"Assignment Of Moinul Vai.lof"'.
 
 
-[5]
+[6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 107.
+(Font)              <9> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 107.
- [6]
-File: Gallery/One.jpg Graphic file (type bmp)
-<Gallery/One.jpg>
-File: Gallery/Two.jpg Graphic file (type bmp)
-<Gallery/Two.jpg>
-File: Gallery/Three.jpg Graphic file (type bmp)
-<Gallery/Three.jpg>
-File: Gallery/Four.jpg Graphic file (type bmp)
-<Gallery/Four.jpg>
-File: Gallery/Five.jpg Graphic file (type bmp)
-<Gallery/Five.jpg>
-File: Gallery/Six.jpg Graphic file (type bmp)
-<Gallery/Six.jpg>
-File: Gallery/Seven.jpg Graphic file (type bmp)
-<Gallery/Seven.jpg>
+(Font)              <5> on input line 128.
  [7]
-File: Gallery/Impoundment-Power-Plants.png Graphic file (type bmp)
-<Gallery/Impoundment-Power-Plants.png>
+<Gallery/One.jpg, id=248, 270.00874pt x 187.70125pt>
+File: Gallery/One.jpg Graphic file (type jpg)
+<use Gallery/One.jpg>
+Package pdftex.def Info: Gallery/One.jpg  used on input line 135.
+(pdftex.def)             Requested size: 190.0pt x 132.08308pt.
+<Gallery/Two.jpg, id=249, 302.12875pt x 167.62625pt>
+File: Gallery/Two.jpg Graphic file (type jpg)
+<use Gallery/Two.jpg>
+Package pdftex.def Info: Gallery/Two.jpg  used on input line 136.
+(pdftex.def)             Requested size: 160.0pt x 88.76985pt.
+<Gallery/Three.jpg, id=250, 301.125pt x 168.63pt>
+File: Gallery/Three.jpg Graphic file (type jpg)
+<use Gallery/Three.jpg>
+Package pdftex.def Info: Gallery/Three.jpg  used on input line 137.
+(pdftex.def)             Requested size: 160.0pt x 89.60246pt.
+<Gallery/Four.jpg, id=251, 259.97125pt x 194.7275pt>
+File: Gallery/Four.jpg Graphic file (type jpg)
+<use Gallery/Four.jpg>
+Package pdftex.def Info: Gallery/Four.jpg  used on input line 138.
+(pdftex.def)             Requested size: 190.0pt x 142.31627pt.
+<Gallery/Five.jpg, id=252, 276.03125pt x 183.68625pt>
+File: Gallery/Five.jpg Graphic file (type jpg)
+<use Gallery/Five.jpg>
+Package pdftex.def Info: Gallery/Five.jpg  used on input line 139.
+(pdftex.def)             Requested size: 99.99873pt x 49.99954pt.
+<Gallery/Six.jpg, id=253, 264.99pt x 191.71625pt>
+File: Gallery/Six.jpg Graphic file (type jpg)
+<use Gallery/Six.jpg>
+Package pdftex.def Info: Gallery/Six.jpg  used on input line 140.
+(pdftex.def)             Requested size: 140.0pt x 101.28732pt.
+<Gallery/Seven.jpg, id=254, 321.2pt x 157.58875pt>
+File: Gallery/Seven.jpg Graphic file (type jpg)
+<use Gallery/Seven.jpg>
+Package pdftex.def Info: Gallery/Seven.jpg  used on input line 141.
+(pdftex.def)             Requested size: 100.0pt x 49.0612pt.
+ [8 <./Gallery/One.jpg> <./Gallery/Two.jpg> <./Gallery/Three.jpg> <./Gallery/Fo
+ur.jpg> <./Gallery/Five.jpg> <./Gallery/Six.jpg> <./Gallery/Seven.jpg>]
+<Gallery/Impoundment-Power-Plants.png, id=259, 1058.45438pt x 595.47469pt>
+File: Gallery/Impoundment-Power-Plants.png Graphic file (type png)
+<use Gallery/Impoundment-Power-Plants.png>
+Package pdftex.def Info: Gallery/Impoundment-Power-Plants.png  used on input li
+ne 154.
+(pdftex.def)             Requested size: 190.0pt x 106.89005pt.
+<Gallery/Diversion-Power-Plants.png, id=260, 1058.45438pt x 595.47469pt>
+File: Gallery/Diversion-Power-Plants.png Graphic file (type png)
+<use Gallery/Diversion-Power-Plants.png>
+Package pdftex.def Info: Gallery/Diversion-Power-Plants.png  used on input line
+ 156.
+(pdftex.def)             Requested size: 190.0pt x 106.89005pt.
 
-Overfull \hbox (0.94633pt too wide) in paragraph at lines 132--134
-[]\T1/lmr/bx/n/10.95 Impoundment: \T1/lmr/m/n/10.95 An Im-pound-ment fa-cil-ity
- typ-i-cally used to store
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
  []
 
-File: Gallery/Diversion-Power-Plants.png Graphic file (type bmp)
-<Gallery/Diversion-Power-Plants.png>
+[9 <./Gallery/Impoundment-Power-Plants.png> <./Gallery/Diversion-Power-Plants.p
+ng>]
+<Gallery/Nuclear-Power-Plants.png, id=271, 1058.45438pt x 595.47469pt>
+File: Gallery/Nuclear-Power-Plants.png Graphic file (type png)
+<use Gallery/Nuclear-Power-Plants.png>
+Package pdftex.def Info: Gallery/Nuclear-Power-Plants.png  used on input line 1
+66.
+(pdftex.def)             Requested size: 190.0pt x 106.89005pt.
+<Gallery/Coal-Power-Plants.png, id=272, 1058.45438pt x 595.47469pt>
+File: Gallery/Coal-Power-Plants.png Graphic file (type png)
+<use Gallery/Coal-Power-Plants.png>
+Package pdftex.def Info: Gallery/Coal-Power-Plants.png  used on input line 168.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+(pdftex.def)             Requested size: 190.0pt x 106.89005pt.
+<Gallery/Solar-Power-Plants.png, id=273, 1058.45438pt x 595.47469pt>
+File: Gallery/Solar-Power-Plants.png Graphic file (type png)
+<use Gallery/Solar-Power-Plants.png>
+Package pdftex.def Info: Gallery/Solar-Power-Plants.png  used on input line 171
+.
+(pdftex.def)             Requested size: 190.0pt x 106.89005pt.
+ [10 <./Gallery/Nuclear-Power-Plants.png> <./Gallery/Coal-Power-Plants.png>]
+<Gallery/Wind-Power-Plants.png, id=284, 1058.45438pt x 595.47469pt>
+File: Gallery/Wind-Power-Plants.png Graphic file (type png)
+<use Gallery/Wind-Power-Plants.png>
+Package pdftex.def Info: Gallery/Wind-Power-Plants.png  used on input line 173.
 
- []
-
-[8]
-Missing character: There is no ’ in font ec-lmr10!
-File: Gallery/Nuclear-Power-Plants.png Graphic file (type bmp)
-<Gallery/Nuclear-Power-Plants.png>
-File: Gallery/Coal-Power-Plants.png Graphic file (type bmp)
-<Gallery/Coal-Power-Plants.png>
-File: Gallery/Solar-Power-Plants.png Graphic file (type bmp)
-<Gallery/Solar-Power-Plants.png>
- [9]
-File: Gallery/Wind-Power-Plants.png Graphic file (type bmp)
-<Gallery/Wind-Power-Plants.png>
-File: Gallery/wind power plnt.jpg Graphic file (type bmp)
-<Gallery/wind power plnt.jpg>
- [10]
+(pdftex.def)             Requested size: 160.0pt x 90.00789pt.
+<Gallery/wind power plnt.jpg, id=285, 364.36125pt x 139.52126pt>
+File: Gallery/wind power plnt.jpg Graphic file (type jpg)
+<use Gallery/wind power plnt.jpg>
+Package pdftex.def Info: Gallery/wind power plnt.jpg  used on input line 175.
+(pdftex.def)             Requested size: 159.99698pt x 108.00224pt.
+ [11 <./Gallery/Solar-Power-Plants.png> <./Gallery/Wind-Power-Plants.png> <./Ga
+llery/wind power plnt.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 167.
-Missing character: There is no ’ in font ec-lmr10!
- [11]
-File: Gallery/boropurkuria thermal power station.JPG Graphic file (type bmp)
-<Gallery/boropurkuria thermal power station.JPG>
+(Font)              <12> on input line 188.
+ [12]
+<Gallery/boropurkuria thermal power station.JPG, id=306, 682.04813pt x 448.6762
+5pt>
+File: Gallery/boropurkuria thermal power station.JPG Graphic file (type jpg)
+<use Gallery/boropurkuria thermal power station.JPG>
+Package pdftex.def Info: Gallery/boropurkuria thermal power station.JPG  used o
+n input line 200.
+(pdftex.def)             Requested size: 299.99803pt x 179.99448pt.
 
-Overfull \hbox (1.29596pt too wide) in paragraph at lines 179--180
+Overfull \hbox (1.29597pt too wide) in paragraph at lines 200--201
 [][]  
  []
 
-[12]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-93.
- (c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+[13 <./Gallery/boropurkuria thermal power station.JPG>]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
+14.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (13.1451pt too wide) in alignment at lines 190--209
+Overfull \hbox (13.06677pt too wide) in alignment at lines 211--230
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 209
+Underfull \vbox (badness 10000) detected at line 230
  []
 
-Missing character: There is no € in font ec-lmr12!
-[13] [14] [15]
-Underfull \vbox (badness 10000) detected at line 240
+[14] [15] [16]
+Underfull \vbox (badness 10000) detected at line 261
  []
 
-File: Gallery/Grid.png Graphic file (type bmp)
-<Gallery/Grid.png>
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 280--285
+<Gallery/Grid.png, id=327, 260.47313pt x 380.92313pt>
+File: Gallery/Grid.png Graphic file (type png)
+<use Gallery/Grid.png>
+Package pdftex.def Info: Gallery/Grid.png  used on input line 265.
+(pdftex.def)             Requested size: 230.00003pt x 300.0076pt.
+[17 <./Gallery/Grid.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 316--322
+Underfull \hbox (badness 10000) in paragraph at lines 301--306
 
  []
 
-[19] [20]
-Overfull \hbox (1.40828pt too wide) in paragraph at lines 338--338
-[]\T1/lmr/bx/n/14.4 Power Gen-er-a-tion Data form Re-cent Two Years 
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 337--343
+
+ []
+
+[20] [21]
+Overfull \hbox (1.64679pt too wide) in paragraph at lines 370--370
+[]|\T1/cmr/m/n/9 SI.|  
  []
 
 
-Overfull \hbox (1.64761pt too wide) in paragraph at lines 349--349
-[]|\T1/lmr/m/n/9 SI.|  
+Overfull \hbox (3.19017pt too wide) in paragraph at lines 370--370
+[]|\T1/cmr/m/n/9 Type 
  []
 
 
-Overfull \hbox (3.19124pt too wide) in paragraph at lines 349--349
-[]|\T1/lmr/m/n/9 Type 
+Overfull \hbox (6.4566pt too wide) in paragraph at lines 370--370
+[]|\T1/cmr/m/n/6 Efficiency(%)|  
  []
 
 
-Overfull \hbox (6.45795pt too wide) in paragraph at lines 349--349
-[]|\T1/lmr/m/n/6 Efficiency(%)|  
+Overfull \hbox (1.96053pt too wide) in paragraph at lines 370--371
+\T1/cmr/m/n/6 ciency(%)(Net)|  
  []
 
 
-Overfull \hbox (1.96161pt too wide) in paragraph at lines 349--350
-\T1/lmr/m/n/6 ciency(%)(Net)|  
+Overfull \hbox (2.46603pt too wide) in paragraph at lines 372--372
+[]|\T1/cmr/m/n/6 (a)Barapukuria 
  []
 
 
-Overfull \hbox (2.46724pt too wide) in paragraph at lines 351--351
-[]|\T1/lmr/m/n/6 (a)Barapukuria 
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 372--372
+[]|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (0.87524pt too wide) in paragraph at lines 351--351
-[]|\T1/lmr/m/n/9 Coal|  
+Overfull \hbox (2.85483pt too wide) in paragraph at lines 374--374
+[]|\T1/cmr/m/n/6 (b)Barapukuria 
  []
 
 
-Overfull \hbox (2.85606pt too wide) in paragraph at lines 353--353
-[]|\T1/lmr/m/n/6 (b)Barapukuria 
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 374--374
+[]|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (0.87524pt too wide) in paragraph at lines 353--353
-[]|\T1/lmr/m/n/9 Coal|  
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 374--374
+[]|\T1/cmr/m/n/12 1126.0726|  
  []
 
 
-Overfull \hbox (3.26454pt too wide) in paragraph at lines 353--353
-[]|\T1/lmr/m/n/12 1126.0726|  
+Overfull \hbox (0.9137pt too wide) in paragraph at lines 374--374
+[]|\T1/cmr/m/n/12 52.32|  
  []
 
 
-Overfull \hbox (0.91434pt too wide) in paragraph at lines 353--353
-[]|\T1/lmr/m/n/12 52.32|  
- []
-
-
-Overfull \hbox (22.77094pt too wide) in alignment at lines 343--355
+Overfull \hbox (22.70586pt too wide) in alignment at lines 364--376
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 355
+Underfull \vbox (badness 10000) detected at line 376
  []
 
 
-Overfull \vbox (3.35715pt too high) has occurred while \output is active []
+Overfull \vbox (3.45366pt too high) has occurred while \output is active []
 
-
-[21]
-Overfull \hbox (1.64761pt too wide) in paragraph at lines 367--367
-[]|\T1/lmr/m/n/9 SI.|  
- []
-
-
-Overfull \hbox (3.19124pt too wide) in paragraph at lines 367--367
-[]|\T1/lmr/m/n/9 Type 
- []
-
-
-Overfull \hbox (6.45795pt too wide) in paragraph at lines 367--367
-[]|\T1/lmr/m/n/6 Efficiency(%)|  
- []
-
-
-Overfull \hbox (1.96161pt too wide) in paragraph at lines 367--368
-\T1/lmr/m/n/6 ciency(%)(Net)|  
- []
-
-
-Overfull \hbox (2.46724pt too wide) in paragraph at lines 369--369
-[]|\T1/lmr/m/n/6 (a)Barapukuria 
- []
-
-
-Overfull \hbox (0.87524pt too wide) in paragraph at lines 369--369
-[]|\T1/lmr/m/n/9 Coal|  
- []
-
-
-Overfull \hbox (2.85606pt too wide) in paragraph at lines 371--371
-[]|\T1/lmr/m/n/6 (b)Barapukuria 
- []
-
-
-Overfull \hbox (0.87524pt too wide) in paragraph at lines 371--371
-[]|\T1/lmr/m/n/9 Coal|  
- []
-
-
-Overfull \hbox (0.91434pt too wide) in paragraph at lines 371--371
-[]|\T1/lmr/m/n/12 80.60|  
- []
-
-
-Overfull \hbox (22.77094pt too wide) in alignment at lines 361--373
- [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 373
- []
 
 [22]
-Overfull \hbox (0.76358pt too wide) in paragraph at lines 394--394
-\T1/lmr/m/n/9 Cost(Tk/kWh)|  
+Overfull \hbox (1.64679pt too wide) in paragraph at lines 388--388
+[]|\T1/cmr/m/n/9 SI.|  
  []
 
 
-Overfull \hbox (8.67061pt too wide) in alignment at lines 381--402
- [] [] [] [] 
+Overfull \hbox (3.19017pt too wide) in paragraph at lines 388--388
+[]|\T1/cmr/m/n/9 Type 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 402
+Overfull \hbox (6.4566pt too wide) in paragraph at lines 388--388
+[]|\T1/cmr/m/n/6 Efficiency(%)|  
+ []
+
+
+Overfull \hbox (1.96053pt too wide) in paragraph at lines 388--389
+\T1/cmr/m/n/6 ciency(%)(Net)|  
+ []
+
+
+Overfull \hbox (2.46603pt too wide) in paragraph at lines 390--390
+[]|\T1/cmr/m/n/6 (a)Barapukuria 
+ []
+
+
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 390--390
+[]|\T1/cmr/m/n/9 Coal|  
+ []
+
+
+Overfull \hbox (2.85483pt too wide) in paragraph at lines 392--392
+[]|\T1/cmr/m/n/6 (b)Barapukuria 
+ []
+
+
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 392--392
+[]|\T1/cmr/m/n/9 Coal|  
+ []
+
+
+Overfull \hbox (0.9137pt too wide) in paragraph at lines 392--392
+[]|\T1/cmr/m/n/12 80.60|  
+ []
+
+
+Overfull \hbox (22.70586pt too wide) in alignment at lines 382--394
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 394
  []
 
 [23]
-Overfull \hbox (0.76358pt too wide) in paragraph at lines 420--420
-\T1/lmr/m/n/9 Cost(Tk/kWh)|  
+Overfull \hbox (0.76352pt too wide) in paragraph at lines 415--415
+\T1/cmr/m/n/9 Cost(Tk/kWh)|  
  []
 
 
-Overfull \hbox (8.67061pt too wide) in alignment at lines 407--428
+Overfull \hbox (8.60013pt too wide) in alignment at lines 402--423
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 428
+Underfull \vbox (badness 10000) detected at line 423
  []
 
 [24]
-Missing character: There is no ’ in font ec-lmr12!
+Overfull \hbox (0.76352pt too wide) in paragraph at lines 441--441
+\T1/cmr/m/n/9 Cost(Tk/kWh)|  
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+Overfull \hbox (8.60013pt too wide) in alignment at lines 428--449
+ [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 449
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
-File: ../../../Downloads/CYMERA_20201221_210039.jpg Graphic file (type bmp)
-<../../../Downloads/CYMERA_20201221_210039.jpg>
-File: Gallery/report figure.jpg Graphic file (type bmp)
-<Gallery/report figure.jpg>
-[25] [26] [27]
-Missing character: There is no ’ in font ec-lmr12!
-Missing character: There is no ’ in font ec-lmr12!
- [28]
-Overfull \hbox (8.99821pt too wide) in paragraph at lines 480--480
-[]\T1/lmr/bx/n/14.4 Capability with the En-ergy Pol-icy of Bangladesh 
+<../../../Downloads/CYMERA_20201221_210039.jpg, id=377, 853.1875pt x 537.00626p
+t>
+File: ../../../Downloads/CYMERA_20201221_210039.jpg Graphic file (type jpg)
+<use ../../../Downloads/CYMERA_20201221_210039.jpg>
+Package pdftex.def Info: ../../../Downloads/CYMERA_20201221_210039.jpg  used on
+ input line 458.
+(pdftex.def)             Requested size: 360.00269pt x 220.0019pt.
+<Gallery/report figure.jpg, id=378, 182.3175pt x 113.004pt>
+File: Gallery/report figure.jpg Graphic file (type jpg)
+<use Gallery/report figure.jpg>
+Package pdftex.def Info: Gallery/report figure.jpg  used on input line 469.
+(pdftex.def)             Requested size: 300.0pt x 185.95023pt.
+[26 <../../../Downloads/CYMERA_20201221_210039.jpg>] [27 <./Gallery/report figu
+re.jpg>] [28] [29]
+Overfull \hbox (1.46849pt too wide) in paragraph at lines 501--501
+[]\T1/cmr/bx/n/14.4 Capability with the En-ergy Pol-icy of Bangladesh 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 484.
+(Font)              <20.74> on input line 505.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 484.
+(Font)              <14.4> on input line 505.
 
-Underfull \vbox (badness 10000) detected at line 501
- []
-
-Missing character: There is no ‘ in font ec-lmr9!
-Missing character: There is no ’ in font ec-lmr9!
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--508
-
+Underfull \vbox (badness 10000) detected at line 522
  []
 
 
-Underfull \vbox (badness 10000) detected at line 524
+Underfull \hbox (badness 10000) in paragraph at lines 527--529
+
  []
 
-[29] [30] [31]
+
+Underfull \vbox (badness 10000) detected at line 545
+ []
+
+[30] [31] [32]
 runsystem(makeindex "Assignment Of Moinul Vai".idx)...quotation error in system
  command.
 
- (./Assignment Of Moinul Vai.ind) [32
+ (./Assignment Of Moinul Vai.ind) [33
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
 
 (./Assignment Of Moinul Vai.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 578.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
 Package rerunfilecheck Info: File `"Assignment Of Moinul Vai".out' has not chan
 ged.
-(rerunfilecheck)             Checksum: <no file>.
+(rerunfilecheck)             Checksum: 7F985D64AB53D5320840109DCECF1F28;2467.
  ) 
 Here is how much of TeX's memory you used:
- 34179 strings out of 479819
- 794674 string characters out of 5897101
- 1193510 words of memory out of 5000000
- 50692 multiletter control sequences out of 15000+600000
- 610400 words of font info for 71 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 63i,8n,98p,3485b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31336 strings out of 481239
+ 755871 string characters out of 5921778
+ 1167379 words of memory out of 5000000
+ 45893 multiletter control sequences out of 15000+600000
+ 556038 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,14n,98p,3507b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb><c:/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><c:/texlive/2019/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/s
+fbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2019/texmf-dist/
+fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/c
+m-super/sfrm1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sf
+rm1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb
+><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2019/texmf-dist/f
+onts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/cm-super/sfti1200.pfb>
+Output written on "Assignment Of Moinul Vai.pdf" (33 pages, 1603821 bytes).
+PDF statistics:
+ 575 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Assignment Of Moinul Vai.pdf (32 pages).

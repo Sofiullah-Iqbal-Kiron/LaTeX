@@ -1,37 +1,37 @@
-\contentsline {section}{\numberline {1}Depiction of Power Plant}{6}{section.1}%
-\contentsline {section}{\numberline {2}A Gallery for Power-Station}{7}{section.2}%
-\contentsline {section}{\numberline {3}Different Types/Kinds of Power Plants}{8}{section.3}%
-\contentsline {section}{\numberline {4}General Description and History}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Starting}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Brief Background History}{11}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Others Description in a Table}{13}{section.5}%
-\contentsline {section}{\numberline {6}Cycle Description}{13}{section.6}%
-\contentsline {section}{\numberline {7}Basic Engineering}{15}{section.7}%
-\contentsline {section}{\numberline {8}Connection To Grid}{16}{section.8}%
-\contentsline {section}{\numberline {9}Operation}{17}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Operation Of A Thermal Power Plant}{17}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Operation Of Barapukuria Power Plant}{17}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Boiler}{17}{subsubsection.9.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2}Manufacturer Shanghai Boiler Works Limited}{19}{subsubsection.9.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.3}Steam Turbine}{19}{subsubsection.9.2.3}%
-\contentsline {subsubsection}{\numberline {9.2.4}Alternator at Barapukuria power plant}{20}{subsubsection.9.2.4}%
-\contentsline {subsubsection}{\numberline {9.2.5}Transformer}{20}{subsubsection.9.2.5}%
-\contentsline {subsubsection}{\numberline {9.2.6}Cooling Systems}{21}{subsubsection.9.2.6}%
-\contentsline {section}{\numberline {10}Power Generation Data form Recent Two Years}{21}{section.10}%
-\contentsline {subsection}{\numberline {10.1}2018 - 2019}{21}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}2019 - 2020}{22}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Generation Cost}{23}{subsection.10.3}%
-\contentsline {subsubsection}{\numberline {10.3.1}2018 - 2019}{23}{subsubsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.2}2019 - 2020}{24}{subsubsection.10.3.2}%
-\contentsline {section}{\numberline {11}Sub-Station}{25}{section.11}%
-\contentsline {section}{\numberline {12}Financial Feasibility}{25}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Introduction}{25}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Finance Behind Barapukuria Coal Mine}{27}{subsection.12.2}%
-\contentsline {section}{\numberline {13}Importance}{28}{section.13}%
-\contentsline {section}{\numberline {14}Capability with the Energy Policy of Bangladesh}{29}{section.14}%
-\contentsline {section}{\numberline {15}Waste Disposal Management}{29}{section.15}%
-\contentsline {section}{\numberline {16}Effect On Environment}{30}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Impact on Water}{30}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Effect of Fly Ash}{30}{subsection.16.2}%
-\contentsline {section}{\numberline {17}Conclusion}{30}{section.17}%
-\contentsline {section}{\numberline {18}Resources}{31}{section.18}%
+\contentsline {section}{\numberline {1}Depiction of Power Plant}{7}{section.1}%
+\contentsline {section}{\numberline {2}A Gallery for Power-Station}{8}{section.2}%
+\contentsline {section}{\numberline {3}Different Types/Kinds of Power Plants}{9}{section.3}%
+\contentsline {section}{\numberline {4}General Description and History}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Starting}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Brief Background History}{12}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Others Description in a Table}{14}{section.5}%
+\contentsline {section}{\numberline {6}Cycle Description}{14}{section.6}%
+\contentsline {section}{\numberline {7}Basic Engineering}{16}{section.7}%
+\contentsline {section}{\numberline {8}Connection To Grid}{17}{section.8}%
+\contentsline {section}{\numberline {9}Operation}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Operation Of A Thermal Power Plant}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Operation Of Barapukuria Power Plant}{18}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Boiler}{18}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Manufacturer Shanghai Boiler Works Limited}{20}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Steam Turbine}{20}{subsubsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.4}Alternator at Barapukuria power plant}{21}{subsubsection.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.5}Transformer}{21}{subsubsection.9.2.5}%
+\contentsline {subsubsection}{\numberline {9.2.6}Cooling Systems}{22}{subsubsection.9.2.6}%
+\contentsline {section}{\numberline {10}Power Generation Data form Recent Two Years}{22}{section.10}%
+\contentsline {subsection}{\numberline {10.1}2018 - 2019}{22}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}2019 - 2020}{23}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Generation Cost}{24}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}2018 - 2019}{24}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}2019 - 2020}{25}{subsubsection.10.3.2}%
+\contentsline {section}{\numberline {11}Sub-Station}{26}{section.11}%
+\contentsline {section}{\numberline {12}Financial Feasibility}{26}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Introduction}{26}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Finance Behind Barapukuria Coal Mine}{28}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Importance}{29}{section.13}%
+\contentsline {section}{\numberline {14}Capability with the Energy Policy of Bangladesh}{30}{section.14}%
+\contentsline {section}{\numberline {15}Waste Disposal Management}{30}{section.15}%
+\contentsline {section}{\numberline {16}Effect On Environment}{31}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Impact on Water}{31}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Effect of Fly Ash}{31}{subsection.16.2}%
+\contentsline {section}{\numberline {17}Conclusion}{31}{section.17}%
+\contentsline {section}{\numberline {18}Resources}{32}{section.18}%

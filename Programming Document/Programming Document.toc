@@ -2,95 +2,96 @@
 \contentsline {chapter}{\numberline {2}C++, Problems and Algorithm}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Evolution of C}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Array}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Array rotation}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Making subarray}{4}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Array rotation}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Making subarray}{3}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Memory Allocation}{4}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Memory Layout of C}{4}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Pointers}{5}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Dynamic Memory Allocation}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Dynamic Memory Allocation}{5}{subsection.2.3.3}%
 \contentsline {subsubsection}{New and Delete operations}{6}{section*.4}%
 \contentsline {section}{\numberline {2.4}Illustration of C++ code}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Finding maximum element from an array of size n}{6}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Counting selected element from an array}{6}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Divide function by string}{7}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}BitWise Operator}{7}{subsection.2.4.4}%
-\contentsline {subsubsection}{Some Interesting things about bitwise operator}{8}{section*.5}%
+\contentsline {subsubsection}{Some Interesting things about bitwise operator}{7}{section*.5}%
 \contentsline {subsection}{\numberline {2.4.5}Structure}{8}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}How to check efficiently that a number is palindrome or not}{9}{subsection.2.4.6}%
 \contentsline {section}{\numberline {2.5}STL Map}{10}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Map member function}{11}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}STL pair}{11}{section.2.6}%
-\contentsline {section}{\numberline {2.7}STL List}{12}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Member Functions of List}{13}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Discuss}{13}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}assign}{14}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}STL Stack}{14}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Power of 2}{15}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}Binary Transform of \textbf {$2^n$}}{15}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Algorithm}{16}{subsection.2.9.2}%
-\contentsline {section}{\numberline {2.10}Linked Lists}{16}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Fortran}{17}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Python}{17}{section.2.12}%
-\contentsline {subsection}{\numberline {2.12.1}Why we use Python}{17}{subsection.2.12.1}%
-\contentsline {chapter}{\numberline {3}Java}{19}{chapter.3}%
-\contentsline {paragraph}{Gosling explains his motivation for creating \textbf {JAVA}:}{19}{section*.6}%
-\contentsline {section}{\numberline {3.1}IntelliJ IDEA: The IDE}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Syntax Difference between \leavevmode {\color {blue!90}C++} and \leavevmode {\color {blue!90}Java}}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Object Oriented Programming (OOP) with \textbf {JAVA}}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Arrays Class}{22}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}parallelSort() Method}{22}{subsection.3.4.1}%
-\contentsline {paragraph}{Algorithm for parallelSort():}{23}{section*.7}%
-\contentsline {section}{\numberline {3.5}Matcher Class}{23}{section.3.5}%
-\contentsline {paragraph}{Package}{23}{section*.8}%
-\contentsline {paragraph}{Properties}{23}{section*.9}%
-\contentsline {section}{\numberline {3.6}Interface}{23}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Anonymous Class}{23}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Lambda Expression}{23}{section.3.8}%
-\contentsline {paragraph}{Note of Collection:}{24}{section*.10}%
-\contentsline {section}{\numberline {3.9}Object Ordering}{24}{section.3.9}%
-\contentsline {paragraph}{Starting:}{24}{section*.11}%
-\contentsline {subsection}{\numberline {3.9.1}Implement own comparable type}{24}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}Comparators}{25}{subsection.3.9.2}%
-\contentsline {paragraph}{By GeeksforGeeks:}{25}{section*.12}%
-\contentsline {subparagraph}{How does "Collections.sort()" work?}{26}{section*.13}%
-\contentsline {subparagraph}{A working program:}{26}{section*.14}%
-\contentsline {paragraph}{Again Oracle:}{27}{section*.15}%
-\contentsline {section}{\numberline {3.10}Math Class}{27}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}Beyond Math Class}{27}{subsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.10.2}Constants and Basic Methods}{27}{subsection.3.10.2}%
-\contentsline {subsection}{\numberline {3.10.3}Random Numbers}{27}{subsection.3.10.3}%
-\contentsline {section}{\numberline {3.11}Graph}{28}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}Representation}{28}{subsection.3.11.1}%
-\contentsline {paragraph}{What is graph:}{28}{section*.16}%
-\contentsline {subparagraph}{There are two kinds of graphs:}{28}{section*.17}%
-\contentsline {paragraph}{Adjacency Matrix:}{29}{section*.18}%
-\contentsline {section}{\numberline {3.12}Find Integer Root}{29}{section.3.12}%
-\contentsline {paragraph}{Natural Number}{29}{section*.19}%
-\contentsline {paragraph}{Integer square root}{29}{section*.20}%
-\contentsline {chapter}{\numberline {4}JavaScript}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Why We Should Learn JS}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Variable}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}String}{31}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comments}{32}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Julia}{33}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Coursera Algorithm}{35}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Windows Command Prompt}{37}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Type Setting}{39}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Formatting}{39}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Font}{40}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Font Size}{40}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Font Face}{41}{subsection.8.2.2}%
-\contentsline {section}{\numberline {8.3}Code Listing parameters}{41}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Shadow frame in code listing}{41}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Themes we can use in BEAMER class}{42}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Presentation themes without navigation bar}{42}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}Presentation theme with a tree-like navigation bar}{42}{subsection.8.5.2}%
-\contentsline {section}{\numberline {8.6}\href {https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols}{List of Greek letters and math symbols}}{42}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Available Document Structure Commands}{44}{section.8.7}%
-\contentsline {subsection}{\numberline {8.7.1}BOOK and REPORT}{44}{subsection.8.7.1}%
-\contentsline {subsection}{\numberline {8.7.2}ARTICLE}{44}{subsection.8.7.2}%
-\contentsline {section}{\numberline {8.8}XeLaTeX}{45}{section.8.8}%
-\contentsline {section}{\numberline {8.9}The "hyperref" Package}{45}{section.8.9}%
-\contentsline {section}{\numberline {8.10}Background Image}{45}{section.8.10}%
-\contentsline {subsection}{\numberline {8.10.1}Package "background"}{45}{subsection.8.10.1}%
-\contentsline {chapter}{\numberline {9}Import Practice}{47}{chapter.9}%
+\contentsline {subsection}{\numberline {2.5.1}Map member function}{10}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}STL pair}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}STL List}{11}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Member Functions of List}{12}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Discuss}{12}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}assign}{12}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}STL Stack}{13}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Power of 2}{14}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Binary Transform of \textbf {$2^n$}}{14}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Algorithm}{15}{subsection.2.9.2}%
+\contentsline {section}{\numberline {2.10}Linked Lists}{15}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Fortran}{16}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Python}{16}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}Why we use Python}{16}{subsection.2.12.1}%
+\contentsline {chapter}{\numberline {3}Java}{17}{chapter.3}%
+\contentsline {paragraph}{Gosling explains his motivation for creating \textbf {JAVA}:}{17}{section*.6}%
+\contentsline {section}{\numberline {3.1}IntelliJ IDEA: The IDE}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Syntax Difference between \leavevmode {\color {blue!90}C++} and \leavevmode {\color {blue!90}Java}}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Object Oriented Programming (OOP) with \textbf {JAVA}}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Arrays Class}{20}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}parallelSort() Method}{20}{subsection.3.4.1}%
+\contentsline {paragraph}{Algorithm for parallelSort():}{20}{section*.7}%
+\contentsline {section}{\numberline {3.5}Matcher Class}{21}{section.3.5}%
+\contentsline {paragraph}{Package}{21}{section*.8}%
+\contentsline {paragraph}{Properties}{21}{section*.9}%
+\contentsline {section}{\numberline {3.6}Interface}{21}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Anonymous Class}{21}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Lambda Expression}{21}{section.3.8}%
+\contentsline {paragraph}{Note of Collection:}{21}{section*.10}%
+\contentsline {section}{\numberline {3.9}Object Ordering}{21}{section.3.9}%
+\contentsline {paragraph}{Starting:}{21}{section*.11}%
+\contentsline {subsection}{\numberline {3.9.1}Implement own comparable type}{22}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Comparators}{22}{subsection.3.9.2}%
+\contentsline {paragraph}{By GeeksforGeeks:}{23}{section*.12}%
+\contentsline {subparagraph}{How does "Collections.sort()" work?}{23}{section*.13}%
+\contentsline {subparagraph}{A working program:}{23}{section*.14}%
+\contentsline {paragraph}{Again Oracle:}{24}{section*.15}%
+\contentsline {section}{\numberline {3.10}Math Class}{24}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Beyond Math Class}{24}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Constants and Basic Methods}{25}{subsection.3.10.2}%
+\contentsline {subsection}{\numberline {3.10.3}Random Numbers}{25}{subsection.3.10.3}%
+\contentsline {section}{\numberline {3.11}Graph}{25}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Representation}{25}{subsection.3.11.1}%
+\contentsline {paragraph}{What is graph:}{25}{section*.16}%
+\contentsline {subparagraph}{There are two kinds of graphs:}{26}{section*.17}%
+\contentsline {paragraph}{Adjacency Matrix:}{26}{section*.18}%
+\contentsline {section}{\numberline {3.12}Find Integer Root}{26}{section.3.12}%
+\contentsline {paragraph}{Natural Number}{26}{section*.19}%
+\contentsline {paragraph}{Integer square root}{26}{section*.20}%
+\contentsline {chapter}{\numberline {4}JavaScript}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Why We Should Learn JS}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Variable}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}String}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comments}{28}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Julia}{29}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Coursera Algorithm}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Windows Command Prompt}{33}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Type Setting}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Formatting}{35}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Font}{36}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Font Size}{36}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Font Face}{37}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Code Listing parameters}{37}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Shadow frame in code listing}{37}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Themes we can use in BEAMER class}{38}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Presentation themes without navigation bar}{38}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Presentation theme with a tree-like navigation bar}{38}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}\href {https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols}{List of Greek letters and math symbols}}{38}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Available Document Structure Commands}{40}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}BOOK and REPORT}{40}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.7.2}ARTICLE}{40}{subsection.8.7.2}%
+\contentsline {section}{\numberline {8.8}XeLaTeX}{40}{section.8.8}%
+\contentsline {section}{\numberline {8.9}The "hyperref" Package}{41}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Background Image}{41}{section.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}Package "background"}{41}{subsection.8.10.1}%
+\contentsline {section}{\numberline {8.11}Default Font Face used in \LaTeX {}}{41}{section.8.11}%
+\contentsline {chapter}{\numberline {9}Import Practice}{43}{chapter.9}%

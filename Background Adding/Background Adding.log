@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  18 JAN 2021 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  26 JAN 2021 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,24 +568,62 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
+(c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen256
+\calc@Bdimen=\dimen257
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count292
+\calc@Cskip=\skip57
+)
+(c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen258
+\AM@pageheight=\dimen259
+
+(c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box60
+\AM@global@opts=\toks36
+\AM@pagecnt=\count293
+\AM@toc@title=\toks37
+\c@AM@survey=\count294
+\AM@templatesizebox=\box61
+)
+(c:/texlive/2019/texmf-dist/tex/latex/ncctools/watermark.sty
+Package: watermark 2004/12/09 v1.1 Watermarks (NCC)
+)
 (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count290
-\Gm@cntv=\count291
-\c@Gm@tempcnt=\count292
-\Gm@bindingoffset=\dimen256
-\Gm@wd@mp=\dimen257
-\Gm@odd@mp=\dimen258
-\Gm@even@mp=\dimen259
-\Gm@layoutwidth=\dimen260
-\Gm@layoutheight=\dimen261
-\Gm@layouthoffset=\dimen262
-\Gm@layoutvoffset=\dimen263
-\Gm@dimlist=\toks36
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
+\Gm@bindingoffset=\dimen260
+\Gm@wd@mp=\dimen261
+\Gm@odd@mp=\dimen262
+\Gm@even@mp=\dimen263
+\Gm@layoutwidth=\dimen264
+\Gm@layoutheight=\dimen265
+\Gm@layouthoffset=\dimen266
+\Gm@layoutvoffset=\dimen267
+\Gm@dimlist=\toks38
 )
 (c:/texlive/2019/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
@@ -599,9 +637,9 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 (c:/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks37
-\footnotemargin=\dimen264
-\c@pp@next@reset=\count293
+\FN@temptoken=\toks39
+\footnotemargin=\dimen268
+\c@pp@next@reset=\count298
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -611,74 +649,71 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-\CenteringLeftskip=\skip55
-\RaggedLeftLeftskip=\skip56
-\RaggedRightLeftskip=\skip57
-\CenteringRightskip=\skip58
-\RaggedLeftRightskip=\skip59
-\RaggedRightRightskip=\skip60
-\CenteringParfillskip=\skip61
-\RaggedLeftParfillskip=\skip62
-\RaggedRightParfillskip=\skip63
-\JustifyingParfillskip=\skip64
-\CenteringParindent=\skip65
-\RaggedLeftParindent=\skip66
-\RaggedRightParindent=\skip67
-\JustifyingParindent=\skip68
+\CenteringLeftskip=\skip58
+\RaggedLeftLeftskip=\skip59
+\RaggedRightLeftskip=\skip60
+\CenteringRightskip=\skip61
+\RaggedLeftRightskip=\skip62
+\RaggedRightRightskip=\skip63
+\CenteringParfillskip=\skip64
+\RaggedLeftParfillskip=\skip65
+\RaggedRightParfillskip=\skip66
+\JustifyingParfillskip=\skip67
+\CenteringParindent=\skip68
+\RaggedLeftParindent=\skip69
+\RaggedRightParindent=\skip70
+\JustifyingParindent=\skip71
 )
 (c:/texlive/2019/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
 (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
+\etb@tempcnta=\count299
 )
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2020/01/30 v3.06
 
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count295
+\fc@digit@counter=\count300
 ))
-\c@padzeroesN=\count296
-\fc@tmpcatcode=\count297
-\@DT@modctr=\count298
-\@ordinalctr=\count299
-\@orgargctr=\count300
-\@strctr=\count301
-\@tmpstrctr=\count302
-\@DT@loopN=\count303
-\@DT@X=\count304
+\c@padzeroesN=\count301
+\fc@tmpcatcode=\count302
+\@DT@modctr=\count303
+\@ordinalctr=\count304
+\@orgargctr=\count305
+\@strctr=\count306
+\@tmpstrctr=\count307
+\@DT@loopN=\count308
+\@DT@X=\count309
 )
 (c:/texlive/2019/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count305
-\@month=\count306
-\@year=\count307
-\c@HOUR=\count308
-\c@HOURXII=\count309
-\c@MINUTE=\count310
-\c@TOHOUR=\count311
-\c@TOMINUTE=\count312
-\c@SECOND=\count313
-\currenthour=\count314
-\currentminute=\count315
-\currentsecond=\count316
+\@day=\count310
+\@month=\count311
+\@year=\count312
+\c@HOUR=\count313
+\c@HOURXII=\count314
+\c@MINUTE=\count315
+\c@TOHOUR=\count316
+\c@TOMINUTE=\count317
+\c@SECOND=\count318
+\currenthour=\count319
+\currentminute=\count320
+\currentsecond=\count321
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count317
-\dayofyear=\count318
-\dayofweek=\count319
+\@dtctr=\count322
+\dayofyear=\count323
+\dayofweek=\count324
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks38
-\dt@b=\toks39
+\dt@a=\toks40
+\dt@b=\toks41
 )
 \outfile=\write4
 \openout4 = `version.dat'.
@@ -690,42 +725,42 @@ LaTeX Info: Redefining \today on input line 736.
 
 (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count320
-\l__pdf_internal_box=\box60
+\l__kernel_color_stack_int=\count325
+\l__pdf_internal_box=\box62
 )
 (./Background Adding.aux)
 \openout1 = `"Background Adding.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
  ABD: EveryShipout initializing macros
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen265
-\scratchbox=\box61
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen266
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count326
+\scratchdimen=\dimen269
+\scratchbox=\box63
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen270
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks43
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -743,8 +778,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 52.
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring OFF on input line 53.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -755,17 +790,25 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count327
+\c@section@level=\count332
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (./Background Adding.out) (./Background Adding.out)
 \@outlinefile=\write6
 \openout6 = `"Background Adding.out"'.
 
 
+(c:/texlive/2019/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -800,55 +843,122 @@ LaTeX Info: Redefining \nameref on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package ragged2e Info: ABD: executing \RaggedRight on input line 52.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 53.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 52.
+LaTeX Info: Redefining \selectfont on input line 53.
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
+<F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermediate (
+2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, id=7, 560.0925pt x 776.9025pt>
+
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf  used o
+n input line 55.
+(pdftex.def)             Requested size: 560.09113pt x 776.90059pt.
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf  used o
+n input line 55.
+(pdftex.def)             Requested size: 560.09113pt x 776.90059pt.
+<F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermediate (
+2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, id=10, page=1, 560.0925pt x 77
+6.9025pt>
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, page 1>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf , page1
+ used on input line 55.
+(pdftex.def)             Requested size: 560.09113pt x 776.90059pt.
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, page 1>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf , page1
+ used on input line 55.
+(pdftex.def)             Requested size: 597.60088pt x 828.93025pt.
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, page 1>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf , page1
+ used on input line 55.
+(pdftex.def)             Requested size: 597.60088pt x 828.93025pt.
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, page 1>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf , page1
+ used on input line 55.
+(pdftex.def)             Requested size: 597.60088pt x 828.93025pt.
+File: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedi
+ate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf Graphic file (type pdf)
+<use F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermedia
+te (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf, page 1>
+Package pdftex.def Info: F:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC O
+ne-on-One Intermediate (2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf , page1
+ used on input line 55.
+(pdftex.def)             Requested size: 597.60088pt x 828.93025pt.
+ [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <f:/Torrent/TorrentBD/Adobe Photoshop/2. Photoshop CC One-on-One Intermediate 
+(2 of 4)/Exercise Files/15_shapes/CMYK cover.pdf>]
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 55.
+ut line 58.
 
 (c:/texlive/2019/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
 
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] [3]
-[4] [5] [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
+
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (./Background Adding.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `"Background Adding".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 20104 strings out of 481239
- 362149 string characters out of 5921778
- 756560 words of memory out of 5000000
- 34962 multiletter control sequences out of 15000+600000
- 533956 words of font info for 29 fonts, out of 8000000 for 9000
+ 20830 strings out of 481239
+ 375061 string characters out of 5921778
+ 630642 words of memory out of 5000000
+ 35666 multiletter control sequences out of 15000+600000
+ 533251 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,64p,37935b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,64p,35462b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}<c
 :/texlive/2019/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr5.pfb>
-Output written on "Background Adding.pdf" (7 pages, 106059 bytes).
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb>
+Output written on "Background Adding.pdf" (2 pages, 11160963 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
