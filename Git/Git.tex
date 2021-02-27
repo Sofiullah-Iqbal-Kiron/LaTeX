@@ -1,0 +1,51 @@
+\documentclass[10 pt]{article}
+
+\usepackage[document]{ragged2e}
+\usepackage[margin=2cm]{geometry}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl
+}
+\usepackage{xcolor}
+
+\title{Git}
+\author{Sofiullah Iqbal Kiron}
+
+\begin{document}
+
+\maketitle
+\justify
+
+\begin{enumerate}
+	\item Check version: git --version
+	\item Initialize a new empty local repository: git init :- a hidden folder will be created with name ".git"
+	\item git config --global user.name "My Name"
+	\item git config --email myEmail
+	\item Make Directory: mkdir dirName
+	\item Change Directory: cd dirName
+	\item Path of Working Directory: pwd
+	\item List: ls / dir
+	\item Clear console: clear
+	\item Exit from bash terminal: \texttt{logout}
+	\item See all the files/directories (hidden included): \texttt{ls/dir -a}
+	\item See all the files/directories (hidden included) with details: \texttt{ls/dir -all}
+	\item To remove a directory and all its contents, including sub-directories and files (cmd command): \texttt{rm -r "directory name"}
+	\item Set default editor for git
+	\item Open the dot git folder: start .git
+	\item Just delete the .git directory to remove a folder or project as a git repository.
+	\item Powershell version: Run as administrator, type \texttt{\$PSVersionTable} and hit enter.
+	\item Update git: git update-git-for-windows
+	\item Every git commit contains a distinct ID, Message, Date/Time, Author, Complete snapshot of project.
+	\item Linux/UNIX command to write something on a file: \texttt{echo message > fileNameWithExtension} . Ex: echo Hello > file.txt
+	\item To see remote servers you have configured, you can run the "git remote" command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can also use "-v" option to shows Related URLs that git has stored for the shortname.
+	\item "git remote -v" lists all the remotes.
+	\item Adding a remote: \texttt{git remote add <shortname> <url>}
+	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: git fetch <shortname>
+	\item Inspecting a remote: If you want to see more information about a particular remote: \texttt{git remote show <remoteShortName>}
+	\item Rename remote: \texttt{git remote rename <oldShortName> <newShortName>}
+	\item Remove remote: \texttt{git remote rm <shortname>} or \texttt{git remote remove <shortname>}
+\end{enumerate}
+
+\end{document}
