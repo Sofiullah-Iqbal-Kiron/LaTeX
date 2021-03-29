@@ -1,0 +1,130 @@
+% Syntax text color: \textcolor{red}{}
+% Example text color: \textcolor{red!70}{}
+% New command for red-teletype text: \R{\T{•}}
+
+\documentclass[10 pt]{article}
+
+\usepackage[document]{ragged2e}
+\usepackage[margin=2cm]{geometry}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl
+}
+\usepackage{xcolor}
+
+\newcommand{\R}{\textcolor{red}} % Just replacement.
+\newcommand{\T}{\texttt}
+
+\title{Bash command line and Git}
+\author{Sofiullah Iqbal Kiron}
+
+\begin{document}
+
+\maketitle
+\justify
+
+If git is already installed in your system, then bash command line interface are installed also. Type and run command from it, the command might be Linux, UNIX or standard git command. All of the git command starts with keyword \R{\T{git}}.\\
+Simple bash commands:
+
+\section*{Bash Commands}
+\begin{enumerate}
+	\item To get help or print manual list of any command just type \R{\T{command --help}}
+	\item Sometimes we want to create a new file or there may be times when the requirement is to change the timestamps of a file. The \R{\T{touch [option]...FILE...}} command is primarily used to change file timestamps, but if the file(whose name is passed as an argument with extension) doesn't exist, the the command will create it. Ex. \textcolor{red!70}{\texttt{touch newText.txt}} will create a new text file at working directory by that specified name if not already exist.
+	\item To remove a directory and all its contents, including sub-directories and files (cmd command): \R{\T{rm -r "directory name"}} r stands for recursive. That means recursively remove all.
+	\item Powershell version: Run as administrator, type \R{\T{\$PSVersionTable}}, hit enter.
+	\item Linux/UNIX command to write something on a file: \R{\T{echo message > fileNameWithExtension}} Ex: \textcolor{red!70}{\texttt{echo Hello > file.txt}}
+	
+	\item Directory:
+		\begin{enumerate}
+			\item Make: \R{\T{mkdir dirName}}
+			\item Change working directory: \R{\T{cd dirNameWithFullPath}}
+			\item Path of working directory: \R{\T{pwd}}
+		\end{enumerate}
+	
+	\item \R{\T{Start}}:
+		\begin{enumerate}
+			\item \R{\T{explorer}}
+			\item \R{\T{texmaker}}
+			\item \R{\T{msedge}} or \R{\T{msedge <link>}}
+			\item \R{\T{chrome}} or \R{\T{chrome <link>}}
+			\item \R{\T{brackets}}
+			
+			\item \R{\T{cmd}}
+			\item \R{\T{powershell}}
+		\end{enumerate}
+	
+	\item List:
+		\begin{enumerate}
+			\item Simple: \R{\T{ls / dir}}
+			\item Hidden included: \R{\T{ls/dir -a}}
+			\item Hidden included with details: \R{\T{ls/dir -all}}
+		\end{enumerate}
+		
+	\item Let's some fun:
+		\begin{enumerate}
+			\item \R{\T{factor n}} will print prime factors of \R{\T{n}}. It is a build-in program like we say.
+		\end{enumerate}
+	
+	\item If we wanna see all the commands(that we typed and hit enter, not matter right or wrong the command was) as a list: \R{\T{history}}
+	\item Clear the history: \R{\T{history -c}}
+	\item Clear console: \R{\T{clear}}
+	\item Exit from bash terminal: \R{\T{logout}}
+\end{enumerate}
+
+\section*{Git commands}
+
+\begin{enumerate}
+	\item Check git version: \R{\T{git --version}}
+	\item Initialize a new empty local repository: \texttt{git init} :- a hidden folder will be created with name ".git"
+	\item \texttt{git config --global user.name "My Name"}
+	\item \texttt{git config --email myEmail}
+	\item Adding/Staging(give access to git tracker) files:
+		\begin{enumerate}
+			\item Specified: \texttt{git add fileName}
+			\item Multiple: \texttt{git add file1 file2 file3}, space separated.
+			\item Specified by extension: \texttt{git add *.ext}
+			\item All: \texttt{git add .}
+		\end{enumerate}
+	\item Staging logs:
+		\begin{enumerate}
+			\item Full log: \texttt{git log}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory.
+			\item One lined: \texttt{git log --oneline}
+			\item Last N commits by a non negative integer: \texttt{git log -N}, N means non-negative integer as, 2, 6. eg. \texttt{git commit -3} will show last 3 log.
+			\item In reverse order, full: \R{\T{git log --reverse}}.
+			\item In reverse order, one lined: \R{\T{git log --oneline --reverse}}.
+			\item Show commit changes: \R{\T{git show commitID}} or, \R{\T{git show HEAD~n}}, here HEAD is the last commit we did and n is an integer indicating that go n steps back from HEAD and then show the commit changes.
+		\end{enumerate}
+	\item File list in staging area: \R{\T{git ls-files}}
+	\item File list with tree: \R{\T{git ls-tree commitID}}	or, \R{\T{git ls-tree HEAD~n}}
+	
+	\item Status:
+		\begin{enumerate}
+			\item Full status: \R{\T{git status}}
+			\item Short status: \R{\T{git status -s}}, I think, \R{\T{-s}} stands for "short".
+		\end{enumerate}
+	\item Configuration:
+		\begin{enumerate}
+			\item Full: \R{\T{git config --list}}
+			\item Specified by key: \R{\T{git config <key>}} e.g. To get user name that already been configured, \textcolor{red!70}{{git config user.name}}
+		\end{enumerate}
+	\item Get a full copy of an existing repository: \R{\T{git clone <url>}}
+	
+	\item Set default editor for git
+	\item Open the dot git folder: \R{\T{start .git}}
+	\item Remove tracking access from git: delete the \R{\T{.git}} hidden directory.
+	
+	\item Update git: \R{\T{git update-git-for-windows}}
+	\item Every git commit contains a distinct ID, Message, Date/Time, Author, Complete snapshot of project.
+	
+	\item To see remote servers you have configured, you can run the "git remote" command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can also use \texttt{-v} option to shows Related URLs that git has stored for the shortname.
+	\item Add a remote: \R{\T{git remote add <shortname> <url>}}
+	\item Lists all the remotes with server link details: \R{\T{git remote -v}}
+	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: git fetch <shortname>
+	\item Inspecting a remote: If you want to see more information about a particular remote: \texttt{git remote show <remoteShortName>}
+	\item Rename remote: \R{\T{git remote rename <oldShortName> <newShortName>}}
+	\item Remove remote: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
+\end{enumerate}
+
+\end{document}

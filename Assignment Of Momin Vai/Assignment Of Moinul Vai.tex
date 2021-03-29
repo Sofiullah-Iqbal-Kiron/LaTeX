@@ -14,7 +14,6 @@
 % \usepackage[left=2cm, right=2cm, top=2cm, bottom=3cm]{geometry}
 
 \usepackage{multicol}
-\columnseprule = 0.5 mm
 
 \usepackage
 {
@@ -88,26 +87,11 @@
 Course Code: EEE369 \\
 Course Title: Industrial Training
 
-\pagebreak
-
-Rewriting submission details: \\
-\begin{tabular}{| c | c |}
-\hline
-Submitted From & Submitted To \\
-\hline
-\begin{tabular}{c c}
-Name: & MD. MOMIN BISWAS \\
-Department: & EEE \\
-ID: & 16EEE014 \\
-\end{tabular}
-&
-\begin{tabular}{c c}
-Name: & Pantha Protim Sarker \\
-Department: & Electrical and Electronic Engineering \\
-Status: & Lecturer \\
-\end{tabular}
-\\ \hline
-\end{tabular}
+\columnseprule = 0.1 mm
+\begin{multicols}{2}
+There is an interface named \textit{\textcolor{blue}{Comparable}} and has a \textit{\textcolor{blue}{compare}} method at this. we can use(override) this method for our own manipulation of sorting / ordering. \textsf{Comparable} implementations provide a \textit{natural ordering} for a class, which allows objects of that class to be sorted automatically.\linebreak
+If you try to sort a list, which don not implement Comparable, will throw a \textbf{\textcolor{blue}{ClassCastException}}. Similarly, \textit{Collections.sort(list)} will throw the same exception if we try to sort that list whose elements cannot be compared to one another.
+\end{multicols}
 
 \pagebreak
 
@@ -208,6 +192,7 @@ After substantial completion of the project, the mine was taken over from the Co
 \begin{center}
 \rowcolors{3}{green!35}{green!70}
 \arrayrulecolor{white}
+\columnseprule = 0.5 mm
 	\begin{longtable}{|| m{14 em} || m{15 em} ||}
 		\hline\hline
 		\rowcolor{teal!20}
@@ -250,19 +235,19 @@ The major components of the plant are high, intermediate and differential low-pr
 		\rowcolor{teal!20}
 			\hline
 			\rowcolor{green!70}
-			\textbf{\textit{Name}} & \textbf{\textit{Rating}}\\
+			\textbf{\textit{Name}} & \textbf{\textit{Rating}} \\
 			\hline\hline
-			Generation Voltage & 125MW = 13.8 KV\\
+			Generation Voltage & 125MW = 13.8 KV \\
 			\hline
-			Generation Voltage & 175MW = 20 KV\\
+			Generation Voltage & 175MW = 20 KV \\
 			\hline
-			\multicolumn{2}{c}{Total Grid Voltage - 230 KV}\\
+			\multicolumn{2}{c}{Total Grid Voltage - 230 KV} \\
 			\hline\hline
 	\end{longtable}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=230pt,height=300pt]{Gallery/Grid.png}
+\includegraphics[width=\textwidth-110pt, height=300pt]{Gallery/Grid.png}
 \caption{Connection Grid}
 \end{figure}
 

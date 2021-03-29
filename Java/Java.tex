@@ -1,4 +1,31 @@
-\documentclass[9 pt]{book}
+\documentclass[10 pt]{article}
+
+\usepackage[document]{ragged2e}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl,
+	listings
+}
+\usepackage[table]{xcolor}
+\usepackage[margin=2.7cm]{geometry}
+
+\lstset
+{
+ language = Java,
+ backgroundcolor = \color{black!5},
+ basicstyle = \footnotesize\ttfamily, % Add all style properties without comma separator.
+ keywordstyle = \color{blue},
+ commentstyle = \color{green!80},
+ showstringspaces = false,
+ stringstyle = \color{red},
+ captionpos = b %, b: bottom
+ % numbers=left/right
+}
+
+\newcommand{\R}{\textcolor{red}} % Just replacement.
+\newcommand{\T}{\texttt}
 
 \title{Just Java}
 \author{Sofiullah Iqbal Kiron}
@@ -6,8 +33,9 @@
 \begin{document}
 
 \maketitle
+\justify
 
-\chapter{No Chapter}
+\section{Beginning}
 Java is an open source high-level, general-purpose(hard \& used to develop any kind of programs), object oriented language. If you wanna be a software developer than you must learn that 4 languages:-
 
 \begin{enumerate}
@@ -39,5 +67,62 @@ Java has two types of error. Syntax error and Semantic error. Syntax error is gr
 	\item[$\rightarrow$] "I are playing" - that's the syntax error.
 	\item[$\rightarrow$] "He is hello" - this line has no meaning, semantic error.
 \end{itemize}
+
+\section{Mosh}
+\subsection{Behind}
+In programming, there are many type of paradigms(ways of formatting/writing code) like: Procedural, Functional, Object-oriented, Event-driven, Logic, Aspect-oriented. From those, Functional(JavaScript often use) and Object-oriented are two most popular programming paradigms. In OOP, everything based on object. An object has two main features, data/state/field and function/method/behavior.
+
+\section{JAR}
+Means Java Archive like as zip files. That encapsulate and compress project files into one file. Package file format typically used to aggregate many java classes and associated metadata\footnote{Data that provides information about another data, data of data.} and resources(text, images) for distribution. The contents in a jar file can be decompressed and extracted using any standard decompression software or jar command line utility: "jar -xf file\_name.jar". Some operating systems can run when "Just Click"ed. Command line argument: "java -jar file\_name.jar". To create native launcher\footnote{executable software at current OS} at Windows, JSmooth, Launch4J(free), WinRun4J etc. For further information, Google IT. \\
+To work with JAR files, use Java Archive Tool that provided as part of the Java Development Tool(JDK). Invoke using "jar" command utility.
+
+\begin{enumerate}
+	\item[Creating a jar: ] \R{\T{jar cf jar-file.jar input-file(s)\footnote{Space separated names with dot extension}}}
+	\item[View contents: ] \R{\T{jar tf jar-file.jar}}
+	\item[Extract contents: ] \R{\T{jar xf jar-file.jar}}
+	\item[Run: ] Run an application packaged as JAR (requires the Main-Class manifest header). \R{\T{java -jar app.jar}} The \R{\T{-jar}} flag tells the launcher that the application is packaged in the JAR file format. You can only specify one JAR file, which must contain all of the application-specific code. Before you execute this command, make sure that the runtime environment has information about which class within the JAR file is the application's entry point.
+	\item[Entry Point: ] To setting up the applications entry point,
+\end{enumerate}
+
+\section{The Process API, Since 9}
+API: Application Programming Interface. \\
+The process API lets you start, retrieve information about and manage native system processes. The process API consist of ProcessBuilder class, Process abstract class, ProcessHandle interface and ProcessHandle.Info interface.
+
+\section{Queue, Since 1.5}
+Queue interface is a member of Java Collections Framework (JCF). A collection designed for holding elements prior to processing. Beside basic Collection operations, queues provide additional Insertion, Extraction and Inspection operations. We can use all of Collection methods to a queue. Declaration in JDK:
+\begin{lstlisting}
+public interface Queue<E>
+\end{lstlisting}
+Where E is the type parameter. \\
+Queues typically but do no necessarily, order elements in First-In-First-Out, FIFO manner. All new elements are inserted at the tail of the queue. Every queue implementations must specify it's ordering properties. Using boolean offer(E e) method is preferable to Collection.add(E e) cause, it inserts an element if possible, otherwise returns false. The E remove() and E poll() methods remove the head after return it. If the queue is empty, remove() method throw an exception where poll() return null. I think poll() is good enough. \\
+The element() and peek() method return head without removing it. peek() is special because it return null if the queue is empty where element() throws exception. \\
+Queue implementations not allows null insertion, generally. Although some implementations like LinkedList, do not prohibit insertion of null but we should not insert null because poll() method returns null to indicate that the queue is empty. I would use LinkedList implementation. \\
+Other methods in java.util.Collection useful for queue: addAll, clear, contains, equals, isEmpty, size, toArray.
+
+\section{Deque: Member, Java Collection Framework}
+The deque(usually pronounced as deck) is double-ended-queue is a linear collection of elements that supports the insertion and deletion from both ended point. Predefined classes like \textbf{ArrayDeque} and \textbf{LinkedList} implements \textbf{Deque}. It is rich because it implements both \textbf{stack} and \textbf{queue} at the same time.
+\paragraph{Deque: Insert}
+Methods available, \textbf{addFirst()}, \textbf{offerFirst()} and \textbf{addLast()}, \textbf{offerLast()}. \\
+\textbf{offerFirst()} and \textbf{offerLast()} methods are preferable for insertion.
+\paragraph{Deque: Remove}
+Methods: \textbf{removeFirst()}, \textbf{pollFirst()} and \textbf{removeLast()}, \textbf{pollLast()} removes element from the collection. \\
+\textbf{pollFirst()} and \textbf{pollLast()} are preferable because they return null if the collection is empty wheres \textbf{removeFirst()} and \textbf{removeLast()} throws exception(Exceptions are not easy to handling, that's why).
+\paragraph{Deque: Retrieve}
+Methods: \textbf{getFirst()}, \textbf{peekFirst()} and \textbf{getLast()}, \textbf{peekLast()}. \\
+\textbf{peekFirst()} and \textbf{peekLast()} are preferable because they will return null if the collection is empty wheres the other two methods throws exception. \\
+\paragraph{Some other useful methods:} removeFirstOccurrence(Object o), removeLastOccurrence(Object o), contains(Object o), size(), removeAll(), addAll(), isEmpty(), toArray() etc.
+
+\section{Map}
+Map is an interface representing (Key, Value) pair. Map does not contain duplicate key. Declaration
+\begin{lstlisting}
+public interface Map<Key, Value>
+\end{lstlisting}
+Some implementing classes: AbstractMap, HashMap, LinkedHashMap, TreeMap(Sorted implementations). To see full list of implementing classes, browse on the oracle's site. \\
+The Map interface provides three collection views:
+\begin{enumerate}
+	\item Set of keys
+	\item Collection of values
+	\item Set of key-value pair
+\end{enumerate}
 
 \end{document}

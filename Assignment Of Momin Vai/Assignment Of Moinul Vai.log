@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  26 JAN 2021 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 FEB 2021 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,19 +893,19 @@ File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \outfile=\write7
 \openout7 = `version.dat'.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+Package hyperref Info: Option `colorlinks' set `true' on input line 62.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 63.
+(hyperref)                setting the option has no effect on input line 62.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 63.
+(hyperref)                setting the option has no effect on input line 62.
 
-Package hyperref Info: Option `linktocpage' set `false' on input line 63.
-Package hyperref Info: Option `breaklinks' set `false' on input line 63.
-Package hyperref Info: Option `frenchlinks' set `false' on input line 63.
+Package hyperref Info: Option `linktocpage' set `false' on input line 62.
+Package hyperref Info: Option `breaklinks' set `false' on input line 62.
+Package hyperref Info: Option `frenchlinks' set `false' on input line 62.
 \"Assignment Of Moinul Vai"@idxfile=\write8
 \openout8 = `"Assignment Of Moinul Vai.idx"'.
 
@@ -918,22 +918,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Assignment Of Moinul Vai.aux)
 \openout1 = `"Assignment Of Moinul Vai.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -958,9 +958,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-Package ragged2e Info: ABD: executing \RaggedRight on input line 70.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 69.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 70.
+LaTeX Info: Redefining \selectfont on input line 69.
 
 (c:/texlive/2019/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
@@ -969,10 +969,10 @@ File: fc-english.def 2016/01/12
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 70.
+ on input line 69.
 
 \AtBeginShipoutBox=\box124
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 69.
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -984,9 +984,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
 (./Assignment Of Moinul Vai.out) (./Assignment Of Moinul Vai.out)
 \@outlinefile=\write9
@@ -995,385 +995,381 @@ LaTeX Info: Redefining \nameref on input line 70.
 \GPT@outputbox=\box125
  [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 94.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 94.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 94.
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 9
+2.
 
-Overfull \hbox (121.91425pt too wide) in paragraph at lines 94--111
-[][]  
- []
-
-[3] (./Assignment Of Moinul Vai.toc [4])
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [2]
+(./Assignment Of Moinul Vai.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+ [3])
 \tf@toc=\write10
 \openout10 = `"Assignment Of Moinul Vai.toc"'.
 
- [5] (./Assignment Of Moinul Vai.lof)
+ [4] (./Assignment Of Moinul Vai.lof)
 \tf@lof=\write11
 \openout11 = `"Assignment Of Moinul Vai.lof"'.
 
 
-[6]
+[5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 128.
+(Font)              <9> on input line 112.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 128.
- [7]
-<Gallery/One.jpg, id=248, 270.00874pt x 187.70125pt>
+(Font)              <5> on input line 112.
+ [6]
+<Gallery/One.jpg, id=244, 270.00874pt x 187.70125pt>
 File: Gallery/One.jpg Graphic file (type jpg)
 <use Gallery/One.jpg>
-Package pdftex.def Info: Gallery/One.jpg  used on input line 135.
+Package pdftex.def Info: Gallery/One.jpg  used on input line 119.
 (pdftex.def)             Requested size: 190.0pt x 132.08308pt.
-<Gallery/Two.jpg, id=249, 302.12875pt x 167.62625pt>
+<Gallery/Two.jpg, id=245, 302.12875pt x 167.62625pt>
 File: Gallery/Two.jpg Graphic file (type jpg)
 <use Gallery/Two.jpg>
-Package pdftex.def Info: Gallery/Two.jpg  used on input line 136.
+Package pdftex.def Info: Gallery/Two.jpg  used on input line 120.
 (pdftex.def)             Requested size: 160.0pt x 88.76985pt.
-<Gallery/Three.jpg, id=250, 301.125pt x 168.63pt>
+<Gallery/Three.jpg, id=246, 301.125pt x 168.63pt>
 File: Gallery/Three.jpg Graphic file (type jpg)
 <use Gallery/Three.jpg>
-Package pdftex.def Info: Gallery/Three.jpg  used on input line 137.
+Package pdftex.def Info: Gallery/Three.jpg  used on input line 121.
 (pdftex.def)             Requested size: 160.0pt x 89.60246pt.
-<Gallery/Four.jpg, id=251, 259.97125pt x 194.7275pt>
+<Gallery/Four.jpg, id=247, 259.97125pt x 194.7275pt>
 File: Gallery/Four.jpg Graphic file (type jpg)
 <use Gallery/Four.jpg>
-Package pdftex.def Info: Gallery/Four.jpg  used on input line 138.
+Package pdftex.def Info: Gallery/Four.jpg  used on input line 122.
 (pdftex.def)             Requested size: 190.0pt x 142.31627pt.
-<Gallery/Five.jpg, id=252, 276.03125pt x 183.68625pt>
+<Gallery/Five.jpg, id=248, 276.03125pt x 183.68625pt>
 File: Gallery/Five.jpg Graphic file (type jpg)
 <use Gallery/Five.jpg>
-Package pdftex.def Info: Gallery/Five.jpg  used on input line 139.
+Package pdftex.def Info: Gallery/Five.jpg  used on input line 123.
 (pdftex.def)             Requested size: 99.99873pt x 49.99954pt.
-<Gallery/Six.jpg, id=253, 264.99pt x 191.71625pt>
+<Gallery/Six.jpg, id=249, 264.99pt x 191.71625pt>
 File: Gallery/Six.jpg Graphic file (type jpg)
 <use Gallery/Six.jpg>
-Package pdftex.def Info: Gallery/Six.jpg  used on input line 140.
+Package pdftex.def Info: Gallery/Six.jpg  used on input line 124.
 (pdftex.def)             Requested size: 140.0pt x 101.28732pt.
-<Gallery/Seven.jpg, id=254, 321.2pt x 157.58875pt>
+<Gallery/Seven.jpg, id=250, 321.2pt x 157.58875pt>
 File: Gallery/Seven.jpg Graphic file (type jpg)
 <use Gallery/Seven.jpg>
-Package pdftex.def Info: Gallery/Seven.jpg  used on input line 141.
+Package pdftex.def Info: Gallery/Seven.jpg  used on input line 125.
 (pdftex.def)             Requested size: 100.0pt x 49.0612pt.
- [8 <./Gallery/One.jpg> <./Gallery/Two.jpg> <./Gallery/Three.jpg> <./Gallery/Fo
+ [7 <./Gallery/One.jpg> <./Gallery/Two.jpg> <./Gallery/Three.jpg> <./Gallery/Fo
 ur.jpg> <./Gallery/Five.jpg> <./Gallery/Six.jpg> <./Gallery/Seven.jpg>]
-<Gallery/Impoundment-Power-Plants.png, id=259, 1058.45438pt x 595.47469pt>
+<Gallery/Impoundment-Power-Plants.png, id=256, 1058.45438pt x 595.47469pt>
 File: Gallery/Impoundment-Power-Plants.png Graphic file (type png)
 <use Gallery/Impoundment-Power-Plants.png>
 Package pdftex.def Info: Gallery/Impoundment-Power-Plants.png  used on input li
-ne 154.
+ne 138.
 (pdftex.def)             Requested size: 190.0pt x 106.89005pt.
-<Gallery/Diversion-Power-Plants.png, id=260, 1058.45438pt x 595.47469pt>
+<Gallery/Diversion-Power-Plants.png, id=257, 1058.45438pt x 595.47469pt>
 File: Gallery/Diversion-Power-Plants.png Graphic file (type png)
 <use Gallery/Diversion-Power-Plants.png>
 Package pdftex.def Info: Gallery/Diversion-Power-Plants.png  used on input line
- 156.
+ 140.
 (pdftex.def)             Requested size: 190.0pt x 106.89005pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[9 <./Gallery/Impoundment-Power-Plants.png> <./Gallery/Diversion-Power-Plants.p
+[8 <./Gallery/Impoundment-Power-Plants.png> <./Gallery/Diversion-Power-Plants.p
 ng>]
-<Gallery/Nuclear-Power-Plants.png, id=271, 1058.45438pt x 595.47469pt>
+<Gallery/Nuclear-Power-Plants.png, id=268, 1058.45438pt x 595.47469pt>
 File: Gallery/Nuclear-Power-Plants.png Graphic file (type png)
 <use Gallery/Nuclear-Power-Plants.png>
 Package pdftex.def Info: Gallery/Nuclear-Power-Plants.png  used on input line 1
-66.
+50.
 (pdftex.def)             Requested size: 190.0pt x 106.89005pt.
-<Gallery/Coal-Power-Plants.png, id=272, 1058.45438pt x 595.47469pt>
+<Gallery/Coal-Power-Plants.png, id=269, 1058.45438pt x 595.47469pt>
 File: Gallery/Coal-Power-Plants.png Graphic file (type png)
 <use Gallery/Coal-Power-Plants.png>
-Package pdftex.def Info: Gallery/Coal-Power-Plants.png  used on input line 168.
+Package pdftex.def Info: Gallery/Coal-Power-Plants.png  used on input line 152.
 
 (pdftex.def)             Requested size: 190.0pt x 106.89005pt.
-<Gallery/Solar-Power-Plants.png, id=273, 1058.45438pt x 595.47469pt>
+<Gallery/Solar-Power-Plants.png, id=270, 1058.45438pt x 595.47469pt>
 File: Gallery/Solar-Power-Plants.png Graphic file (type png)
 <use Gallery/Solar-Power-Plants.png>
-Package pdftex.def Info: Gallery/Solar-Power-Plants.png  used on input line 171
+Package pdftex.def Info: Gallery/Solar-Power-Plants.png  used on input line 155
 .
 (pdftex.def)             Requested size: 190.0pt x 106.89005pt.
- [10 <./Gallery/Nuclear-Power-Plants.png> <./Gallery/Coal-Power-Plants.png>]
-<Gallery/Wind-Power-Plants.png, id=284, 1058.45438pt x 595.47469pt>
+ [9 <./Gallery/Nuclear-Power-Plants.png> <./Gallery/Coal-Power-Plants.png>]
+<Gallery/Wind-Power-Plants.png, id=281, 1058.45438pt x 595.47469pt>
 File: Gallery/Wind-Power-Plants.png Graphic file (type png)
 <use Gallery/Wind-Power-Plants.png>
-Package pdftex.def Info: Gallery/Wind-Power-Plants.png  used on input line 173.
+Package pdftex.def Info: Gallery/Wind-Power-Plants.png  used on input line 157.
 
 (pdftex.def)             Requested size: 160.0pt x 90.00789pt.
-<Gallery/wind power plnt.jpg, id=285, 364.36125pt x 139.52126pt>
+<Gallery/wind power plnt.jpg, id=282, 364.36125pt x 139.52126pt>
 File: Gallery/wind power plnt.jpg Graphic file (type jpg)
 <use Gallery/wind power plnt.jpg>
-Package pdftex.def Info: Gallery/wind power plnt.jpg  used on input line 175.
+Package pdftex.def Info: Gallery/wind power plnt.jpg  used on input line 159.
 (pdftex.def)             Requested size: 159.99698pt x 108.00224pt.
- [11 <./Gallery/Solar-Power-Plants.png> <./Gallery/Wind-Power-Plants.png> <./Ga
-llery/wind power plnt.jpg>]
+[10 <./Gallery/Solar-Power-Plants.png> <./Gallery/Wind-Power-Plants.png> <./Gal
+lery/wind power plnt.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 188.
- [12]
-<Gallery/boropurkuria thermal power station.JPG, id=306, 682.04813pt x 448.6762
+(Font)              <12> on input line 172.
+ [11]
+<Gallery/boropurkuria thermal power station.JPG, id=303, 682.04813pt x 448.6762
 5pt>
 File: Gallery/boropurkuria thermal power station.JPG Graphic file (type jpg)
 <use Gallery/boropurkuria thermal power station.JPG>
 Package pdftex.def Info: Gallery/boropurkuria thermal power station.JPG  used o
-n input line 200.
+n input line 184.
 (pdftex.def)             Requested size: 299.99803pt x 179.99448pt.
 
-Overfull \hbox (1.29597pt too wide) in paragraph at lines 200--201
+Overfull \hbox (1.29597pt too wide) in paragraph at lines 184--185
 [][]  
  []
 
-[13 <./Gallery/boropurkuria thermal power station.JPG>]
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-14.
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Overfull \hbox (13.06677pt too wide) in alignment at lines 211--230
+[12 <./Gallery/boropurkuria thermal power station.JPG>]
+Overfull \hbox (13.06677pt too wide) in alignment at lines 196--215
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 230
+Underfull \vbox (badness 10000) detected at line 215
  []
 
-[14] [15] [16]
-Underfull \vbox (badness 10000) detected at line 261
+[13] [14] [15]
+Underfull \vbox (badness 10000) detected at line 246
  []
 
-<Gallery/Grid.png, id=327, 260.47313pt x 380.92313pt>
+<Gallery/Grid.png, id=324, 260.47313pt x 380.92313pt>
 File: Gallery/Grid.png Graphic file (type png)
 <use Gallery/Grid.png>
-Package pdftex.def Info: Gallery/Grid.png  used on input line 265.
-(pdftex.def)             Requested size: 230.00003pt x 300.0076pt.
-[17 <./Gallery/Grid.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+Package pdftex.def Info: Gallery/Grid.png  used on input line 250.
+(pdftex.def)             Requested size: 249.99968pt x 300.0076pt.
+[16 <./Gallery/Grid.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 286--291
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 301--306
+Underfull \hbox (badness 10000) in paragraph at lines 322--328
 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 337--343
-
- []
-
-[20] [21]
-Overfull \hbox (1.64679pt too wide) in paragraph at lines 370--370
+[19] [20]
+Overfull \hbox (1.64679pt too wide) in paragraph at lines 355--355
 []|\T1/cmr/m/n/9 SI.|  
  []
 
 
-Overfull \hbox (3.19017pt too wide) in paragraph at lines 370--370
+Overfull \hbox (3.19017pt too wide) in paragraph at lines 355--355
 []|\T1/cmr/m/n/9 Type 
  []
 
 
-Overfull \hbox (6.4566pt too wide) in paragraph at lines 370--370
+Overfull \hbox (6.4566pt too wide) in paragraph at lines 355--355
 []|\T1/cmr/m/n/6 Efficiency(%)|  
  []
 
 
-Overfull \hbox (1.96053pt too wide) in paragraph at lines 370--371
+Overfull \hbox (1.96053pt too wide) in paragraph at lines 355--356
 \T1/cmr/m/n/6 ciency(%)(Net)|  
  []
 
 
-Overfull \hbox (2.46603pt too wide) in paragraph at lines 372--372
+Overfull \hbox (2.46603pt too wide) in paragraph at lines 357--357
 []|\T1/cmr/m/n/6 (a)Barapukuria 
  []
 
 
-Overfull \hbox (0.87477pt too wide) in paragraph at lines 372--372
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 357--357
 []|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (2.85483pt too wide) in paragraph at lines 374--374
+Overfull \hbox (2.85483pt too wide) in paragraph at lines 359--359
 []|\T1/cmr/m/n/6 (b)Barapukuria 
  []
 
 
-Overfull \hbox (0.87477pt too wide) in paragraph at lines 374--374
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 359--359
 []|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (3.26308pt too wide) in paragraph at lines 374--374
+Overfull \hbox (3.26308pt too wide) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 1126.0726|  
  []
 
 
-Overfull \hbox (0.9137pt too wide) in paragraph at lines 374--374
+Overfull \hbox (0.9137pt too wide) in paragraph at lines 359--359
 []|\T1/cmr/m/n/12 52.32|  
  []
 
 
-Overfull \hbox (22.70586pt too wide) in alignment at lines 364--376
+Overfull \hbox (22.70586pt too wide) in alignment at lines 349--361
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 376
+Underfull \vbox (badness 10000) detected at line 361
  []
 
 
 Overfull \vbox (3.45366pt too high) has occurred while \output is active []
 
 
-[22]
-Overfull \hbox (1.64679pt too wide) in paragraph at lines 388--388
+[21]
+Overfull \hbox (1.64679pt too wide) in paragraph at lines 373--373
 []|\T1/cmr/m/n/9 SI.|  
  []
 
 
-Overfull \hbox (3.19017pt too wide) in paragraph at lines 388--388
+Overfull \hbox (3.19017pt too wide) in paragraph at lines 373--373
 []|\T1/cmr/m/n/9 Type 
  []
 
 
-Overfull \hbox (6.4566pt too wide) in paragraph at lines 388--388
+Overfull \hbox (6.4566pt too wide) in paragraph at lines 373--373
 []|\T1/cmr/m/n/6 Efficiency(%)|  
  []
 
 
-Overfull \hbox (1.96053pt too wide) in paragraph at lines 388--389
+Overfull \hbox (1.96053pt too wide) in paragraph at lines 373--374
 \T1/cmr/m/n/6 ciency(%)(Net)|  
  []
 
 
-Overfull \hbox (2.46603pt too wide) in paragraph at lines 390--390
+Overfull \hbox (2.46603pt too wide) in paragraph at lines 375--375
 []|\T1/cmr/m/n/6 (a)Barapukuria 
  []
 
 
-Overfull \hbox (0.87477pt too wide) in paragraph at lines 390--390
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 375--375
 []|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (2.85483pt too wide) in paragraph at lines 392--392
+Overfull \hbox (2.85483pt too wide) in paragraph at lines 377--377
 []|\T1/cmr/m/n/6 (b)Barapukuria 
  []
 
 
-Overfull \hbox (0.87477pt too wide) in paragraph at lines 392--392
+Overfull \hbox (0.87477pt too wide) in paragraph at lines 377--377
 []|\T1/cmr/m/n/9 Coal|  
  []
 
 
-Overfull \hbox (0.9137pt too wide) in paragraph at lines 392--392
+Overfull \hbox (0.9137pt too wide) in paragraph at lines 377--377
 []|\T1/cmr/m/n/12 80.60|  
  []
 
 
-Overfull \hbox (22.70586pt too wide) in alignment at lines 382--394
+Overfull \hbox (22.70586pt too wide) in alignment at lines 367--379
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 394
+Underfull \vbox (badness 10000) detected at line 379
+ []
+
+[22]
+Overfull \hbox (0.76352pt too wide) in paragraph at lines 400--400
+\T1/cmr/m/n/9 Cost(Tk/kWh)|  
+ []
+
+
+Overfull \hbox (8.60013pt too wide) in alignment at lines 387--408
+ [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 408
  []
 
 [23]
-Overfull \hbox (0.76352pt too wide) in paragraph at lines 415--415
+Overfull \hbox (0.76352pt too wide) in paragraph at lines 426--426
 \T1/cmr/m/n/9 Cost(Tk/kWh)|  
  []
 
 
-Overfull \hbox (8.60013pt too wide) in alignment at lines 402--423
+Overfull \hbox (8.60013pt too wide) in alignment at lines 413--434
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 423
+Underfull \vbox (badness 10000) detected at line 434
  []
 
 [24]
-Overfull \hbox (0.76352pt too wide) in paragraph at lines 441--441
-\T1/cmr/m/n/9 Cost(Tk/kWh)|  
- []
-
-
-Overfull \hbox (8.60013pt too wide) in alignment at lines 428--449
- [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 449
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-<../../../Downloads/CYMERA_20201221_210039.jpg, id=377, 853.1875pt x 537.00626p
+<../../../Downloads/CYMERA_20201221_210039.jpg, id=373, 853.1875pt x 537.00626p
 t>
 File: ../../../Downloads/CYMERA_20201221_210039.jpg Graphic file (type jpg)
 <use ../../../Downloads/CYMERA_20201221_210039.jpg>
 Package pdftex.def Info: ../../../Downloads/CYMERA_20201221_210039.jpg  used on
- input line 458.
+ input line 443.
 (pdftex.def)             Requested size: 360.00269pt x 220.0019pt.
-<Gallery/report figure.jpg, id=378, 182.3175pt x 113.004pt>
+<Gallery/report figure.jpg, id=374, 182.3175pt x 113.004pt>
 File: Gallery/report figure.jpg Graphic file (type jpg)
 <use Gallery/report figure.jpg>
-Package pdftex.def Info: Gallery/report figure.jpg  used on input line 469.
+Package pdftex.def Info: Gallery/report figure.jpg  used on input line 454.
 (pdftex.def)             Requested size: 300.0pt x 185.95023pt.
-[26 <../../../Downloads/CYMERA_20201221_210039.jpg>] [27 <./Gallery/report figu
-re.jpg>] [28] [29]
-Overfull \hbox (1.46849pt too wide) in paragraph at lines 501--501
+[25 <../../../Downloads/CYMERA_20201221_210039.jpg>] [26 <./Gallery/report figu
+re.jpg>] [27] [28]
+Overfull \hbox (1.46849pt too wide) in paragraph at lines 486--486
 []\T1/cmr/bx/n/14.4 Capability with the En-ergy Pol-icy of Bangladesh 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 505.
+(Font)              <20.74> on input line 490.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 505.
+(Font)              <14.4> on input line 490.
 
-Underfull \vbox (badness 10000) detected at line 522
+Underfull \vbox (badness 10000) detected at line 507
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--529
+Underfull \hbox (badness 10000) in paragraph at lines 512--514
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 545
+Underfull \vbox (badness 10000) detected at line 530
  []
 
-[30] [31] [32]
+[29] [30] [31]
 runsystem(makeindex "Assignment Of Moinul Vai".idx)...quotation error in system
  command.
 
- (./Assignment Of Moinul Vai.ind) [33
+ (./Assignment Of Moinul Vai.ind) [32
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
 
 (./Assignment Of Moinul Vai.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
 Package rerunfilecheck Info: File `"Assignment Of Moinul Vai".out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 7F985D64AB53D5320840109DCECF1F28;2467.
  ) 
 Here is how much of TeX's memory you used:
- 31336 strings out of 481239
- 755871 string characters out of 5921778
- 1167379 words of memory out of 5000000
- 45893 multiletter control sequences out of 15000+600000
- 556038 words of font info for 69 fonts, out of 8000000 for 9000
+ 31337 strings out of 481239
+ 755889 string characters out of 5921778
+ 1167381 words of memory out of 5000000
+ 45894 multiletter control sequences out of 15000+600000
+ 556811 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,14n,98p,3507b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,8n,98p,3507b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dis
@@ -1395,15 +1391,16 @@ fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2019/texmf-dist/fonts/type
 1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/c
 m-super/sfrm1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sf
 rm1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb
-><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2019/te
-xmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2019/texmf-dist/f
-onts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/public/cm-super/sfti1200.pfb>
-Output written on "Assignment Of Moinul Vai.pdf" (33 pages, 1603821 bytes).
+><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2019/texmf-dist/f
+onts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm
+-super/sfti1200.pfb>
+Output written on "Assignment Of Moinul Vai.pdf" (32 pages, 1611728 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 483 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 574 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
  399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
