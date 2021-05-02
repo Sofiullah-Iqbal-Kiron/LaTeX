@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  22 MAR 2021 08:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  29 APR 2021 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,23 +184,23 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Java.aux)
 \openout1 = `Java.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 34.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 33.
+LaTeX Info: Redefining \selectfont on input line 34.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -253,51 +253,51 @@ LaTeX Info: Redefining \selectfont on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
+(Font)              <5> on input line 51.
 [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (3.48024pt too wide) in paragraph at lines 96--101
+Overfull \hbox (3.48024pt too wide) in paragraph at lines 97--102
 \OT1/cmr/m/n/10 Queue im-ple-men-ta-tions not al-lows null in-ser-tion, gen-er-
 ally. Al-though some im-ple-men-ta-tions like LinkedList,
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
-[3] (./Java.aux) ) 
+[3] [4] (./Java.aux) ) 
 Here is how much of TeX's memory you used:
- 3941 strings out of 481239
- 53448 string characters out of 5921778
- 489894 words of memory out of 5000000
- 19204 multiletter control sequences out of 15000+600000
+ 3961 strings out of 481239
+ 53719 string characters out of 5921778
+ 498890 words of memory out of 5000000
+ 19224 multiletter control sequences out of 15000+600000
  536929 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,8n,40p,758b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c
-:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Java.pdf (3 pages, 133176 bytes).
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Java.pdf (4 pages, 142655 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

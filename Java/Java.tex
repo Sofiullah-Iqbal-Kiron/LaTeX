@@ -14,10 +14,10 @@
 \lstset
 {
  language = Java,
- backgroundcolor = \color{black!5},
+ backgroundcolor = \color{red!9},
  basicstyle = \footnotesize\ttfamily, % Add all style properties without comma separator.
  keywordstyle = \color{blue},
- commentstyle = \color{green!80},
+ commentstyle = \color{green!90},
  showstringspaces = false,
  stringstyle = \color{red},
  captionpos = b %, b: bottom
@@ -26,6 +26,7 @@
 
 \newcommand{\R}{\textcolor{red}} % Just replacement.
 \newcommand{\T}{\texttt}
+\newcommand{\I}{\item}
 
 \title{Just Java}
 \author{Sofiullah Iqbal Kiron}
@@ -39,16 +40,16 @@
 Java is an open source high-level, general-purpose(hard \& used to develop any kind of programs), object oriented language. If you wanna be a software developer than you must learn that 4 languages:-
 
 \begin{enumerate}
-	\item Python
-	\item Java
-	\item JavaScript
-	\item C / C++
+	\I Python
+	\I Java
+	\I JavaScript
+	\I C / C++
 \end{enumerate}
 
 In those, Java is second dominant (and popular also) language that you must learn if you wanna be a platform-independent developer. Also:-
 \begin{itemize}
-	\item[$\rightarrow$] Java has huge online community for getting help.
-	\item[$\rightarrow$] Can be used in android development that is most preferable thing today.
+	\I[$\rightarrow$] Java has huge online community for getting help.
+	\I[$\rightarrow$] Can be used in android development that is most preferable thing today.
 \end{itemize}
 
 \paragraph{Gosling explains his motivation for creating \textbf{JAVA}:}
@@ -56,16 +57,16 @@ James Gosling, father of \textbf{JAVA}. It is one of the world's most widely use
 
 \paragraph{Updated list (13 Nov, 2020)}
 \begin{enumerate}
-	\item Python
-	\item JavaScript
-	\item Java
-	\item C / C++
+	\I Python
+	\I JavaScript
+	\I Java
+	\I C / C++
 \end{enumerate}
 
 Java has two types of error. Syntax error and Semantic error. Syntax error is grammatical error and semantic error is that the line has no meaning.
 \begin{itemize}
-	\item[$\rightarrow$] "I are playing" - that's the syntax error.
-	\item[$\rightarrow$] "He is hello" - this line has no meaning, semantic error.
+	\I[$\rightarrow$] "I are playing" - that's the syntax error.
+	\I[$\rightarrow$] "He is hello" - this line has no meaning, semantic error.
 \end{itemize}
 
 \section{Mosh}
@@ -77,11 +78,11 @@ Means Java Archive like as zip files. That encapsulate and compress project file
 To work with JAR files, use Java Archive Tool that provided as part of the Java Development Tool(JDK). Invoke using "jar" command utility.
 
 \begin{enumerate}
-	\item[Creating a jar: ] \R{\T{jar cf jar-file.jar input-file(s)\footnote{Space separated names with dot extension}}}
-	\item[View contents: ] \R{\T{jar tf jar-file.jar}}
-	\item[Extract contents: ] \R{\T{jar xf jar-file.jar}}
-	\item[Run: ] Run an application packaged as JAR (requires the Main-Class manifest header). \R{\T{java -jar app.jar}} The \R{\T{-jar}} flag tells the launcher that the application is packaged in the JAR file format. You can only specify one JAR file, which must contain all of the application-specific code. Before you execute this command, make sure that the runtime environment has information about which class within the JAR file is the application's entry point.
-	\item[Entry Point: ] To setting up the applications entry point,
+	\I[Creating a jar: ] \R{\T{jar cf jar-file.jar input-file(s)\footnote{Space separated names with dot extension}}}
+	\I[View contents: ] \R{\T{jar tf jar-file.jar}}
+	\I[Extract contents: ] \R{\T{jar xf jar-file.jar}}
+	\I[Run: ] Run an application packaged as JAR (requires the Main-Class manifest header). \R{\T{java -jar app.jar}} The \R{\T{-jar}} flag tells the launcher that the application is packaged in the JAR file format. You can only specify one JAR file, which must contain all of the application-specific code. Before you execute this command, make sure that the runtime environment has information about which class within the JAR file is the application's entry point.
+	\I[Entry Point: ] To setting up the applications entry point,
 \end{enumerate}
 
 \section{The Process API, Since 9}
@@ -120,9 +121,56 @@ public interface Map<Key, Value>
 Some implementing classes: AbstractMap, HashMap, LinkedHashMap, TreeMap(Sorted implementations). To see full list of implementing classes, browse on the oracle's site. \\
 The Map interface provides three collection views:
 \begin{enumerate}
-	\item Set of keys
-	\item Collection of values
-	\item Set of key-value pair
+	\I Set of keys
+	\I Collection of values
+	\I Set of key-value pair
 \end{enumerate}
+
+\section{JToolBar}
+JToolBar is a component class of javax.swing . I love it. JToolBar is a group of buttons that provides commonly used actions to the users. It can be moved around runtime (floatable). Create a horizontal toolbar
+\begin{lstlisting}
+JToolBar toolbar\_name = new JToolBar(String name, int orientation)
+\end{lstlisting}
+Orientations:
+\begin{enumerate}
+	\I SwingConstants.HORIZONTAL, Value = 0
+	\I SwingConstants.VERTICAL. Value = 1
+\end{enumerate}
+
+Add some buttons to the toolbar. The buttons in toolbar need to be smaller than usual buttons. We can make button smaller in size by setting its margin to zero $(0)$. We should add tooltip to all buttons to give quick hint to the user.
+
+\section{Throwable and Exception}
+The Throwable class is the super class of all errors and exceptions in Java. Only objects that are instances of this class are thrown by Java Virtual Machine with throw statement. Other descriptions will be added later\dots
+\begin{lstlisting}
+public void printStackTrace()
+public void printStackTrace(PrintStream s)
+\end{lstlisting}
+This method used to print this throwable along with other details like class name and line numbers where the exception occurs means it's backtrace. Thsi method prints a stack trace on the standard error output stream. A great handy method to find out errors with details explanation.
+\begin{lstlisting}
+public class ThrowableDemo {
+    public static void main(String[] args) throws Exception {
+        try {
+            getException();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // This method will throw exception
+    private static void getException() throws Exception {
+        ArrayIndexOutOfBoundsException ae = new ArrayIndexOutOfBoundsException();
+        Exception e = new Exception();
+
+        // Initialize the cause and throw the exception
+        e.initCause(ae);
+        throw e;
+    }
+}
+\end{lstlisting}
+
+Exceptions are represented as an object in Java. Exceptions are subclass/childclass of Throwable.
+
+\section{Streams}
+Streams are not data type, it is pipeline of flow of data from a data storage/collection. Like a tank has water(collection) and flow of water through pipe from the tank is streams. All the classes that implements Collection class has stream method to make a data flow pipe. Like ArrayList, List has stream and utility class Arrays has stream() method to convert an array to stream.
 
 \end{document}
