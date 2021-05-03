@@ -10,7 +10,8 @@
 {
 	array, % Table formatting.
 	longtable, % Long table which takes up two or more pages.
-	colortbl
+	colortbl,
+	graphicx % \includegraphics and graphics related
 }
 \usepackage{xcolor}
 
@@ -18,7 +19,13 @@
 \newcommand{\T}{\texttt}
 
 \title{Bash command line and Git}
-\author{Sofiullah Iqbal Kiron}
+\author
+{
+	\includegraphics[scale=0.2]{../../../Pictures/Photoshop/User Profile.jpg} \\
+	Sofiullah Iqbal Kiron \\
+	\R{\rule{11 cm}{2 pt}}
+}
+\date{31 March, 2021}
 
 \begin{document}
 
@@ -78,21 +85,21 @@ Simple bash commands:
 
 \begin{enumerate}
 	\item Check git version: \R{\T{git --version}}
-	\item Initialize a new empty local repository: \texttt{git init} :- a hidden folder will be created with name ".git"
-	\item \texttt{git config --global user.name "My Name"}
-	\item \texttt{git config --email myEmail}
+	\item Initialize a new empty local repository: \R{\T{git init}} :- a hidden folder will be created with name ".git"
+	\item \R{\T{git config --global user.name "My Name"}}
+	\item \R{\T{git config --email myEmail}}
 	\item Adding/Staging(give access to git tracker) files:
 		\begin{enumerate}
-			\item Specified: \texttt{git add fileName}
-			\item Multiple: \texttt{git add file1 file2 file3}, space separated.
-			\item Specified by extension: \texttt{git add *.ext}
-			\item All: \texttt{git add .}
+			\item Specified: \R{\T{git add fileName}}
+			\item Multiple: \R{\T{git add file1 file2 file3}}, space separated.
+			\item Specified by extension: \R{\T{git add *.ext}}
+			\item All: \R{\T{git add .}}
 		\end{enumerate}
 	\item Staging logs:
 		\begin{enumerate}
-			\item Full log: \texttt{git log}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory.
-			\item One lined: \texttt{git log --oneline}
-			\item Last N commits by a non negative integer: \texttt{git log -N}, N means non-negative integer as, 2, 6. eg. \texttt{git commit -3} will show last 3 log.
+			\item Full log: \R{\T{git log}}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory.
+			\item One lined: \R{\T{git log --oneline}}
+			\item Last N commits by a non negative integer: \R{\T{git log -N}}, N means non-negative integer as, 2, 6. eg. \R{\T{git commit -3}} will show last 3 log.
 			\item In reverse order, full: \R{\T{git log --reverse}}.
 			\item In reverse order, one lined: \R{\T{git log --oneline --reverse}}.
 			\item Show commit changes: \R{\T{git show commitID}} or, \R{\T{git show HEAD~n}}, here HEAD is the last commit we did and n is an integer indicating that go n steps back from HEAD and then show the commit changes.
@@ -119,11 +126,11 @@ Simple bash commands:
 	\item Update git: \R{\T{git update-git-for-windows}}
 	\item Every git commit contains a distinct ID, Message, Date/Time, Author, Complete snapshot of project.
 	
-	\item To see remote servers you have configured, you can run the "git remote" command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can also use \texttt{-v} option to shows Related URLs that git has stored for the shortname.
+	\item To see remote servers you have configured, you can run the \R{\T{git remote}} command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can also use \R{\T{-v}} option to shows Related URLs that git has stored for the shortname.
 	\item Add a remote: \R{\T{git remote add <shortname> <url>}}
 	\item Lists all the remotes with server link details: \R{\T{git remote -v}}
-	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: git fetch <shortname>
-	\item Inspecting a remote: If you want to see more information about a particular remote: \texttt{git remote show <remoteShortName>}
+	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: \R{\T{git fetch <shortname>}}
+	\item Inspecting a remote: If you want to see more information about a particular remote: \R{\T{git remote show <remoteShortName>}}
 	\item Rename remote: \R{\T{git remote rename <oldShortName> <newShortName>}}
 	\item Remove remote: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
 \end{enumerate}
