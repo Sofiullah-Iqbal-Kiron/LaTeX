@@ -18,11 +18,11 @@
 \newcommand{\R}{\textcolor{red}} % Just replacement.
 \newcommand{\T}{\texttt}
 
-\title{Bash command line and Git}
+\title{\textcolor{blue}{Bash command line and Git}}
 \author
 {
-	\includegraphics[scale=0.2]{../../../Pictures/Photoshop/User Profile.jpg} \\
-	Sofiullah Iqbal Kiron \\
+	\includegraphics[scale=0.2]{User Profile.jpg} \\
+	\textit{Sofiullah Iqbal Kiron} \\
 	\R{\rule{11 cm}{2 pt}}
 }
 \date{31 March, 2021}
@@ -86,8 +86,7 @@ Simple bash commands:
 \begin{enumerate}
 	\item Check git version: \R{\T{git --version}}
 	\item Initialize a new empty local repository: \R{\T{git init}} :- a hidden folder will be created with name ".git"
-	\item \R{\T{git config --global user.name "My Name"}}
-	\item \R{\T{git config --email myEmail}}
+
 	\item Adding/Staging(give access to git tracker) files:
 		\begin{enumerate}
 			\item Specified: \R{\T{git add fileName}}
@@ -112,6 +111,8 @@ Simple bash commands:
 					\item Date
 					\item Before with this date: \R{\T{git log --before="yyyy-mm-dd"}}
 					\item After with this date: \R{\T{git log --after="yyyy-mm-dd"}}
+					\item Indication: \R{\T{git log --before/after="yesterday/one week ago/two week ago/one month ago/two month ago"}}
+					\item the commit messages those has the string/substring "WORD". It is case sensitive. : \R{\T{git log --grep="WORD"}}
 				\end{enumerate}
 		\end{enumerate}
 	\item File list in staging area: \R{\T{git ls-files}}
@@ -122,10 +123,13 @@ Simple bash commands:
 			\item Full status: \R{\T{git status}}
 			\item Short status: \R{\T{git status -s}}, I think, \R{\T{-s}} stands for "short".
 		\end{enumerate}
+		
 	\item Configuration:
 		\begin{enumerate}
 			\item Full: \R{\T{git config --list}}
 			\item Specified by key: \R{\T{git config <key>}} e.g. To get user name that already been configured, \textcolor{red!70}{{git config user.name}}
+			\item \R{\T{git config --global user.name "My Name"}}
+			\item \R{\T{git config --email myEmail}}
 		\end{enumerate}
 	\item Get a full copy of an existing repository: \R{\T{git clone <url>}}
 	
@@ -135,14 +139,19 @@ Simple bash commands:
 	
 	\item Update git: \R{\T{git update-git-for-windows}}
 	\item Every git commit contains a distinct ID, Message, Date/Time, Author, Complete snapshot of project.
+
+	\item Remote:
+		\begin{enumerate}
+			\item Remote repository is a repository exits on server/online.
+			\item Add: \R{\T{git remote add <shortname> <url>}}
+			\item Lists all the remotes with server link details: \R{\T{git remote -v}}
+			\item Inspect: If you want to see more information about a particular remote: \R{\T{git remote show <remoteShortName>}}
+			\item Rename: \R{\T{git remote rename <oldShortName> <newShortName>}}
+			\item Remove: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
+			\item To see remote servers you have configured, you can run the \R{\T{git remote}} command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can use \R{\T{-v}} option to shows Related URLs that git has stored for the shortname.
+		\end{enumerate}	
 	
-	\item To see remote servers you have configured, you can run the \R{\T{git remote}} command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can also use \R{\T{-v}} option to shows Related URLs that git has stored for the shortname.
-	\item Add a remote: \R{\T{git remote add <shortname> <url>}}
-	\item Lists all the remotes with server link details: \R{\T{git remote -v}}
 	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: \R{\T{git fetch <shortname>}}
-	\item Inspecting a remote: If you want to see more information about a particular remote: \R{\T{git remote show <remoteShortName>}}
-	\item Rename remote: \R{\T{git remote rename <oldShortName> <newShortName>}}
-	\item Remove remote: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
 \end{enumerate}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  21 MAY 2021 08:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  22 MAY 2021 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,11 +252,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
-<../../../Pictures/Photoshop/User Profile.jpg, id=1, 361.35pt x 361.35pt>
-File: ../../../Pictures/Photoshop/User Profile.jpg Graphic file (type jpg)
-<use ../../../Pictures/Photoshop/User Profile.jpg>
-Package pdftex.def Info: ../../../Pictures/Photoshop/User Profile.jpg  used on 
-input line 32.
+<User Profile.jpg, id=1, 361.35pt x 361.35pt>
+File: User Profile.jpg Graphic file (type jpg)
+<use User Profile.jpg>
+Package pdftex.def Info: User Profile.jpg  used on input line 32.
 (pdftex.def)             Requested size: 72.2687pt x 72.2687pt.
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 43.
@@ -265,28 +264,41 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../../Pictur
-es/Photoshop/User Profile.jpg>] [2] [3] (./Bash & Git.aux) ) 
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./User Profile.
+jpg>]
+Overfull \hbox (20.29593pt too wide) in paragraph at lines 114--115
+[]\OT1/cmr/m/n/10 Indication: []\OT1/cmtt/m/n/10 git log --before/after="yester
+day/one week ago/two week ago/one month ago/two
+ []
+
+[2]
+Overfull \hbox (27.79286pt too wide) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Inspect: If you want to see more in-for-ma-tion about a par-t
+ic-u-lar re-mote: []\OT1/cmtt/m/n/10 git remote show <remoteShortName>[] 
+ []
+
+[3] (./Bash & Git.aux) ) 
 Here is how much of TeX's memory you used:
- 2548 strings out of 481239
- 36150 string characters out of 5921778
- 286129 words of memory out of 5000000
- 17802 multiletter control sequences out of 15000+600000
- 536751 words of font info for 39 fonts, out of 8000000 for 9000
+ 2549 strings out of 481239
+ 36003 string characters out of 5921778
+ 286113 words of memory out of 5000000
+ 17803 multiletter control sequences out of 15000+600000
+ 537098 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,12n,37p,513b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/te
-xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "Bash & Git.pdf" (3 pages, 343476 bytes).
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1000.pfb>
+Output written on "Bash & Git.pdf" (3 pages, 352671 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
