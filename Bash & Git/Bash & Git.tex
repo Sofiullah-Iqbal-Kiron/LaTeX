@@ -97,12 +97,22 @@ Simple bash commands:
 		\end{enumerate}
 	\item Staging logs:
 		\begin{enumerate}
-			\item Full log: \R{\T{git log}}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory.
+			\item Full log: \R{\T{git log}}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory. \R{log} is the history the snapshoots of a repository.
+			\item Press space for move to the next page of log.
 			\item One lined: \R{\T{git log --oneline}}
 			\item Last N commits by a non negative integer: \R{\T{git log -N}}, N means non-negative integer as, 2, 6. eg. \R{\T{git commit -3}} will show last 3 log.
 			\item In reverse order, full: \R{\T{git log --reverse}}.
 			\item In reverse order, one lined: \R{\T{git log --oneline --reverse}}.
+			\item Show changed files in each commit: \R{\T{git log --stat}} or \R{\T{git log --oneline --stat}}
+			\item See actual changes in each commit: \R{\T{git log --patch}} or \R{\T{git log --oneline --patch}}
 			\item Show commit changes: \R{\T{git show commitID}} or, \R{\T{git show HEAD~n}}, here HEAD is the last commit we did and n is an integer indicating that go n steps back from HEAD and then show the commit changes.
+			\item Filter logs to be shown by
+				\begin{enumerate}
+					\item Author: \R{\T{git log --author="author\_name"}}
+					\item Date
+					\item Before with this date: \R{\T{git log --before="yyyy-mm-dd"}}
+					\item After with this date: \R{\T{git log --after="yyyy-mm-dd"}}
+				\end{enumerate}
 		\end{enumerate}
 	\item File list in staging area: \R{\T{git ls-files}}
 	\item File list with tree: \R{\T{git ls-tree commitID}}	or, \R{\T{git ls-tree HEAD~n}}
