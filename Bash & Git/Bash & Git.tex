@@ -1,17 +1,21 @@
+% Set margin to 2.3cm for mobile view compatibility
+% I use "extsizes" package to increase article size manually. This package allows 8pt, 9pt, 10pt, 11pt, 12pt,  14pt, 17pt and 20 pt text. Documentclass must be extarticle. But why the geometry package is not working after including extsizes?
 % Syntax text color: \textcolor{red}{}
 % Example text color: \textcolor{red!70}{}
-% New command for red-teletype text: \R{\T{•}}
+% New command for red-teletype text: \R{\T{}}
+% F1 (fn + f1 on laptop) for quick build.
 
-\documentclass[10 pt]{article}
+\documentclass[12 pt, letterpaper]{extarticle}
 
 \usepackage[document]{ragged2e}
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=2.3cm]{geometry}
 \usepackage
 {
 	array, % Table formatting.
 	longtable, % Long table which takes up two or more pages.
 	colortbl,
-	graphicx % \includegraphics and graphics related
+	graphicx, % \includegraphics and graphics related
+	extsizes % increase extarticle size manually
 }
 \usepackage{xcolor}
 
@@ -152,6 +156,98 @@ Simple bash commands:
 		\end{enumerate}	
 	
 	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: \R{\T{git fetch <shortname>}}
+\end{enumerate}
+
+\section*{Kali Linux}
+\begin{enumerate}
+	\item Kali Linux is a Linux distro based on debian specially made for hackers cause kali has a lot of hacking tools and penetration testing tools preinstalled and preconfigured in it.
+	\item We use python for ethical hacking and will make many many tools with this. Automate.
+	\item Know who is the user: whoami
+	\item Internet configuration: ifconfig
+	\item Three must have skill: gathering information, 	
+	
+	\item \R{\T{cat}} \textit{(concatenate)} command
+		\begin{enumerate}
+			\item Show all the contents of given  filename: \R{\T{cat file\_name}}
+			\item Show contents of multiple files: \R{\T{cat file1 file2}}
+			\item Show contents preceding with line numbers: \R{\T{cat -n file\_name}}
+			\item Create a file: \R{\T{cat > file\_name.ext}}
+			\item Copy content of file1 to file2: \R{\T{cat file1 > file2}}
+			\item : \R{\T{cat }}
+			\item : \R{\T{cat }}
+		\end{enumerate}
+\end{enumerate}
+\subsection{10 Things to do after install \textit{Kali Linux}}
+\begin{enumerate}
+	\item Install git: \R{\T{apt install git}}
+	\item 
+	\item
+	\item
+	\item
+	\item
+	\item
+	\item
+	\item
+	\item
+\end{enumerate}
+
+\subsection{Password Cracking}
+Passwords are stored inside a server in a hash(crazy, massive numbers and letters) form, not in original plain text from.
+Options: Rainbow table, dictionary attack, brute force method, hashcat, \\
+For brute force attack we use hydra that are preinstalled on Kali Linux.
+
+\subsection*{Sherlock}
+Sherlock is a CLI based python program that can find all social media accounts by a username that provided as a parameter. The name taken from famous detectives name: "Sherlock Homes" (I like the guy, yeah!). Source link on github: %\href{GITHUB-Sherlock}{https://github.com/sherlock-project/sherlock} . The full documentation and installation process described on that site. Or you can open it on "Google Cloud Shell" or run it on "repl.it" .
+
+\subsection*{Blackeye: The ultimate phishing tool for free} % \R{\T{}}
+Blackeye is a great phishing tool for hackers. Here is the complete instruction:
+Before this: Create and connect your \textbf{ngrok} account through terminal to get localhost (one for free). Or if it already exists on your system then kill the previous process by this command: \R{\T{kill -9 {PID\footnote{Process ID}}}} (You need to find out that wheres the process is running, may be it on the sites folder). To get the PID run the command: \R{\T{top}} and find PID of \textbf{ngrok}. \R{\T{ctrl + c}} to get out from the process.
+\begin{enumerate}
+	\item Get blackeye:  \R{\T{ git clone https://github.com/An0nUD4Y/blackeye.git}}
+	\item Change directory to blackeye: \R{\T{cd blackeye}}
+	\item Run blackeye.sh:
+		\begin{enumerate}
+			\item \R{\T{bash blackeye.sh\footnote{better choice}}}
+			\item \R{\T{chmod +x blackeye.sh}} $\rightarrow$ \R{\T{./blackeye.sh}}
+		\end{enumerate}
+	\item Choose an option
+	\item While the process is running, do this job: open two terminal, one on blackeye, second on that sites folder that you wanna phish. Run this command on first terminal: \R{\T{./ngrok http 8080}}, before this, run this command on second terminal: \R{\T{php -S localhost:8080}} .
+	\item Now at the first terminal, the phishing link is ready to go\dots
+	\item Wait for victim to response.
+	\item After loging into the phishing site. It will take the victim to original page.
+\end{enumerate}
+
+\vspace{5mm}
+
+Basically, blackeye tool is owned by \textbf{thelinuxchoice}. \\
+Cautions:
+\begin{enumerate}
+	\item Become anonymous, zsecurity has a tutorial on youtube for this.
+	\item Change the mac address:
+		\begin{enumerate}
+			\item \R{\T{ifconfig eth0 down}} to disable ethernet connection eth0
+			\item \R{\T{}}
+			\item \R{\T{ifconfig eth0 up}}
+		\end{enumerate}
+	\item Get connected with a VPN.
+	\item Attack with the help of Social Engineering as: \texttt{Hey, it's an important message for you. Please check it out right now.} Or, \texttt{Check your facebook security and make it strong.}, etc. Also can use my various corporate g-mail accounts for this. Create a g-mail from non-native country with the same name as company or site like, \textit{facebooksecurityhub3032@gmail.com}
+	\item Create another git and github account for hacking.
+	\item Modifying the phishing \textit{website.html} from blackeye/sites directory would be good to phishing attack. Learn \textbf{HTML}, \textbf{CSS} and \textbf{PHP} well. Or insect the code from original page with the help of browser insect option.
+	\item 
+\end{enumerate}
+
+This tutorial pdf is for educational purposes only. Do not hack anyone without permission. \\
+
+Some issues: \textit{how to fix blackeye tool for phishing website link is not showing issue, how to fix err\_ngrok\_108 issue, what is local host and domain, what is dns server, what is ubuntu server and why should we use it, what is dns poisoning.}
+
+\section*{Mail: I will use for educational hacking}
+
+\section*{Compile and Execute C Program through CMD: Windows OS}
+\begin{enumerate}
+	\item Check if gcc compiler available: \R{\T{gcc -v}}
+	\item \R{\T{cd Drive\_name: full\textbackslash path}} to that folder that has the required c source file
+	\item Compile: \R{\T{gcc c\_program\_name.c}}
+	\item An executable .exe file will be created at the same directory, just run this.
 \end{enumerate}
 
 \end{document}
