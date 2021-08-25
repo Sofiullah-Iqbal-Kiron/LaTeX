@@ -1,0 +1,223 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=3cm]{geometry}
+\usepackage[table, x11names]{xcolor}
+\usepackage
+{
+	longtable,
+	array,
+	multirow,
+	amsmath, % \overline{•}
+	amssymb % \therefore
+}
+
+\newcommand{\myName}{Sofiullah Iqbal Kiron}
+
+\title{Mid 2.1}
+\author{\myName}
+\date{18 August, 2021 \\ 1:50 AM}
+
+\begin{document}
+
+\maketitle
+
+\section*{CSE201: Data Structure. \texttt{(20 August, 2021)}}
+\subsection*{Algorithm to convert infix notation to prefix notation}
+\begin{enumerate}
+	\item[Step 1:] Reverse the infix expression. While reversing, each '(' will become ')' and each ')' become '('. e.g.: $A+B*C \rightarrow C*B+A$
+	\item[Step 2:] Make it postfix. e.g.: $CB*A+$
+	\item[Step 3:] Reverse the final expression. e.g.: $+A*BC$
+\end{enumerate}
+
+\pagebreak
+
+\section*{MAT205: Fourier Analysis. \texttt{(24 August, 2021)}}
+\textbf{1.} Use the method of Fourier transform to determine the displacement $y(x, t)$ of an infinite string, given that the string is initially at rest and that the initial displacement is $f(x), -\infty < x < \infty$. Also show that the solution can be put in the form:
+\begin{displaymath}
+y(x, t)=\frac{1}{2}\left[f(x+ct)+f(x-ct)\right]
+\end{displaymath} \\
+\hspace{0cm}
+[Trying to solve:]  \\
+Here we have to solve the one-dimensional wave equation
+$$\frac{\delta^2y}{\delta t^2}=c^2\frac{\delta^2y}{\delta x^2} \hspace{0.5cm}\left[-\infty < x < \infty, t>0\right]$$
+subject to the following initial conditions
+\begin{align*}
+&y(x,0)=\textrm{Initial displacement}=f(x) \\
+\textrm{and }&y_t(x,0)=\textrm{initial velocity}=0
+\end{align*}
+The given partial differential equation is
+\begin{equation}
+\frac{\delta^2y}{\delta t^2}=c^2\frac{\delta^2y}{\delta x^2}
+\end{equation}
+Taking the complex Fourier transform of both sides of (1), we have
+\begin{equation}
+\int_{-\infty}^{+\infty}\frac{\delta^2y}{\delta t^2}e^{-iux} dx=c^2\int_{-\infty}^{+\infty}\frac{\delta^2y}{\delta x^2}e^{-iux} dx
+\end{equation}
+By the Fourier transform of the derivative of a function we have if $F^n(x)$ is the nth-derivative of $F(x)$ and the first $(n-1)$ derivatives of F(x) vanish as $x \rightarrow \pm \infty$ then $F\{F^n(x)\}=(-iu)^n F\{F(x)\}$. \\\\
+Thus from (2) we have
+\begin{align*}
+&\frac{d^2}{dt^2}\int_{-\infty}^{+\infty}ye^{-iux} dx =c^2(-iu)^2F\{y(x,t)\} \\
+\textrm{or, }&\frac{d^2}{dt^2}\int_{-\infty}^{+\infty}y(x,t)e^{-iux} dx =c^2(-u^2) F\{y(x,t)\} \\
+\textrm{or, }&\frac{d^2}{dt^2}F\{y(x,t)\} =-c^2u^2 F\{y(x,t)\} \\
+\textrm{or, }&\frac{d^2\overline{y}}{dt^2} =-c^2u^2\overline{y} \hspace{0.5cm}\left[\textrm{where }\overline{y}=\overline{y}(u,t)=F\{y(x,t)\}=\int_{-\infty}^{+\infty}y(x,t)e^{-iux} dx\right]
+\end{align*}
+\begin{equation}
+\therefore\hspace{0.5cm}\frac{d^2\overline{y}}{dt^2}+c^2u^2\overline{y}=0
+\end{equation}
+Which is ordinary second order differential equation whose solution is
+\begin{equation}
+\overline{y}=\overline{y}(u,t)=A\cos (cut) + B\sin (cut)
+\end{equation}
+Differentiating with both sides with respect to t
+\begin{equation}
+\textrm{we get, } \overline{y}_t(u,t) = -Acu\sin (cut) + Bcu \cos (cut)
+\end{equation}
+Also from the initial given conditions, we have
+\begin{align}
+&y(x,0)=f(x) \\
+&y_t(x,0)=0
+\end{align}
+Taking the Fourier transform of (6) and (7) we get,
+$$\overline{y}(u,0)=\int_{-\infty}^{+\infty}y(x,0)e^{-iux}\cdot dx=\int_{-\infty}^{+\infty}f(x)e^{-iux}\cdot dx=\overline{f}(u)\hspace{0.3cm} \textrm{(say)} $$
+\begin{equation}
+\therefore\hspace{0.5cm}\overline{y}(u,0)=\overline{f}(u)
+\end{equation}
+\begin{align*}
+\textrm{and } \overline{y}_t(u,0)&=\int_{-\infty}^{+\infty}y_t(x,0)e^{-iux}\cdot dx \\
+&=\int_{-\infty}^{+\infty}0(e^{-iux})\cdot du=0
+\end{align*}
+\begin{equation}
+\therefore \hspace{0.3cm}\overline{y}_t(u,0)=0
+\end{equation}
+Putting t = 0 in (5), we have $\overline{y}_t(u,0)=Bcu$ \\
+or, $Bcu=0$ using (9) \\
+\hspace{2cm}$\therefore\hspace{0.5cm} B=0 \hspace{0.5cm} \textrm{Since, }cu \neq 0$ \\
+Again putting t = 0 in (4), we get
+\begin{align*}
+&\overline{y}(u,0)=A \\
+\therefore \hspace{0.3cm}&\overline{f}(u)=A \hspace{0.5cm} \textrm{using (8)} \\
+\textrm{or, }&A=\overline{f}(u)
+\end{align*}
+Putting the values of A and B in (4), we get
+\begin{equation}
+\overline{y}=\overline{y}(u,t)=\overline{f}(u)\cos (cut)
+\end{equation}
+Taking the inverse Fourier transform of (10) we have
+\begin{align*}
+&y(x,t)=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\overline{f}(u)\cos (cut)e^{iux}\cdot du \\
+\textrm{or, }&y(x,t)=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\overline{f}(u)\left(\frac{e^{icut}+e^{-icut}}{2}\right) e^{iux}\cdot du \\
+&\hspace{1cm}=\frac{1}{2}\left[\frac{1}{2\pi}\int_{-\infty}^{+\infty}\overline{f}(u)e^{iu(x+ct)}\cdot du + \frac{1}{2\pi}\int_{-\infty}^{+\infty}\overline{f}(u)e^{iu(x-ct)}\cdot du\right] \\
+&\hspace{1cm}=\frac{1}{2}\left[f(x+ct)+f(x-ct)\right]\hspace{0.5cm} \textrm{(Using the definition of inverse Fourier transform)}
+\end{align*}
+$\therefore\hspace{0.5cm}y(x,t)=\frac{1}{2}\left[f(x+ct)+f(x-ct)\right]$.
+\\
+\\
+\textbf{2.} A thin membrane of great extent is released from rest in the position $z=f(x,y)$, show that the displacement at any subsequent time is given by
+$$z(x,y,t)=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}F(u,v)\cos ct\sqrt{(u^2+v^2)}\cdot e^{-i(ux+vy)}\cdot du\cdot dv$$
+where $F(u,v)$ is the double Fourier transform of $f(x,y)$.
+\\\\
+\hspace{0cm}
+[Trying to proof:] \\
+Here the displacement of the membrane is governed by two dimensional wave equation
+\begin{equation} \tag{1}
+\frac{\delta^2z}{\delta t^2}=c^2\left(\frac{\delta^2z}{\delta x^2}+\frac{\delta^2z}{\delta y^2}\right) \hspace{0.5cm}\textrm{where }c^2=\frac{T}{\rho}
+\end{equation}
+Taking the double Fourier transform of both sides of (1) we get
+\begin{displaymath}
+\Rightarrow\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\frac{\delta^2z}{\delta t^2}e^{i(ux=vy)}\cdot dx\cdot dy = \frac{c^2}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\left(\frac{\delta^2z}{\delta x^2}+\frac{\delta^2z}{\delta y^2}\right)e^{i(ux+vy)}\cdot dx\cdot dy 
+\end{displaymath}
+\begin{displaymath}
+\textrm{or, } \frac{d^2}{dt^2} \frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}ze^{i(ux+vy)}\cdot dx\cdot dy=\frac{c^2}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\left(\frac{\delta^2z}{\delta x^2}+\frac{\delta^2z}{\delta y^2}\right)e^{i(ux+vy)}\cdot dx\cdot dy
+\end{displaymath}
+\begin{multline*}
+\textrm{or,} \frac{d^2\overline{z}}{dt^2}=c^2\{(-iu)^2+(-iv)^2\} F\{z(x,y,t)\}\textrm{    where } \overline{z}=\overline{z}(u,v,t)=F\{z(x,y,t)\}\\=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}ze^{i(ux+vy)}\cdot dx\cdot dy
+\end{multline*}
+\begin{flalign*}
+\hspace{0.35cm}\textrm{or, }\frac{d^2\overline{z}}{dt^2}=-c^2(u^2+v^2)\overline{z} && % double amper sign (&&) after equation in flalign environment is required to make it left align.
+\end{flalign*}
+\begin{equation}\tag{2}
+\therefore\hspace{0.5cm}\frac{d^2\overline{z}}{dt^2}+c^2(u^2+v^2)\overline{z}=0
+\end{equation}
+\\
+\hspace{0cm}which is an ordinary differential equation whose solution is
+\begin{equation}\tag{3}
+\overline{z}=A\cos\{c\sqrt{(u^2+v^2)}t\}+B\sin\{c\sqrt{(u^2+v^2)}t\}
+\end{equation}
+The given initial conditions are $\overline{z}=f(x,y) \textrm{ and }\frac{\delta z}{\delta t}=0 \textrm{ at }t=0$ \\
+Taking the Fourier transform of these initial conditions, we get
+\begin{equation}\tag{4}
+\overline{z}=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}f(x,y)e^{i(ux+vy)}\cdot dx\cdot dy=F(u,v)
+\end{equation}
+\begin{flalign*}
+&=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}\frac{\delta z}{\delta t}e^{i(ux+vy)}\cdot dx\cdot dy && \\
+&=\frac{d}{dt}\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}ze^{i(ux+vy)}\cdot dx\cdot dy && \\
+&=\frac{d\overline{z}}{dt} \textrm{  since  }\overline{z}=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}ze^{i(ux+vy)}\cdot dx\cdot dy &&
+\end{flalign*}
+\begin{flalign*}
+\therefore\hspace{0.5cm}\frac{d\overline{z}}{dt}=0 \textrm{  at  }t=0 &&
+\end{flalign*}
+When t=0, combining (3) and (4), we get $A=F(u,v)$
+\begin{flalign*}
+\textrm{Also }&\frac{d\overline{z}}{dt}=-Ac\sqrt{(u^2+v^2)}\sin c\sqrt{(u^2+v^2)t}+Bc\sqrt{(u^2+v^2)}\cos c\sqrt{(u^2+v^2)}t && \\
+\therefore\hspace{0.2cm} &0=\left(\frac{d\overline{z}}{dt}\right)_{t=0}=Bc\sqrt{(u^2+v^2)} && \\
+\textrm{or, }&B=0
+\end{flalign*}
+Putting the values of A and B in (3), we get
+\begin{equation}\tag{5}
+\overline{z}=F(u,v)cos\{c\sqrt{(u^2+v^2)t}\}
+\end{equation}
+Now applying the inversion formula for double Foruier transform, we have
+$$z(x,y,t)=\frac{1}{2\pi}\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty}F(u,v)\cos \{c\sqrt{(u^2+v^2)}t\}e^{-i(ux+vy)}\cdot du\cdot dv$$
+Which is the required displacement at any subsequent time t.
+\pagebreak
+
+\section*{CSE203: Digital Logic Design. \texttt{(21 August, 2021)}}
+%\subsection*{1}
+\begin{table}
+	\begin{tabular}{| c | c | c | c | c | c | c | c | c |}
+		\hline
+		\multicolumn{2}{| c |}{Present State} & Input & \multicolumn{2}{| c |}{Next State} & \multicolumn{4}{| c |}{Flip-Flop Inputs} \\
+		\hline
+		$Q_A$ & $Q_B$ & $x$ & $Q_A+$ & $Q_B+$ & $J_A$ & $K_A$ & $J_B$ & $K_B$ \\
+		\hline\hline
+		0 & 0 & 0 & 0 & 0 & 0 & $\times$ & 0 & $\times$ \\
+		\hline
+		0 & 1 & 0 & 0 & 1 & 0 & $\times$ & $\times$ & 0 \\
+		\hline
+		1 & 0 & 0 & 1 & 0 & $\times$ & 0 & 0 & $\times$ \\
+		\hline
+		1 & 1 & 0 & 1 & 1 & $\times$ & 0 & $\times$ & 0 \\
+		\hline
+		0 & 0 & 1 & 0 & 1 & 0 &$\times$ & 1 & $\times$ \\
+		\hline
+		0&1&1&1&1&1&$\times$&$\times$&0 \\
+		\hline
+		1&0&1&0&0&$\times$&1&0&$\times$ \\
+		\hline
+		1&1&1&1&0&$\times$&0&$\times$&1 \\
+		\hline
+	\end{tabular}
+	\centering
+\end{table}
+
+\begin{table}
+	\begin{tabular}{| c | c | c | c | c |}
+		 a & f & b  & 0 & 0 \\
+		 b & d & c & 0 & 0 \\
+		 c & f & e & 0 & 0 \\
+		 d & g & a & 1 & 0 \\
+		 e & d & c & 0 & 0 \\
+		 f & f & b & 1 & 1 \\
+		 g & g & h & 0 & 1 \\
+		 h & g & a & 1 & 0 \\
+	\end{tabular}
+	\centering
+\end{table}
+
+\pagebreak
+\section*{CSE205: Java Technology. \texttt{(22 August, 2021)}}
+
+\pagebreak
+\section*{STA205: Statistics. \texttt{(23 August, 2021)}}
+
+\end{document}

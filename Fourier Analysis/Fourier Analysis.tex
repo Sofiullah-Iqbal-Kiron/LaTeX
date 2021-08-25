@@ -1,0 +1,41 @@
+\documentclass[11 pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{gensymb} % degree symbol
+
+\title{Fourier Analysis}
+\date{13 August, 2021 \\ 10:58 PM}
+
+\begin{document}
+
+\maketitle
+
+\section*{Prerequisites}
+\begin{enumerate}
+	\item Periodic Function: $\sin x$ and $\cos x$ having period $2\pi$, $\tan x$ having period only $\pi$
+	\item Trigonometry
+	\item Basic Integration
+\end{enumerate}
+
+\section*{Basic}
+We can write any function as a series and can modify it with \textbf{Integration}. Joseph Fourier$(1768 \leftarrow 1830)$ derived a special trigonometric series.
+Trigonometric series is a series of the form:
+$$\frac{A_0}{2} + \sum_{n=1}^{\infty} (A_n\cos nx + B_n\sin nx)$$
+It will called \textbf{Fourier Series} if the terms $A_0, A_n, B_n$ is:
+$$A_0 = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)\cdot dx$$
+$$A_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cdot \cos nx\cdot dx$$
+$$B_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cdot \sin nx\cdot dx$$
+Where \textbf{$f(x)$} is any single-valued function defined in interval $(-\pi, \pi)$.
+
+\section*{Some helpful equations}
+\begin{enumerate}
+	\item $\sin 0\degree = \sin \pi = 0$
+	\item $\cos 0\degree = \cos 2n\pi = (-1)^{2n} = 1$
+	\item $\cos n\pi = (-1)^n$
+	\item $\frac{d}{dx} \sin\theta = \cos\theta$
+	\item $\frac{d}{dx} \cos\theta = -\sin\theta$
+	\item $\int \sin\theta = -\cos\theta$
+	\item $\int \cos\theta = \sin\theta$
+\end{enumerate}
+
+\end{document}

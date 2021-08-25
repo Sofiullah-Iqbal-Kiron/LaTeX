@@ -1,0 +1,49 @@
+\documentclass[9 pt]{beamer}
+
+\usepackage
+{
+	xcolor, % Must use if wanna use color on document.
+	listings, % Program Code Listing.
+	authblk, % Redefines \author command. Permits footnote type affiliation.
+	anyfontsize,
+	graphicx,
+	transparent % Control image/text transparency. OR, make a transparent photo from photoshop or any other photo editor.
+}
+
+\lstset
+{
+ language = C++,
+ backgroundcolor = \color{white},
+ basicstyle = \footnotesize\ttfamily,
+ keywordstyle = \color{blue},
+ commentstyle = \color{green!80}\tiny,
+ showstringspaces = false,
+ stringstyle = \color{red},
+ captionpos = b
+}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+
+\setbeamercolor{background canvas}{bg = black}
+
+%%%%%%%%%%% Frame 1 %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{1}
+\textcolor{white}
+{
+HTML \hspace{50mm} CSS
+}
+\end{frame}
+
+%%%%%%%%%%% Frame Last %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Template}
+\textcolor{white}
+{
+This is white text.
+}
+\end{frame}
+
+\end{document}

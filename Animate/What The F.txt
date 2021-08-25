@@ -1,0 +1,4 @@
+JavaScript based animation on LaTeX. Specially for Beamer.
+
+Repo with min docs:
+https://gitlab.com/agrahn/animate

@@ -1,0 +1,5 @@
+1. Change the background color in beamer:
+https://tex.stackexchange.com/questions/8043/change-the-background-color-of-a-frame-in-beamer
+
+2. Remove navigation symbols from beamer: \beamertemplatenavigationsymbolsempty
+https://stackoverflow.com/questions/3210205/how-to-get-rid-of-navigation-bars-in-beamer/3210406

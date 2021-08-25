@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  29 APR 2021 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  7 AUG 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -151,153 +151,136 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-\Gm@cnth=\count190
-\Gm@cntv=\count191
-\c@Gm@tempcnt=\count192
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
-\Gm@dimlist=\toks20
-)
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count193
+\l__kernel_color_stack_int=\count190
 \l__pdf_internal_box=\box53
 )
 (./Java.aux)
 \openout1 = `Java.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 37.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 34.
+LaTeX Info: Redefining \selectfont on input line 37.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen151
+\scratchcounter=\count191
+\scratchdimen=\dimen143
 \scratchbox=\box54
-\nofMPsegments=\count195
-\nofMParguments=\count196
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen152
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen144
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks21
 )
-\c@lstlisting=\count266
+\c@lstlisting=\count197
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 54.
+ [1
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(76.82234pt, 460.65031pt, 76.82234pt)
-* v-part:(T,H,B)=(76.82234pt, 641.3253pt, 76.82234pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=460.65031pt
-* \textheight=641.3253pt
-* \oddsidemargin=4.55235pt
-* \evensidemargin=4.55235pt
-* \topmargin=-32.44765pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 36.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 36.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 36.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 51.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 51.
-[1
-
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (3.48024pt too wide) in paragraph at lines 97--102
-\OT1/cmr/m/n/10 Queue im-ple-men-ta-tions not al-lows null in-ser-tion, gen-er-
-ally. Al-though some im-ple-men-ta-tions like LinkedList,
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (1.76149pt too wide) in paragraph at lines 109--111
+ \OT1/cmr/bx/n/10 Deque: In-sert[] \OT1/cmr/m/n/10 Meth-ods avail-able, \OT1/cm
+r/bx/n/10 addFirst()\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 of-fer-First() \OT1/cmr/
+m/n/10 and \OT1/cmr/bx/n/10 add-Last()\OT1/cmr/m/n/10 ,
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+Overfull \hbox (5.10016pt too wide) in paragraph at lines 112--114
+ \OT1/cmr/bx/n/10 Deque: Re-move[] \OT1/cmr/m/n/10 Meth-ods: \OT1/cmr/bx/n/10 r
+e-move-First()\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 poll-First() \OT1/cmr/m/n/10 a
+nd \OT1/cmr/bx/n/10 re-move-Last()\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (27.46773pt too wide) in paragraph at lines 112--114
+\OT1/cmr/m/n/10 tion is empty wheres \OT1/cmr/bx/n/10 re-move-First() \OT1/cmr/
+m/n/10 and \OT1/cmr/bx/n/10 re-move-Last() \OT1/cmr/m/n/10 throws ex-cep-tion(E
+xceptions
+ []
+
+[3]
+Overfull \hbox (30.13614pt too wide) in paragraph at lines 115--117
+ \OT1/cmr/bx/n/10 Deque: Re-trieve[] \OT1/cmr/m/n/10 Meth-ods: \OT1/cmr/bx/n/10
+ get-First()\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 peek-First() \OT1/cmr/m/n/10 and
+ \OT1/cmr/bx/n/10 get-Last()\OT1/cmr/m/n/10 , \OT1/cmr/bx/n/10 peekLast()\OT1/c
+mr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
-[3] [4] (./Java.aux) ) 
+
+Overfull \hbox (34.83408pt too wide) in paragraph at lines 124--126
+\OT1/cmr/m/n/10 Some im-ple-ment-ing classes: Ab-stractMap, HashMap, Linked-Has
+hMap, TreeMap(Sorted
+ []
+
+[4]
+Overfull \hbox (68.10915pt too wide) in paragraph at lines 164--165
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (7.76904pt too wide) in paragraph at lines 174--175
+[]\OT1/cmr/m/n/10 Exceptions are rep-re-sented as an ob-ject in Java. Ex-cep-ti
+ons are sub-class/child-
+ []
+
+[5] (./Java.aux) ) 
 Here is how much of TeX's memory you used:
- 3961 strings out of 481239
- 53719 string characters out of 5921778
- 498890 words of memory out of 5000000
- 19224 multiletter control sequences out of 15000+600000
+ 3447 strings out of 481239
+ 46368 string characters out of 5921778
+ 483687 words of memory out of 5000000
+ 18721 multiletter control sequences out of 15000+600000
  536929 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,40p,758b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Java.pdf (4 pages, 142655 bytes).
+ 28i,8n,40p,758b,1124s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c
+:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Java.pdf (5 pages, 143634 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

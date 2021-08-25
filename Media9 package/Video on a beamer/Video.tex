@@ -1,0 +1,43 @@
+% How to embed media/audio/video/3d model on a latex beamer presentation.
+% Use package media9, adobe pdf reader compatible.
+% Then inside document: \includemedia[<options>]{<poster text>}{<main Flash (SWF) file or URL | 3D (PRC, U3D) file>}
+
+\documentclass[9 pt]{beamer}
+
+\usepackage
+{
+	authblk, % Redefines \author command. Permits footnote type affiliation.
+}
+
+\usepackage{media9} % embed video(mp4, mp3)/3d models
+
+\newcommand{\myMail}{sofiul.k.1023@gmail.com}
+
+\title[Video Embedding]{Embedded Video on Beamer Presentation}
+\subtitle{How to embed a video on beamer presentation}
+\author[S. I. Kiron]
+{
+	Sofiullah Iqbal Kiron \\
+	\href{mailto:\myMail}{\myMail}
+}
+\date[Friday]{30 July, 2021}
+\institute[BSMRSTU]{Bangobandhu Sheikh Mujibur Rahman Science and Technology University}
+\affil{Department of CSE}
+
+\usetheme{Madrid}
+\useinnertheme{rounded}
+\usecolortheme{default}
+
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%%%%% Frame 1 %%%%%%%%%%%%%%%
+\begin{frame}{Video Here}
+
+\alert{Sir Brian Yo's lecture:}
+\includemedia[]{}{https://www.youtube.com/watch?v=jrBhi8wbzPw&t=651s}
+
+\end{frame}
+
+\end{document}
