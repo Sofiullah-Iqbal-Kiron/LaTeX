@@ -1,5 +1,4 @@
 \begin{block}{EOF}
-End Of File.
-\end{block}
-
-\transfade[duration=0.6]
+		End Of File.
+	\end{block}
+	\transfade[duration=0.6]
