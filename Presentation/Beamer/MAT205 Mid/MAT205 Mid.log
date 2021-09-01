@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 SEP 2021 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 SEP 2021 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1175,18 +1175,18 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 36
 \openout4 = `"MAT205 Mid.vrb"'.
 
  (./MAT205 Mid.vrb
-Overfull \hbox (37.07391pt too wide) detected at line 11
-\OMS/cmsy/m/n/9 ) [] [][] [][] []\OML/cmm/m/it/9 e[] \OMS/cmsy/m/n/9 ^^A \OML/c
-mm/m/it/9 dx \OMS/cmsy/m/n/9 ^^A \OML/cmm/m/it/9 dy \OT1/cmr/m/n/9 = [] [][] []
-[] [] \OML/cmm/m/it/9 e[] \OMS/cmsy/m/n/9 ^^A \OML/cmm/m/it/9 dx \OMS/cmsy/m/n/
-9 ^^A \OML/cmm/m/it/9 dy
+Overfull \hbox (20.26431pt too wide) detected at line 12
+\OMS/cmsy/m/n/8 ) [] [][] [][] []\OML/cmm/m/it/8 e[] \OMS/cmsy/m/n/8 ^^A \OML/c
+mm/m/it/8 dx \OMS/cmsy/m/n/8 ^^A \OML/cmm/m/it/8 dy \OT1/cmr/m/n/8 = [] [][] []
+[] [] \OML/cmm/m/it/8 e[] \OMS/cmsy/m/n/8 ^^A \OML/cmm/m/it/8 dx \OMS/cmsy/m/n/
+8 ^^A \OML/cmm/m/it/8 dy
  []
 
 )
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 38
-4.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [28
 
@@ -1208,7 +1208,7 @@ n/9 ) = \OML/cmm/m/it/9 F\OMS/cmsy/m/n/9 f\OML/cmm/m/it/9 z\OT1/cmr/m/n/9 (\OML
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 40
-2.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [29
 
@@ -1219,7 +1219,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 40
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 42
-5.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [30
 
@@ -1235,7 +1235,7 @@ Overfull \hbox (18.16675pt too wide) detected at line 11
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 44
-7.
+9.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [31
 
@@ -1246,7 +1246,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 44
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
-1.
+3.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [32
 
@@ -1254,7 +1254,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
-6.
+8.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [33
 
@@ -1265,7 +1265,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 48
-2.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 
 [34
@@ -1280,15 +1280,15 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 48
 \tf@snm=\write8
 \openout8 = `"MAT205 Mid.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
  (./MAT205 Mid.aux
 <Reading QR code for "https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/maste
 r/Presentation/Beamer/MAT205%20Mid/MAT205%20Mid.tex" at level 10-H from aux fil
 e.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 488.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 488.
 Package rerunfilecheck Info: File `"MAT205 Mid".out' has not changed.
 (rerunfilecheck)             Checksum: D50BB54113039623DA0E0BB017F85AF2;235.
 
@@ -1304,25 +1304,26 @@ Here is how much of TeX's memory you used:
  540557 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,106p,3553b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmtt9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb>
-Output written on "MAT205 Mid.pdf" (34 pages, 581880 bytes).
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+10.pfb>
+Output written on "MAT205 Mid.pdf" (34 pages, 591593 bytes).
 PDF statistics:
- 2099 PDF objects out of 2487 (max. 8388607)
- 1975 compressed objects within 20 object streams
+ 2103 PDF objects out of 2487 (max. 8388607)
+ 1978 compressed objects within 20 object streams
  74 named destinations out of 1000 (max. 500000)
  170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
