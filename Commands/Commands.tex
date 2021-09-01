@@ -15,9 +15,10 @@
 	longtable, % Long table which takes up two or more pages.
 	colortbl,
 	graphicx, % \includegraphics and graphics related
-	extsizes % increase extarticle size manually
+	extsizes, % increase extarticle size manually
+	hyperref,
+	forest
 }
-\usepackage{xcolor}
 
 \newcommand{\R}{\textcolor{red}} % Just replacement.
 \newcommand{\T}{\texttt}
@@ -249,6 +250,40 @@ Some issues: \textit{how to fix blackeye tool for phishing website link is not s
 	\item \R{\T{cd Drive\_name: full\textbackslash path}} to that folder that has the required c source file
 	\item Compile: \R{\T{gcc c\_program\_name.c}}
 	\item An executable .exe file will be created at the same directory, just run this.
+\end{enumerate}
+
+\section*{Manim}
+Manim stands for \textbf{Mathematical Animation}. Created by 3blue1brown. Manim is a custom python library used to animate math explanation. Manim runs on python 3.6 or higher but 3.8 is recommended. \href{https://docs.manim.community/en/stable/}{\textcolor{red}{DOCS here}}.\\
+\textbf{Mobjects} class is the root abstract class in manim. All other \textbf{Mobjects} like Circle, Rectangle, Triangles are derived from this class.\\
+
+\begin{center}
+\begin{forest}
+	[Mobject
+		[Circle]
+		[Rectangle]
+		[Triangle]
+		[Arrow]
+		[Axes]
+		[FunctionGraph]
+		[Barchart]
+	]
+\end{forest}
+\end{center}
+
+\begin{enumerate}
+	\item \R{\T{manim -flags file\_name.py class\_name}}
+	\item Flags
+			  \begin{enumerate}
+			  	\item \R{\T{p - play when class rendered}}
+			  	\item \R{\T{ql - low quality}}
+			  	\item \R{\T{qm - medium quality}}
+			  	\item \R{\T{qh - high quality}}
+			  	\item \R{\T{qk - 4k quality}}
+			  	\item \R{\T{a - render all scene class}}
+			  	\item \R{\T{f - open file browser location}}
+			  	\item \R{\T{i - .gif instead of .mp4}}
+			  \end{enumerate}
+	\item \R{\T{self.play(animation(mobject), run\_time = seconds)}}
 \end{enumerate}
 
 \end{document}

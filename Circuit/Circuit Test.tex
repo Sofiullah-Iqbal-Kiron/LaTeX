@@ -1,0 +1,25 @@
+\documentclass[11pt]{article}
+
+\usepackage[american]{circuitikz} % Circuit based on tikz. TikZ will loaded automatically. circuitikz commands are just TikZ commands.
+
+\title{Circuit Test}
+\author{Sofiullah Iqbal Kiron}
+\date{26 August, 2021: 12:22 AM}
+
+\begin{document}
+
+\maketitle
+
+Starting with circuitikz. TikZ will loaded automatically. circuitikz commands are just TikZ commands. It is good practice keep circuits in a figure. [element=value]\\
+\begin{figure}
+\tikz \draw (0, 0) to[R=$R_1$] (2, 0); % [element=value]
+\centering
+\end{figure}
+
+\begin{circuitikz}[]
+\draw (0,0) to[isource] (0,3) -- (2,3)
+to[R] (2,0) -- (0,0);
+\end{circuitikz}
+
+
+\end{document}
