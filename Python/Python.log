@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  10 JUN 2021 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 SEP 2021 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,22 +482,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Python.aux)
 \openout1 = `Python.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
  (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count281
@@ -522,7 +522,7 @@ e
 ))
 \c@lstlisting=\count287
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -535,9 +535,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./Python.out) (./Python.out)
 \@outlinefile=\write6
@@ -545,19 +545,12 @@ LaTeX Info: Redefining \nameref on input line 34.
 
  ABD: EveryShipout initializing macros [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Python.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
-)
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Python.toc)
 \tf@toc=\write7
 \openout7 = `Python.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
@@ -565,59 +558,69 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 
+l.66 
       [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 67--81
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 71.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--96
+Underfull \hbox (badness 10000) in paragraph at lines 89--103
 
  []
 
 [2]
-<For Loop practice.png, id=88, 506.6428pt x 459.96844pt>
+<For Loop practice.png, id=44, 506.6428pt x 459.96844pt>
 File: For Loop practice.png Graphic file (type png)
 <use For Loop practice.png>
-Package pdftex.def Info: For Loop practice.png  used on input line 104.
+Package pdftex.def Info: For Loop practice.png  used on input line 111.
 (pdftex.def)             Requested size: 260.98193pt x 230.86798pt.
- [3]
-<Multiple return value from function def.png, id=95, 380.17032pt x 159.59625pt>
+ [3 <./For Loop practice.png>]
+<Multiple return value from function def.png, id=54, 380.17032pt x 159.59625pt>
 
 File: Multiple return value from function def.png Graphic file (type png)
 <use Multiple return value from function def.png>
 Package pdftex.def Info: Multiple return value from function def.png  used on i
-nput line 123.
+nput line 129.
 (pdftex.def)             Requested size: 200.75073pt x 84.27632pt.
- [4 <./For Loop practice.png> <./Multiple return value from function def.png>] 
+ [4 <./Multiple return value from function def.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Overfull \hbox (5.8505pt too wide) in paragraph at lines 145--146
+[]\OT1/cmr/m/n/10.95 information about a pack-age de-scrip-tively, []\OT1/cmtt/
+m/n/10.95 py -m pip show --verbose
+ []
+
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (./Python.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
-
-
-Package rerunfilecheck Warning: File `Python.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Python.out':
-(rerunfilecheck)             Before: 832D68868B7EB6438536929276C87569;565
-(rerunfilecheck)             After:  2053FA069DC806FC7D169F472D2D98D7;639.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package rerunfilecheck Info: File `Python.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 16903 strings out of 481239
- 312731 string characters out of 5921778
- 738907 words of memory out of 5000000
- 31843 multiletter control sequences out of 15000+600000
- 537849 words of font info for 42 fonts, out of 8000000 for 9000
+ 16895 strings out of 481239
+ 312571 string characters out of 5921778
+ 737921 words of memory out of 5000000
+ 31833 multiletter control sequences out of 15000+600000
+ 538017 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,6n,75p,925b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,5n,75p,925b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-di
@@ -625,11 +628,12 @@ st/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on Python.pdf (6 pages, 162567 bytes).
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Python.pdf (6 pages, 172530 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 32 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  2 SEP 2021 00:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.21)  7 SEP 2021 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -721,6 +721,56 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
+(c:/texlive/2019/texmf-dist/tex/latex/awesomebox/awesomebox.sty
+Package: awesomebox 2019/07/27 v0.6
+
+(c:/texlive/2019/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count340
+\l__pdf_internal_box=\box73
+))
+Package: fontawesome5 2020/01/17 v5.12.0.1 Font Awesome 5
+
+(c:/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count341
+\g__xparse_grabber_int=\count342
+\l__xparse_m_args_int=\count343
+\l__xparse_v_nesting_int=\count344
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.
+sty
+Package: fontawesome5-generic-helper 2020/01/17 v5.12.0.1 non-uTeX helper for f
+ontawesome5
+ (c:/texlive/2019/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))
+\aweboxleftmargin=\skip68
+\aweboxcontentwidth=\skip69
+\aweboxvskip=\skip70
+\aweboxsignraise=\skip71
+\aweboxrulewidth=\skip72
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen284
+\ar@mcellbox=\box74
+\extrarowheight=\dimen285
+\NC@list=\toks45
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box75
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\aweboxlinewidthvar=\skip75
+\aweboxlinewidthref=\skip76
+)
 (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty
 (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty
@@ -731,35 +781,30 @@ Package caption Info: Hyperref support is turned off
 (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.s
 ty) (c:/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthememiniframes.sty
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 65.
- (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count340
-\l__pdf_internal_box=\box73
-)
-(./MAT205 Mid.aux
+Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+ (./MAT205 Mid.aux
 <Reading QR code for "https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/maste
 r/Presentation/Beamer/MAT205%20Mid/MAT205%20Mid.tex" at level 10-H from aux fil
 e.>
 )
 \openout1 = `"MAT205 Mid.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -797,17 +842,17 @@ LaTeX Font Info:    ... okay on input line 80.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
-\scratchdimen=\dimen284
-\scratchbox=\box74
-\nofMPsegments=\count342
-\nofMParguments=\count343
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count344
-\MPscratchDim=\dimen285
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count345
+\scratchdimen=\dimen286
+\scratchbox=\box76
+\nofMPsegments=\count346
+\nofMParguments=\count347
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count348
+\MPscratchDim=\dimen287
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
+\everyMPtoPDFconversion=\toks47
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -818,8 +863,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 80.
+\AtBeginShipoutBox=\box77
+Package hyperref Info: Link coloring ON on input line 81.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -830,11 +875,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count347
+\c@section@level=\count351
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./MAT205 Mid.out) (./MAT205 Mid.out)
 \@outlinefile=\write5
@@ -865,15 +910,15 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \celsius on input line 80.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 80.
+LaTeX Info: Redefining \celsius on input line 81.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 81.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 80.
-Package gensymb Info: Using \Omega for \ohm on input line 80.
+LaTeX Info: Redefining \ohm on input line 81.
+Package gensymb Info: Using \Omega for \ohm on input line 81.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -883,12 +928,12 @@ Package caption Info: End \AtBeginDocument code.
 <bsmrstu.jpg, id=72, 1018.80624pt x 730.73pt>
 File: bsmrstu.jpg Graphic file (type jpg)
 <use bsmrstu.jpg>
-Package pdftex.def Info: bsmrstu.jpg  used on input line 87.
+Package pdftex.def Info: bsmrstu.jpg  used on input line 88.
 (pdftex.def)             Requested size: 364.18938pt x 273.14221pt.
 <../Counting Principles/Logo.png, id=73, 225.84375pt x 225.84375pt>
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
-Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 87
+Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 88
 .
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -896,27 +941,35 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 87
  <./bsmrstu.jpg> <../Counting Principles/Logo.png>] (./MAT205 Mid.toc)
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
-Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 93
+Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 94
 .
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 124
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 122--122
+ [][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122
 .
- (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 124
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 122.
+
+(c:/texlive/2019/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 124.
+(Font)              using `OT1/cmss/bx/n' instead on input line 122.
 
 
 
@@ -929,10 +982,14 @@ Version increased to '10' to fit text.>
 <Copying the QR code for "https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/m
 aster/Presentation/Beamer/MAT205%20Mid/MAT205%20Mid.tex" in version 10-H as pre
 viously calculated.>
+
+Overfull \vbox (11.10008pt too high) detected at line 122
+ []
+
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 12
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 [3
 
@@ -940,44 +997,44 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 12
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 12
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [4
 
 ]
-<Joseph Fourier.jpg, id=346, 301.125pt x 168.63pt>
+<Joseph Fourier.jpg, id=347, 301.125pt x 168.63pt>
 File: Joseph Fourier.jpg Graphic file (type jpg)
 <use Joseph Fourier.jpg>
-Package pdftex.def Info: Joseph Fourier.jpg  used on input line 146.
+Package pdftex.def Info: Joseph Fourier.jpg  used on input line 144.
 (pdftex.def)             Requested size: 180.67638pt x 101.17877pt.
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 14
-6.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [5
 
  <./Joseph Fourier.jpg>]
 File: Joseph Fourier.jpg Graphic file (type jpg)
 <use Joseph Fourier.jpg>
-Package pdftex.def Info: Joseph Fourier.jpg  used on input line 146.
+Package pdftex.def Info: Joseph Fourier.jpg  used on input line 144.
 (pdftex.def)             Requested size: 180.67638pt x 101.17877pt.
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 14
-6.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [6
 
 ]
 
 Package multimedia Warning: The movie file ``audio.mp3'' could not be found in 
-the current directory, where it must reside for viewing. on input line 163.
+the current directory, where it must reside for viewing. on input line 161.
 
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 16
-3.
+1.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 [7
 
@@ -985,7 +1042,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 16
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 17
-8.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [8
 
@@ -993,7 +1050,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 17
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 17
-8.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [9
 
@@ -1001,7 +1058,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 17
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [10
 
@@ -1009,7 +1066,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [11
 
@@ -1017,7 +1074,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [12
 
@@ -1025,7 +1082,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [13
 
@@ -1033,7 +1090,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [14
 
@@ -1041,7 +1098,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [15
 
@@ -1049,7 +1106,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [16
 
@@ -1057,7 +1114,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [17
 
@@ -1065,7 +1122,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 19
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 20
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [18
 
@@ -1077,7 +1134,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 20
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 21
-7.
+5.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [19
 
@@ -1088,19 +1145,19 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 21
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 23
-8.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [20
 
 ]
-Overfull \hbox (1.759pt too wide) detected at line 259
+Overfull \hbox (1.759pt too wide) detected at line 257
 []
  []
 
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 25
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 [21
 
@@ -1111,7 +1168,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 25
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 28
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [22
 
@@ -1122,7 +1179,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 28
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 30
-8.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [23
 
@@ -1130,13 +1187,13 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 30
 \openout4 = `"MAT205 Mid.vrb"'.
 
  (./MAT205 Mid.vrb)
-Overfull \vbox (8.69125pt too high) detected at line 334
+Overfull \vbox (8.69125pt too high) detected at line 332
  []
 
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 33
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 [24
 
@@ -1147,15 +1204,15 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 33
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 34
-6.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [25
 
 ] (./MAT205 Mid.toc)
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
-Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 35
-1.
+Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 34
+9.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [26
 
@@ -1166,7 +1223,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 35
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 36
-3.
+1.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 
 [27
@@ -1186,7 +1243,7 @@ mm/m/it/8 dx \OMS/cmsy/m/n/8 ^^A \OML/cmm/m/it/8 dy \OT1/cmr/m/n/8 = [] [][] []
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 38
-6.
+4.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [28
 
@@ -1208,7 +1265,7 @@ n/9 ) = \OML/cmm/m/it/9 F\OMS/cmsy/m/n/9 f\OML/cmm/m/it/9 z\OT1/cmr/m/n/9 (\OML
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 40
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [29
 
@@ -1219,7 +1276,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 40
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 42
-7.
+5.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [30
 
@@ -1235,7 +1292,7 @@ Overfull \hbox (18.16675pt too wide) detected at line 11
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 44
-9.
+7.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [31
 
@@ -1246,7 +1303,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 44
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
-3.
+1.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [32
 
@@ -1254,7 +1311,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
-8.
+6.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
  [33
 
@@ -1265,7 +1322,7 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 46
 File: ../Counting Principles/Logo.png Graphic file (type png)
 <use ../Counting Principles/Logo.png>
 Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 48
-4.
+2.
 (pdftex.def)             Requested size: 20.32506pt x 20.32506pt.
 
 [34
@@ -1280,15 +1337,15 @@ Package pdftex.def Info: ../Counting Principles/Logo.png  used on input line 48
 \tf@snm=\write8
 \openout8 = `"MAT205 Mid.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
  (./MAT205 Mid.aux
 <Reading QR code for "https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/maste
 r/Presentation/Beamer/MAT205%20Mid/MAT205%20Mid.tex" at level 10-H from aux fil
 e.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 488.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 488.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
 Package rerunfilecheck Info: File `"MAT205 Mid".out' has not changed.
 (rerunfilecheck)             Checksum: D50BB54113039623DA0E0BB017F85AF2;235.
 
@@ -1297,33 +1354,35 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21389 strings out of 481239
- 401333 string characters out of 5921778
- 830643 words of memory out of 5000000
- 36041 multiletter control sequences out of 15000+600000
- 540557 words of font info for 55 fonts, out of 8000000 for 9000
+ 24856 strings out of 481239
+ 478674 string characters out of 5921778
+ 891502 words of memory out of 5000000
+ 39474 multiletter control sequences out of 15000+600000
+ 541815 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,106p,3553b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
-10.pfb>
-Output written on "MAT205 Mid.pdf" (34 pages, 591593 bytes).
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}<c:/tex
+live/2019/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
+><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c
+:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on "MAT205 Mid.pdf" (34 pages, 621657 bytes).
 PDF statistics:
- 2103 PDF objects out of 2487 (max. 8388607)
- 1978 compressed objects within 20 object streams
+ 2108 PDF objects out of 2487 (max. 8388607)
+ 1982 compressed objects within 20 object streams
  74 named destinations out of 1000 (max. 500000)
  170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
