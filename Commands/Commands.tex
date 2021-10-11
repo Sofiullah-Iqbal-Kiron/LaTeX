@@ -180,19 +180,6 @@ Simple bash commands:
 			\item : \R{\T{cat }}
 		\end{enumerate}
 \end{enumerate}
-\subsection{10 Things to do after install \textit{Kali Linux}}
-\begin{enumerate}
-	\item Install git: \R{\T{apt install git}}
-	\item 
-	\item
-	\item
-	\item
-	\item
-	\item
-	\item
-	\item
-	\item
-\end{enumerate}
 
 \subsection{Password Cracking}
 Passwords are stored inside a server in a hash(crazy, massive numbers and letters) form, not in original plain text from.
@@ -254,7 +241,7 @@ Some issues: \textit{how to fix blackeye tool for phishing website link is not s
 \end{enumerate}
 
 \section*{Manim}
-Manim stands for \textbf{Mathematical Animation}. Created by 3blue1brown. Manim is a custom python library used to animate math explanation. Manim runs on python 3.6 or higher but 3.8 is recommended. \href{https://docs.manim.community/en/stable/}{\textcolor{red}{DOCS here}}.\\
+Manim stands for \textbf{Mathematical Animation}. Created by \textbf{3blue1brown}. Manim is a custom python library used to animate math explanation. Manim runs on python 3.6 or higher but 3.8 is recommended. \href{https://docs.manim.community/en/stable/}{\textcolor{red}{DOCS here}}.\\
 \textbf{Mobjects} class is the root abstract class in manim. All other \textbf{Mobjects} like Circle, Rectangle, Triangles are derived from this class.\\
 
 \begin{center}
@@ -284,7 +271,77 @@ Manim stands for \textbf{Mathematical Animation}. Created by 3blue1brown. Manim 
 			  	\item \R{\T{f - open file browser location}}
 			  	\item \R{\T{i - .gif instead of .mp4}}
 			  \end{enumerate}
-	\item \R{\T{self.play(animation(mobject), run\_time = seconds)}}
+	\item Animation time by run\_time: \R{\T{self.play(animation(mobject), run\_time = seconds)}}
 \end{enumerate}
+
+\section*{SQLite}
+	\justify
+	{
+	SQLite is a lightweight, reliable, portable database management tool, written in C, published in $2000$. Every commands(query in SQL) ends with a semicolon. We can write query in both uppercase or lowercase but writing queries in uppercase is conventional. TEXT type data allowed with both of single quote and double quote. Most like Python syntax/keywords. Not case-sensitive or case-insensitive.\\
+	}
+	Data types in SQLite:
+	\begin{enumerate}
+		\item NULL
+		\item INTEGER
+		\item REAL
+		\item TEXT
+		\item BLOB
+	\end{enumerate}
+	SQLite has no built-in boolean types. So, we have to store boolean 0(False) \& 1(True) inside of a INTEGER variable.\\
+
+	\pagebreak
+	Queries:
+	\begin{enumerate}
+		\item Start query operation on a SQL file with sqlite3 engine:\\
+			\R{\T{sqlite3 file\_name.sql}}\\
+			e.g. \textcolor{red!70}{sqlite3 flights.sql}
+		\item Get help: \R{\T{.help}}
+		\item Create table: \\
+			\R{\T{create table table\_name (column\_name1 data\_type optional\_properties, column\_name2 \dots);}}\\
+			e.g. \textcolor{red!70}{create table flights (id INTEGER PRIMARY KEY AUTOINCREMENT, origin TEXT NOT NULL, destination TEXT NOT NULL, duration INTEGER NOT NULL);}
+		\item Show all the tables exist inside the database: \R{\T{.tables}}
+		\item Insert data into table:\\
+			\R{\T{INSERT INTO table\_name (comma separate columns) values(comma separated values for each corresponding column);}}\\
+			e.g. \textcolor{red!70}{INSERT INTO flights (origin, destination, duration) values('New York', 'San Francisco', 415);}
+		
+		\item Get all data from a specific table in a \textbf{SQL} file: \R{\T{select * from table\_name;}}
+			\begin{enumerate}
+				\item \R{\T{select}}: get/obtain/return.
+				\item \R{\T{*}}: all columns.
+				\item \R{\T{from}}: from which table.
+				\item \R{\T{table\_name}}: specify the table in a particular SQL file.
+			\end{enumerate}
+			
+		\item Organize table in a specific mode: \R{\T{.mode value}}\\
+		Values would be:
+		\begin{enumerate}
+			\item \R{\T{column}}:  Preferred by sir \href{https://brianyu.me/}{Brain Yu}.
+			\item \R{\T{ html}}: Then we can copy and paste the tags and elements in a HTML document.
+			\item \R{\T{box}}: Boxed table, so pretty as well. My preferred.
+			\item \R{\T{line}}:  Good one.
+			\item \R{\T{table}}
+			\item \R{\T{insert}}: With SQL insert statement.
+			\item Or get description: \R{\T{.help .mode}}
+		\end{enumerate}
+		
+		\item Select all columns where rows have a particular value:\\
+			\R{\T{select * from table\_name where column\_name = value;}}\\
+			e.g. \textcolor{red!70}{\T{select * from flights where origin = 'Tokyo';}}
+		\item Select some columns: \R{\T{SELECT column1, column2,\dots\hspace{0.1cm} FROM table\_name;}}
+			e.g. \textcolor{red!70}{\T{SELECT origin, destination FROM flights;}}
+		\item Conditional selection:\\
+			\R{\T{SELECT * FROM table\_name WHERE conditions}}(python's like).\\
+			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300;}}\\
+			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration < 200 and origin = 'New York';}}\\
+			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300 or destination = 'San Francisco';}}\\
+			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin IN ('New York', 'San Francisco');}}
+		\item Select by pattern matching: \R{\T{SELECT * FROM flights WHERE origin like '\%regex\%'}}\\
+			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin LIKE '\%a\%';}}
+		\item Delete a row: \R{\T{DELETE FROM table\_name WHERE conditions;}}\\
+			e.g. \textcolor{red!70}{\T{DELETE FROM flights WHERE duration > 100;}}
+		\item Delete entire table: \R{\T{DROP TABLE table\_name;}}
+			e.g. \textcolor{red!70}{\T{DROP TABLE flights;}}
+		\item Exit from sqlite3 prompt console: \R{\T{.quit}}
+	\end{enumerate}
 
 \end{document}

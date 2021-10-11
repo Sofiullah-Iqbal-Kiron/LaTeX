@@ -1,0 +1,82 @@
+\documentclass[9 pt]{beamer}
+
+
+% packages
+\usepackage
+{
+	authblk, % Redefines \author command. Permits footnote type affiliation.
+	graphicx,
+	transparent, % Control image/text transparency. OR, make a transparent photo from photoshop.
+	xcolor, % color
+	hyperref, % clickable hyper link
+	gensymb, % degree symbol
+	multimedia, % sound, audio, video. Supported by beamer distro. Use media9 for another LaTeX class.
+	qrcode,
+	caption,
+	awesomebox
+}
+
+
+% newcommand, renewcommand, macro
+\newcommand{\myName}{Sofiullah Iqbal Kiron}
+\newcommand{\myMail}{sofiul.k.1023@gmail.com}
+\newcommand{\varsityName}{Bangobandhu Sheikh Mujibur Rahman Science and Technology University}
+\newcommand{\dateOfCreate}{4 October, 2021}
+
+
+% titlepage
+\title[Graph Theory]{Data Structure}
+\subtitle{Graph}
+\author[S. I. Kiron]
+{
+	\myName \\
+	\href{mailto:\myMail}{\myMail}
+}
+\date[Monday]{\dateOfCreate}
+\institute[BSMRSTU]{\varsityName}
+\affil{Department of CSE}
+%\logo{\includegraphics[scale=0.09]{../Counting Principles/Logo.png} }
+
+
+% themes and appearance
+\usetheme{Warsaw}
+\usecolortheme{seahorse}
+\usefonttheme{professionalfonts}
+\useinnertheme{rectangles}
+\useoutertheme[footline=authorinstitutetitle]{miniframes}
+\setbeamercolor{normal text}{bg=white}
+\setbeamercolor{frametitle}{fg=black}
+%\setbeamerfont{frametitle}{series=\bfseries}
+
+
+% set-up issues
+
+% hyper/clickable link setup
+%\hypersetup
+%{
+%    colorlinks=true,
+%    linkcolor=blue,
+%    filecolor=magenta,      
+%    urlcolor=blue,
+%}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Isomorphism test for graphs}
+    
+    \begin{enumerate}
+    	\item They must have the same number of vertices or the set of vertices must be equal.
+    	\item They must have the same number of edges.
+    	\item They must have the same number of connected components.
+    	\item They must have the same number of vertices of each edges.
+    	\item They must have the same number of cycles of each length.
+    \end{enumerate}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

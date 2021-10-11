@@ -1,0 +1,1 @@
+1. A data structure is a way of organizing data in a computer so that we can use those efficiently later. Types of data structures means how the data structure implemented and how it looks like when comparing with the real world, what skeleton stayed beyond of that data structure, is it linear or non-linear? is stack type or hierarchical tree type as well.
