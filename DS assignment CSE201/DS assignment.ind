@@ -1,0 +1,45 @@
+\begin{theindex}
+
+  \item A binary tree constructed from given traversals, 6
+  \item A merge sort illustration figure, 9
+  \item A simple graph, 10
+  \item Algorithm to delete a node from linked list, 5
+  \item Algorithmic notations, 2
+  \item Analysis graph by BIG O notation, 2
+
+  \indexspace
+
+  \item Basic types of data-structure, 2
+  \item Bubble sort algorithm, 3
+  \item Bubble sort definition, 3
+  \item Bubble sort iteration steps, 3
+
+  \indexspace
+
+  \item Definition of data structure, 2
+  \item Definition of merge sort, 9
+  \item Difference between linear search \& binary search, 8
+
+  \indexspace
+
+  \item Infix notation to postfix notation with an example, 7
+
+  \indexspace
+
+  \item Linked list type definition, 4
+
+  \indexspace
+
+  \item Properties of complete binary tree, 6
+
+  \indexspace
+
+  \item Steps to search a certain number in binary search approach, 8
+  \item Steps to sort a list using merge sort algorithm, 9
+
+  \indexspace
+
+  \item Warshall's algorithm illustration, 10
+  \item Weight matrix illustration, 10
+
+\end{theindex}

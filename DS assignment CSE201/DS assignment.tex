@@ -1,4 +1,4 @@
-% Issues: Quote symbol, Algorithm
+% Issues: Quote symbol, Algorithm2e
 
 \documentclass[11 pt]{article}
 
@@ -16,6 +16,7 @@
 	longtable,
 	array,
 	amsmath,
+	imakeidx % index, change compiler to MakeIndex then compile. Then compile again with XeLaTeX or PDFLaTeX.
 }
 
 \title{Assignment CSE201: Data Structure}
@@ -28,17 +29,17 @@
 	linkcolor = blue,
 	filecolor = magenta,
 	urlcolor = cyan,
-	pdftitle = {Barapukuria Coal Mine},
-	bookmarks = true,
-	hyperindex = true,
+	pdftitle = {CSE201 assignment},
 	linktocpage = false,
 	breaklinks = false,
 	frenchlinks = false,
+	bookmarks = true,
+	hyperindex = true,
 }
 
 
 \renewcommand\contentsname{Sections \& Sub-Sections}
-
+\makeindex
 
 \begin{document}
 
@@ -51,17 +52,19 @@
 %\end{center}
 \pagecolor{white}
 \tableofcontents
+\listoffigures
 \pagebreak
 
 \section{What is a data structure? What are the types of data structures? What are the notations of measurement of performance of an algorithm?}
 \justify
 {
-{\huge\textcolor{red}{\hspace{5 mm}D}}ata structure is a special way of organizing data in a computer so that we can use those efficiently later. Types of data structures means how the data structure implemented and how it looks like when comparing with the real world, how structured the skeleton that stayed beyond of that data structure, is it linear or non-linear? is it stack type or hierarchical tree type as well.\\
-The two basic types of data-structure:
+\index{Definition of data structure}{\huge\textcolor{red}{\hspace{5 mm}D}}ata structure is a special way of organizing data in a computer so that we can use those efficiently later. Types of data structures means how the data structure implemented and how it looks like when comparing with the real world, how structured the skeleton that stayed beyond of that data structure, is it linear or non-linear? is it stack type or hierarchical tree type as well.\\
+\index{Basic types of data-structure}The two basic types of data-structure:
 \begin{enumerate}
 	\item Linear
 	\item Non-linear
 \end{enumerate}
+\index{Algorithmic notations}
 To solve a problem we builds some different logic and algorithm but we don't know actually which algorithm is more efficient for our program in terms of holding less memory and shortest time. That's why we compare algorithms in a manner to find out best algorithmic approach that takes less memory and shortest time to make our program efficient. Due to respect of finding best algorithm there are so many approaches and they are denoted by some kind of mathematical notations. By those notations we measure the performance of an algorithm and scalability.\\
 Some notations are:
 \begin{enumerate}
@@ -69,7 +72,7 @@ Some notations are:
 	\item Big Ow notation $O(\textrm{ })$
 	\item Big Omega notation $\omega(\textrm{ })$
 \end{enumerate}
-Mostly used notation here is big Ow notation $O(\textrm{ })$. Here is a complexity analysis graph via big Ow notation $O(\textrm{ })$.
+\index{Analysis graph by BIG O notation} Mostly used notation here is big Ow notation $O(\textrm{ })$. Here is a complexity analysis graph via big Ow notation $O(\textrm{ })$.
 }
 	\begin{figure}[h!]
 	\begin{tikzpicture}
@@ -102,8 +105,9 @@ Mostly used notation here is big Ow notation $O(\textrm{ })$. Here is a complexi
 \section{What is bubble sort? Write an algorithm for sorting an array of N elements using bubble sort. Sort this array using bubble sort: [15, 18, 4, 5, 2]}
 \justify
 {
-Bubble sort is a very simple sorting algorithm who sort elements by just swapping two adjacent element is they are not in the correct order. Bubble sort has $O(n^2)$ as it's worst-case and average-case time complexity. Here is the algorithm of bubble sort:
+\index{Bubble sort definition} Bubble sort is a very simple sorting algorithm who sort elements by just swapping two adjacent element is they are not in the correct order. Bubble sort has $O(n^2)$ as it's worst-case and average-case time complexity. Here is the algorithm of bubble sort:
 }
+\index{Bubble sort algorithm}
 \begin{algorithm}
 \DontPrintSemicolon
 \KwData{An array of N elements.}
@@ -130,6 +134,7 @@ Set boolean swapped to false.\;
 \caption{Bubble Sort: optimized for boolean supported language.}
 \end{algorithm}
 
+\index{Bubble sort iteration steps}
 Sorting the array [15, 18, 4, 5, 2] using bubble sort:
 \begin{enumerate}
 	\item After iteration 1: [15, 18, 4, 5, 2]
@@ -151,6 +156,7 @@ Sorting the array [15, 18, 4, 5, 2] using bubble sort:
 \pagebreak
 
 \section{What are the types of linked list? Explain with diagram. Write and algorithm to delete element(node) from \enquote{pos} position in linked list}
+\index{Linked list type definition}
 \subsection{Type definition with diagram}
 \justify
 {
@@ -168,6 +174,7 @@ Types of linked list with diagram:
 \end{enumerate}
 }
 \pagebreak
+\index{Algorithm to delete a node from linked list}
 \subsection{Algorithm to delete a node from \enquote{pos} index}
 \begin{algorithm}
 \DontPrintSemicolon
@@ -201,6 +208,7 @@ Exit with success code 0.
 \section{Define the properties of complete binary tree. Create a tree from given orders of traversals- Preorder: \{11, 5, 3, 8, 16, 14, 18, 17, 20\}, Inorder: \{3, 5, 8, 11, 14, 16, 17, 18 , 20\}}
 
 \subsection{Properties of complete binary tree}
+\index{Properties of complete binary tree}
 A binary tree is a hierarchical tree type data structure where every node has at most 2 children and in a proper\textbackslash complete binary tree every internal nodes has exactly 2 child nodes. \\
 Properties of binary tree:
 \begin{itemize}
@@ -210,6 +218,7 @@ Properties of binary tree:
 \end{itemize}
 
 \subsection{Constructed binary tree}
+\index{A binary tree constructed from given traversals}
 Preorder: \{11, 5, 3, 8, 16, 14, 18, 17, 20\}\\
 Inorder: \{3, 5, 8, 11, 14, 16, 17, 18 , 20\}
 \begin{figure}[h!]
@@ -232,6 +241,7 @@ Inorder: \{3, 5, 8, 11, 14, 16, 17, 18 , 20\}
 
 \section{Convert the following infix equation to postfix equation using stack:\\$(A+B\textrm{ }\hat{ }\textrm{ }D)/(E-F)+G$}
 
+\index{Infix notation to postfix notation with an example}
 \begin{center}
 \rowcolors{2}{green!30}{green!60}
 \arrayrulecolor{white}
@@ -262,10 +272,12 @@ Final postfix equation: $ABD\textrm{ }\hat{ }+EF-/G+$
 \pagebreak
 
 \section{What is the difference between sequential(linear) search and binary search? Show the steps of searching element \enquote*{5} using binary search technique in [2, 5, 8, 15, 20]}
+\index{Difference between linear search \& binary search}
 \justify
 {
 Linear search is a searching approach that tries to find out an element in a given list\textbackslash array sequentially from start to end where a binary search approach always grab the middle element in the list and try to match it with the given key, if founds then return its index or recursively do the same approach until left index is not greater than of right index. In binary search, list\textbackslash array must be sorted.\\
 }
+\index{Steps to search a certain number in binary search approach}
 Searching \enquote*{5} in [2, 5, 8, 15, 20], steps:
 \begin{enumerate}
 	\item Set $key = 5$.
@@ -295,15 +307,18 @@ Searching \enquote*{5} in [2, 5, 8, 15, 20], steps:
 \pagebreak
 
 \section{Explain merge sort using an example.}
+\index{Definition of merge sort}
 \justify
 {
 Merge sort is an efficient sorting algorithm that follows Divide and Conquer algorithm to sort the given list of elements. Technique is recursively divide the given list in two halves until we obtain a certain stage where the length of the list becomes only 1. After that, merge those individual arrays in sorted manner till we combines the total list. Here is a pictorial demonstration available that gives a better understanding with an example of list: [38, 27, 43, 3, 9, 82, 10]\\
 }
+\index{A merge sort illustration figure}
 \begin{figure}[h!]
 \includegraphics[scale=0.7]{Pictures/300px-Merge_sort_algorithm_diagram.svg.png}
 \centering
 \caption{Merge sort illustration}
 \end{figure}
+\index{Steps to sort a list using merge sort algorithm}
 Here we take the total list of integers and recursively divide it in two halves until the divided list size becomes 1 then contineously merge them in sorted manner till we reach the exact length as before.
 \begin{enumerate}
 	\item[Step 1:] [38, 27, 43, 3, 9, 82, 10]
@@ -319,12 +334,14 @@ Here we take the total list of integers and recursively divide it in two halves 
 \pagebreak
 
 \section{Consider the weighted graph G in Fig-1. Suppose the nodes are stored in an array data as follows: [X, Y, S, T]. (a) Find the weight matrix W of G. (b) Find the matrix Q of shortest paths using Warshall's algorithm.}
-\justify
-{
-\begin{center}
-	\includegraphics[scale=0.6]{Pictures/Screenshot_2.jpg} 
-\end{center}
-}
+\index{A simple graph}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{Pictures/Screenshot_2.jpg}
+\caption{A directed graph}
+\end{figure}
+
+\index{Weight matrix illustration}
 \subsection{Weight matrix}
 $$
 \textrm{Weight matrix of G, W }=
@@ -338,6 +355,7 @@ $$
 $$
 	
 \subsection{Finding shortest path using Warshall's algorithm}
+\index{Warshall's algorithm illustration}
 $$
 D_0=
 \begin{bmatrix}
@@ -395,5 +413,7 @@ $
 \end{Vmatrix}
 $
 
+\pagebreak
+\printindex
 
 \end{document}
