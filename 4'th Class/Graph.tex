@@ -1,3 +1,5 @@
+% Unknown arrow tip kind, fixed: https://tex.stackexchange.com/questions/231387/package-pgf-error-unknown-arrow-tip-kind-latex-path
+
 \documentclass[10 pt]{article}
 \title{\textbf{\textit{\emph{M}aking \emph{G}raphs}}}
 \author{\textbf{Sofiullah Iqbal Kiron}}
@@ -12,6 +14,9 @@
 	listings,
 	mathtools
 }
+
+\usetikzlibrary{shadows}
+\usetikzlibrary{arrows.meta, arrows}
 
 \lstset
 {
@@ -620,5 +625,36 @@ When we labeling a binary tree in level-order process, then we gather, if parent
 	\item If number of nodes is $n$ then depth, $d_n = \left\lfloor\log_2n+1\right\rfloor$.
 	\item If height of tree is $h$ then total number of nodes: $n(Tn) = 2^h-1$ where $Tn$ is Total node.
 \end{itemize}
+
+\pagebreak
+
+\section{Graph of Q8 of CSE201 assignment}
+% \usetikzlibrary{shadows}
+% \usetikzlibrary{arrows.meta, arrows}
+
+\begin{center}
+
+	\tikzset{myNode/.style={draw, circle, white, radius=2pt, top color=red!40, bottom color=red!100, circular drop shadow={black!30}}, myEdge/.style={-{Stealth[open, round]}, very thick, green}} % thin, thick, very thick, fill=color_name removed. font=\itshape or \ttfamily.
+	\tikz
+	{
+		% Vertices
+		\node(Y) [myNode] at (2, 1) {\textbf{Y}};
+		\node(X) [myNode] at (-2, 1) {\textbf{X}};
+		\node(T) [myNode] at (-2, -1) {\textbf{T}};
+		\node(S) [myNode] at (2, -1) {\textbf{S}};
+		
+		% Edges
+		\draw[myEdge] (Y) to node[auto, swap, black, font=\ttfamily] {\textbf{3}} (X);
+		\draw[myEdge] (Y) to node(2) [auto, black, font=\ttfamily] {\textbf{2}} (S);
+		\draw[myEdge] (T) to node[auto, black, font=\ttfamily] {\textbf{4}} (S);
+		\draw[myEdge] (T) to node[auto, black, font=\ttfamily] {\textbf{6}} (X);
+		\draw[myEdge] (T) to node[auto, black, font=\ttfamily] {\textbf{1}} (Y);
+		\draw[myEdge] (X) to[out=40, in=90+50] node[auto, black, font=\ttfamily] {\textbf{7}} (Y);
+		\draw[myEdge] (S) to[out=-140, in=-40] node[auto, swap, black, font=\ttfamily] {\textbf{5}} (T);
+		
+		\node[draw, black, right=1cm, text width=6cm, font=\itshape, fill=green!10] at (2) {\textbf{Find out the shortest path of this graph using Warshall's algorithm.}};
+	}
+
+\end{center}
 
 \end{document}
