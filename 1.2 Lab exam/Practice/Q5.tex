@@ -1,0 +1,27 @@
+\index{Infix notation to postfix notation with an example}
+\begin{center}
+\rowcolors{2}{green!30}{green!60}
+\arrayrulecolor{white}
+\begin{longtable}{|| m{2.8 em} || m{5 em} m{5 em} m{9 em} ||}
+	\hline
+	\rowcolor{black}
+	\textbf{\textcolor{white}{Serial}} & \textbf{\textcolor{white}{Char}} & \textbf{\textcolor{white}{Stack}} & \textbf{\textcolor{white}{Equation}} \\
+	\hline\hline\hline\hline
+	1 & $($ & $($ &  \\
+	2 & A & $($ & A \\
+	3 & $+$ & $(+$ & A \\
+	4 & B & $(+$ & AB \\
+	5 & $\hat{ }$ & $(+\textrm{ }\hat{ }$ & AB \\
+	6 & D & $(+\textrm{ }\hat{ }$ & ABD \\
+	7 & ) & & ABD$\textrm{ }\hat{ }+$ \\
+	8 & / & / & ABD$\textrm{ }\hat{ }\textrm{ }+$ \\
+	9 & ( & $/($ & ABD$\textrm{ }\hat{ }\textrm{ }+$ \\
+	10 & E & $/($ & ABD$\textrm{ }\hat{ }\textrm{ }+$E \\
+	11 & - & $/(-$ & ABD$\textrm{ }\hat{ }\textrm{ }+$E \\
+	12 & F & $/(-$ & ABD$\textrm{ }\hat{ }\textrm{ }+$EF \\
+	13 & ) & $/$ & ABD$\textrm{ }\hat{ }\textrm{ }+$EF$-$ \\
+	14 & + & $+$ & ABD$\textrm{ }\hat{ }\textrm{ }+$EF$-/$ \\
+	16 & G & $+$ & ABD$\textrm{ }\hat{ }\textrm{ }+$EF$-/$G \\
+\end{longtable}
+\end{center}
+Final postfix equation: $ABD\textrm{ }\hat{ }+EF-/G+$

@@ -1,0 +1,10 @@
+Compile a TeX file from command line:
+1. Navigate to the working directory.
+2. Write down the command and hit enter
+(.dvi): "latex [filename].tex",
+(.pdf): "pdflatex [filename].tex"
+
+Will produce the .dvi or .pdf following by the same name.
+
+
+-> Conver from .dvi to .pdf: "dvipdfm [filename].dvi"

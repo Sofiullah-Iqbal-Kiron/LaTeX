@@ -1,0 +1,1 @@
+TikZiT is a super simple GUI editor for graphs and string diagrams. Its native file format is a subset of PGF/TikZ, which means TikkZiT files can be included directly in papers typeset using LaTeX.

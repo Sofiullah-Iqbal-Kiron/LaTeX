@@ -1,0 +1,123 @@
+% Issues: Quote symbol, Algorithm2e
+% \hyperpage{} command not creates when compiling index with makeindex engine.
+% Page link: \hyperlink{page.2}{First page}
+
+\documentclass[11 pt]{article}
+
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[document]{ragged2e}
+\usepackage[ruled, vlined]{algorithm2e}
+\usepackage[table, x11names, svgnames]{xcolor}
+\usepackage{biblatex}
+\addbibresource{Bibliographies.bib}
+\usepackage
+{
+	tkz-graph,
+	pgfplots,
+	hyperref,
+	csquotes, % quotes: \enquote{}, \enquote*{}
+	longtable,
+	array,
+	amsmath,
+	imakeidx, % index, change compiler to MakeIndex then compile. Then compile again with XeLaTeX or PDFLaTeX.
+	fancyhdr,  % manipulate header and footer.
+}
+\usetikzlibrary{shadows}
+\usetikzlibrary{arrows.meta, arrows}
+
+\title{Assignment CSE201: Data Structure}
+\author{\textbf{Md. Kazi Iqbal Hossen}\\\textbf{18ICTCSE065}\\\textbf{SHIICT, BSMRSTU}}
+
+
+\hypersetup
+{
+	colorlinks = true,
+	linkcolor = blue,
+	filecolor = magenta,
+	urlcolor = cyan,
+	pdftitle = {CSE201 assignment},
+	linktocpage = false,
+	breaklinks = false,
+	frenchlinks = false,
+	bookmarks = true,
+	hyperindex = true,
+}
+
+
+% header and footer management, L-left, R-right, C-center
+\pagestyle{fancy}
+\fancyhead[L, C]{}
+\fancyhead[R]{\textcolor{red}{Kiron's Document}}
+\fancyfoot[R]{page \thepage}
+\fancyfoot[L]{BSMRSTU}
+\fancyfoot[C]{SHIICT}
+
+\renewcommand\contentsname{Sections \& Sub-Sections}
+\makeindex
+
+\begin{document}
+
+\pagecolor{LightSlateGray}
+\input{TitlePage}
+%\textcolor{gray}{\rule{\textwidth}{2 pt}}
+%\vfill
+%\begin{center}
+%	\includegraphics[scale=0.4]{Pictures/0vtMuuSi_400x400.jpg} 
+%\end{center}
+\pagecolor{white}
+\tableofcontents
+\listoffigures
+\pagebreak
+
+\section{What is a data structure? What are the types of data structures? What are the notations of measurement of performance of an algorithm?}
+\input{Q1}
+
+\pagebreak
+
+\section{What is bubble sort? Write an algorithm for sorting an array of N elements using bubble sort. Sort this array using bubble sort: [15, 18, 4, 5, 2]}
+\input{Q2}
+
+\pagebreak
+
+\section{What are the types of linked list? Explain with diagram. Write and algorithm to delete element(node) from \enquote{pos} position in linked list}
+\input{Q3}
+
+\pagebreak
+
+\section{Define the properties of complete binary tree. Create a tree from given orders of traversals- Preorder: \{11, 5, 3, 8, 16, 14, 18, 17, 20\}, Inorder: \{3, 5, 8, 11, 14, 16, 17, 18 , 20\}}
+\input{Q4}
+
+\pagebreak
+
+\section{Convert the following infix equation to postfix equation using stack:\\$(A+B\textrm{ }\hat{ }\textrm{ }D)/(E-F)+G$}
+\input{Q5}
+
+\pagebreak
+
+\section{What is the difference between sequential(linear) search and binary search? Show the steps of searching element \enquote*{5} using binary search technique in [2, 5, 8, 15, 20]}
+\input{Q6}
+
+\pagebreak
+
+\section{Explain merge sort using an example.}
+\input{Q7}
+
+\pagebreak
+
+\section{Consider the weighted graph G in Fig-1. Suppose the nodes are stored in an array data as follows: [X, Y, S, T]. (a) Find the weight matrix W of G. (b) Find the matrix Q of shortest paths using Warshall's algorithm.}
+\input{Q8}
+
+\section{Fractions and Binomial}
+\input{Section9}
+
+\pagebreak
+%\hyperlink{page.2}{First page}
+%\hyperlink{page.10}{Last page}
+\printindex
+
+\pagebreak
+
+\bibliography
+
+\end{document}

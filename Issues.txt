@@ -1,0 +1,18 @@
+1. Change the background color in beamer:
+https://tex.stackexchange.com/questions/8043/change-the-background-color-of-a-frame-in-beamer
+
+2. Remove navigation symbols from beamer: \beamertemplatenavigationsymbolsempty
+https://stackoverflow.com/questions/3210205/how-to-get-rid-of-navigation-bars-in-beamer/3210406
+
+3. Rename names: \renewcommand, https://stackoverflow.com/questions/3125231/how-to-rename-sections-in-latex
+
+4. Plot a graph from it's adjacency matrix:
+https://tex.stackexchange.com/questions/202151/how-to-plot-a-graph-from-its-adjacency-matrix-and-coordinates-of-vertices
+
+5. Change pagenumber position and color
+https://latex.org/forum/viewtopic.php?t=26173
+or use fancyhdr package.
+
+6. Change section color globally
+
+7. Figure reference

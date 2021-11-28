@@ -1,0 +1,31 @@
+\index{Difference between linear search \& binary search}
+\justify
+{
+Linear search is a searching approach that tries to find out an element in a given list\textbackslash array sequentially from start to end where a binary search approach always grab the middle element in the list and try to match it with the given key, if founds then return its index or recursively do the same approach until left index is not greater than of right index. In binary search, list\textbackslash array must be sorted.\\
+}
+\index{Steps to search a certain number in binary search approach}
+Searching \enquote*{5} in [2, 5, 8, 15, 20], steps:
+\begin{enumerate}
+	\item Set $key = 5$.
+	\item First iteration:
+		\begin{enumerate}
+			\item left = 0
+			\item right = length(list) = 5
+			\item $mid = floor\_int\left(\frac{left+right}{2}\right) = 2$
+			\item list[mid] is greater than key. So, $right = mid -1 = 1$
+		\end{enumerate}
+	\item Second iteration:
+		\begin{enumerate}
+			\item left = 0
+			\item right = 1
+			\item $mid = floor\_int\left(\frac{left+right}{2}\right) = 0$
+			\item list[mid] is less than key. So, $left = mid+1 = 1$
+		\end{enumerate}
+	\item Third iteration:
+		\begin{enumerate}
+			\item left = 1
+			\item right = 1
+			\item $mid = floor\_int\left(\frac{left+right}{2}\right) = 1$
+			\item list[mid] is equal to the key. Return mid as index with success code 0.
+		\end{enumerate}
+\end{enumerate}

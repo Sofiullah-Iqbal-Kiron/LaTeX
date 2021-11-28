@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{What is a data structure? What are the types of data structures? What are the notations of measurement of performance of an algorithm?}{}% 1
+\BOOKMARK [1][-]{section.2}{What is bubble sort? Write an algorithm for sorting an array of N elements using bubble sort. Sort this array using bubble sort: [15, 18, 4, 5, 2]}{}% 2
+\BOOKMARK [1][-]{section.3}{What are the types of linked list? Explain with diagram. Write and algorithm to delete element\(node\) from "pos" position in linked list}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Type definition with diagram}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Algorithm to delete a node from "pos" index}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Define the properties of complete binary tree. Create a tree from given orders of traversals- Preorder: \17311, 5, 3, 8, 16, 14, 18, 17, 20\175, Inorder: \1733, 5, 8, 11, 14, 16, 17, 18 , 20\175}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Properties of complete binary tree}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Constructed binary tree}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Convert the following infix equation to postfix equation using stack:\(A+B \040D\)/\(E-F\)+G}{}% 9
+\BOOKMARK [1][-]{section.6}{What is the difference between sequential\(linear\) search and binary search? Show the steps of searching element '5' using binary search technique in [2, 5, 8, 15, 20]}{}% 10
+\BOOKMARK [1][-]{section.7}{Explain merge sort using an example.}{}% 11
+\BOOKMARK [1][-]{section.8}{Consider the weighted graph G in Fig-1. Suppose the nodes are stored in an array data as follows: [X, Y, S, T]. \(a\) Find the weight matrix W of G. \(b\) Find the matrix Q of shortest paths using Warshall's algorithm.}{}% 12
+\BOOKMARK [2][-]{subsection.8.1}{Weight matrix}{section.8}% 13
+\BOOKMARK [2][-]{subsection.8.2}{Finding shortest path using Warshall's algorithm}{section.8}% 14
+\BOOKMARK [1][-]{section.9}{Fractions and Binomial}{}% 15

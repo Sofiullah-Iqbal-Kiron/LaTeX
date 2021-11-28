@@ -1,0 +1,49 @@
+\justify
+{
+\index{Bubble sort definition} Bubble sort is a very simple sorting algorithm who sort elements by just swapping two adjacent element is they are not in the correct order. Bubble sort has $O(n^2)$ as it's worst-case and average-case time complexity. Here is the algorithm of bubble sort:
+}
+\index{Bubble sort algorithm}
+\begin{algorithm}
+\DontPrintSemicolon
+\KwData{An array of N elements.}
+\KwResult{Sorted list.}
+\Begin
+{
+$\textrm{Declare \& initialize variable i=0, j=0 and n}=\textrm{length(array)}$.\;
+Set boolean swapped to false.\;
+\For{i from 0 to n-1, increment by 1}
+{
+	\For{j from 0 to n-i-1, increment by 1}
+	{
+		\If{array$[j]$ is greater than array$[j+1]$}
+		{
+			Swap(array$[j]$, array$[j+1]$)\;
+			Set swapped value to true.
+		}
+	}
+	\If{not swapped}{exit from the loop.}
+	\Else{Set swapped value to false again.}
+}
+}
+\textbf{end}
+\caption{Bubble Sort: optimized for boolean supported language.}
+\end{algorithm}
+
+\index{Bubble sort iteration steps}
+Sorting the array [15, 18, 4, 5, 2] using bubble sort:
+\begin{enumerate}
+	\item After iteration 1: [15, 18, 4, 5, 2]
+	\item After iteration 2: [15, 4, 18, 5, 2]
+	\item After iteration 3: [15, 4, 5, 18, 2]
+	\item After iteration 4: [15, 4, 5, 2, 18]
+	\item After iteration 5: [4, 15, 5, 2, 18]
+	\item After iteration 6: [4, 5, 15, 2, 18]
+	\item After iteration 7: [4, 5, 2, 15, 18]
+	\item After iteration 8: [4, 5, 2, 15, 18]
+	\item After iteration 9: [4, 5, 2, 15, 18]
+	\item After iteration 10: [4, 2, 5, 15, 18]
+	\item After iteration 11: [4, 2, 5, 15, 18]
+	\item After iteration 12: [4, 2, 5, 15, 18]
+	\item After iteration 13: [2, 4, 5, 15, 18]
+\end{enumerate}
+\textcolor{blue}{Yep! Sorted using bubble sort.}

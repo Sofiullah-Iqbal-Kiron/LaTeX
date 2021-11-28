@@ -12,7 +12,9 @@
 	pgfplots,
 	color,
 	listings,
-	mathtools
+	mathtools,
+	dashbox,
+	fancyhdr,
 }
 
 \usetikzlibrary{shadows}
@@ -29,6 +31,14 @@
  stringstyle=\color{red},
  captionpos=b
 }
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[LE, RO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
 
 \begin{document}
 \maketitle
@@ -151,7 +161,6 @@ We are working on blah:\\One unit is 1 cm initially.
 
 \tikz
 {
-
 	\draw[step=1 cm, yellow, very thick](-5, -5)grid(5, 5);
 	\filldraw[mygrid](0, 2) circle[radius=1 cm];
 }
@@ -634,7 +643,7 @@ When we labeling a binary tree in level-order process, then we gather, if parent
 
 \begin{center}
 
-	\tikzset{myNode/.style={draw, circle, white, radius=2pt, top color=red!40, bottom color=red!100, circular drop shadow={black!30}}, myEdge/.style={-{Stealth[open, round]}, very thick, green}} % thin, thick, very thick, fill=color_name removed. font=\itshape or \ttfamily.
+	\tikzset{myNode/.style={draw, circle, white, radius=2pt, top color=red!40, bottom color=red!100, circular drop shadow={black!30}}, myEdge/.style={-{Stealth[open, round]}, very thick, green}} % thin, thick, very thick, ultra thick, fill=color_name removed. font=\itshape or \ttfamily.
 	\tikz
 	{
 		% Vertices
@@ -656,5 +665,39 @@ When we labeling a binary tree in level-order process, then we gather, if parent
 	}
 
 \end{center}
+
+\section{Circular undirected graph}
+%%% Issues:
+%% 1. Coordinate of intersection of two circle: https://math.stackexchange.com/questions/256100/how-can-i-find-the-points-at-which-two-circles-intersect
+% (or) https://youtu.be/U-APk19nA7A
+% (or) https://mathworld.wolfram.com/Circle-CircleIntersection.html
+
+%% 2. Define a variable in latex: \def\var_name{value}
+
+\begin{center}
+	\def\xb{-1}	\def\yb{0}
+	\def\xc{-\xb}	\def\yc{0}
+	\def\xa{0}		\def\ya{1.73205080757 * -\xb}
+	\def\r{1.75}
+	
+	\tikzset{cklgph/.style={black, thick}}
+	\tikz
+	{
+		\draw[help lines] (-5, -5) grid(5, 5);
+		
+		\draw (0, \ya) node[anchor=south, red] {$A$}
+  					-- (\xc, 0) node[anchor=west, red] {$C$}
+  					-- (\xb, 0) node[anchor=east, red] {$B$}
+ 				    -- cycle;
+		
+		\draw[cklgph] (\xb, \yb) circle[radius=\r]; % B
+		\draw[cklgph] (\xc, \yc) circle[radius=\r]; % C
+		\draw[cklgph] (\xa, \ya) circle[radius=\r]; % A
+	}
+
+\end{center}
+
+\section{Dashbox some}
+Here is an example of \dbox{Labeled box yep!}.\\
 
 \end{document}

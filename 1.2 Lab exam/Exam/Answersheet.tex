@@ -1,0 +1,43 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage[margin=3.8cm]{geometry}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhead[L]{Name:\underline{\hspace{4cm}}}
+\fancyhead[C]{}
+\fancyhead[R]{Class Test [$8:30$]}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\begin{center}
+{\huge Applied Differential Equations\\Class Test on Chapters 8, 9 and 10\\{\footnotesize Date: Monday, 15 Dec, 2015; Time: $8:30$am\\}}
+{\footnotesize \textbf{Instructions:} This in-class exam in $50$ minutes. No calculators, notes, tables or books. Details count $75\%$. The answer counts $25\%$. The sample exam has extra problems to show different problem types.}
+\end{center}
+\vspace{0.6cm}
+\begin{enumerate}
+	\item Find the fundamental matrix $e^{At}$ and  report the solution $u=e^{At}u(0)$ for the initial value problem
+	$$ u'(t)=\begin{pmatrix}
+	2 & 1\\
+	1 & 2
+\end{pmatrix} u(t)$$
+$$ u(0)=\begin{pmatrix}
+3\\
+-2
+\end{pmatrix} $$
+	\item Solve the general solution $u=u_h+u_p$, finding the particular solution $u_p$ by variation of parameters $$ u_p(t)=e^{At}\int_{0}^{t}e^{-Au}F(u)\cdot du $$
+	\item Identify the predator and the prey variables in the predator-prey system. Find the equilibrium points and identify the unique equilibrium which corresponds to coexistence with periodic populations oscillating about the two carrying capacities.
+	\begin{equation}
+		x'=0.005x(40-y)
+	\end{equation}
+	\begin{equation}
+		y'=0.01y(-50+x)
+	\end{equation}
+	\item It is assumed that you have memorized the basic 4-item Laplace integral table and know the 6 basic rules for Laplace integrals. No other tables or theory are required to solve problems below. If you don't know a table entry, then leave the expression unevaluated for partial credit.\\
+	Apply Laplace's method to solve the system. Find a $2\times 2$ system for $\mathcal{L}(x), \mathcal{L}(y)$. Solve it for $\mathcal{L}(x), \mathcal{L}(y)$. Find formulae for $x(t), y(t)$.
+\end{enumerate}
+
+\end{document}
