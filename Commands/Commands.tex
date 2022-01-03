@@ -47,6 +47,8 @@ Simple bash commands:
 	\item To remove a directory and all its contents, including sub-directories and files (cmd command): \R{\T{rm -r "directory name"}} r stands for recursive. That means recursively remove all.
 	\item Powershell version: Run as administrator, type \R{\T{\$PSVersionTable}}, hit enter.
 	\item Linux/UNIX command to write something on a file: \R{\T{echo message > fileNameWithExtension}} Ex: \textcolor{red!70}{\texttt{echo Hello > file.txt}}
+	\item List all installed python packages with version: \R{\T{pip list}} or \R{\T{pip freeze}}. Second command will list only packages which was installed via pip.
+	\item Upgrade any python package via pip: \R{\T{pip install <package\_name> --upgrade}} or in shortly \R{\T{pip install <package\_name> -U}}.
 	
 	\item Directory:
 		\begin{enumerate}
@@ -86,6 +88,8 @@ Simple bash commands:
 			\item Produce DVI from TeX: \R{\T{latex [filename].tex}}
 			\item DVI to PDF: \R{\T{dvipdfm [filename].dvi}}
 		\end{enumerate}
+	
+	\item Get your product key: \R{\T{wmic path SoftwareLicensingService get OA3xOriginalProductKey}}
 	
 	\item Open current directory on VS code: \R{\T{code .}}
 	\item Stop execution of a running command: \R{\T{ctrl + c}}
@@ -166,6 +170,19 @@ Simple bash commands:
 		\end{enumerate}	
 	
 	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: \R{\T{git fetch <shortname>}}
+	
+	\item Creating a repository from scratch with Github's command example:
+		\begin{enumerate}
+			\item[\#1] \R{\T{echo "\# Repository Name" >> README.md}}
+			\item[\#2] \R{\T{git init}}
+			\item[\#3] \R{\T{git add README.md}}
+			\item[\#4] \R{\T{git commit -m "first commit"}}
+			\item[\#5] \R{\T{git branch -M master/main}}
+			\item[\#6] \R{\T{\footnotesize git remote add <short name/nick name> <url:\\https://github.com/Sofiullah-Iqbal-Kiron/repository-name-without-blackspace.git>}}
+			\item[\#7] \R{\T{git push -u origin master/main}}
+			\item[\#8] \textit{Pore aita niye ghataghati korbo.}
+		\end{enumerate}
+	
 \end{enumerate}
 
 \section*{Kali Linux}
