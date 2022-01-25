@@ -16,3 +16,8 @@ or use fancyhdr package.
 6. Change section color globally
 
 7. Figure reference
+
+8. How to load xcolor package options to the beamer class?
+
+9. Increase \hrule 's thickness, put the command anywhere:
+\setlength{\arrayrulewidth}{1pt}

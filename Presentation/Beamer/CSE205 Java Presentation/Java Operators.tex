@@ -1,0 +1,433 @@
+% Created at 19 January, 2022.
+
+% Change the size of math notation inside math environment: https://tex.stackexchange.com/questions/348108/change-the-size-of-a-math-symbol
+% longtable in beamer: \documentclass[table, compress]{beamer}
+
+% Page transitions-> \transwipe[duration=0.6], \transdissolve, \transblindshorizontal, \transblindsvertical, \transboxin, \transcover, \transfade[duration=0.6], \transglitter, \transreplace and many many more with specificatinos and options.
+
+% Beamer class don't support xcolor package options. How to load xcolor package options to the beamer class?
+
+
+\documentclass[table, compress]{beamer}
+
+
+% packages
+\usepackage
+{
+	array, % control table-rule properties
+	authblk, % Redefines \author command. Permits footnote type affiliation.
+	awesomebox,
+	caption, % I used it to remove buit-in caption tag from any figure by like \caption*{•}
+	gensymb, % degree symbol
+	graphicx,
+	hyperref, % clickable hyper link
+	listings,
+	longtable, % another version of table that can extends through many pages. To use it in beamer class: \documentclass[table, compress]{beamer}
+	multimedia, % sound, audio, video. Supported by beamer distro. Use media9 for another LaTeX class.
+	qrcode,
+	tabularx,
+	transparent, % Control image/text transparency. OR, make a transparent photo from photoshop.
+	xcolor,
+}
+
+
+% newcommand, renewcommand, macro
+\newcommand{\myName}{Sofiullah Iqbal Kiron}
+\newcommand{\myMail}{sofiul.k.1023@gmail.com}
+\newcommand{\varsityName}{Bangobandhu Sheikh Mujibur Rahman Science and Technology University}
+\newcommand{\varsityShortName}{BSMRSTU}
+\newcommand{\dateOfSubmit}{24 January, 2022}
+
+
+% titlepage
+\title[Bitwise Operator]{Java Operators}
+\subtitle{Bitwise Operators: $\&,\textrm{ }|,\textrm{ }>>,\textrm{ and }<<<$}
+\author[S. I. Kiron]
+{
+	\myName \\
+	\href{mailto:\myMail}{\myMail}
+}
+\date[Monday]{\dateOfSubmit}
+\institute[\varsityShortName]{{\Large \textbf{\varsityName}}}
+\affil{Department of CSE}
+\logo{\includegraphics[scale=0.1]{../Counting Principles/Logo.png}}
+
+
+% themes and appearance
+\usetheme{Warsaw}
+\usecolortheme{seahorse}
+\usefonttheme{professionalfonts}
+\useinnertheme{rounded}
+\useoutertheme[footline=authorinstitutetitle]{miniframes}
+\setbeamercolor{normal text}{bg=white, fg=black}
+\setbeamercolor{frametitle}{fg=red!100, bg=green!20}
+%\setbeamerfont{frametitle}{series=\bfseries}
+
+
+% set-up issues %
+
+% Rule set-up for table.
+\setlength{\arrayrulewidth}{1pt}
+
+% hyper/clickable link set-up.
+\hypersetup
+{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% Code listing set-up.
+\lstset
+{
+	language = Java,
+	backgroundcolor = \color{gray!10},
+	basicstyle = \footnotesize\ttfamily, % Add all style properties without comma separator.
+	keywordstyle = \color{blue},
+	commentstyle = \color{green!90},
+	showstringspaces = false,
+	stringstyle = \color{red},
+	captionpos = b %, b: bottom
+ % numbers=left/right
+}
+
+
+% It will show currentsection by using feature of \tableofcontents at the beginning pf each section.
+\AtBeginSection[]
+{
+ \begin{frame}
+ 
+  \frametitle{Heads off to\dots}
+  \tableofcontents[currentsection]
+  
+ \end{frame}
+}
+
+
+\begin{document}
+
+{ % Local background surrendered in a pair of curly brace. Woanna add globally? put this command at the preamble.
+\usebackgroundtemplate{\transparent{0.3}{\includegraphics[height=\paperheight,width=\paperwidth]{Pictures/background main.jpg}}}
+	\frame
+	{
+		\titlepage
+	}
+}
+
+% SECTION DEMO
+
+
+% SECTION 1
+\section{Preamble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Start-UP}
+    \begin{center}
+    {\scriptsize
+        Name: Md. Kazi Iqbal Hossen\\
+        ID: 18ICTCSE065\\
+        Department of CSE, BSMRSTU\\
+    }
+        \textcolor{green}{\rule{11 cm}{3 pt}} \\
+        
+        {\tiny
+        \awesomebox[yellow][][]{2pt}{\faExclamationCircle}{red}{This presentation is created and animated using \LaTeX{}-Beamer class. Please keep it in full-screen view mode to take a better experience.}
+        }
+    \end{center}
+    \texttt{\footnotesize Wanna explore beamer source code? click to:}
+    {\footnotesize
+    \begin{itemize}
+        \item[Link 1:] \href{https://pastebin.ubuntu.com/p/dY8TWXY24C/}{\textit{\textbf{Ubuntu pastebin}}}
+        \item[Link 2:] \href{https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/master/Presentation/Beamer/MAT205\%20Mid/MAT205\%20Mid.tex}{\textit{\textbf{Github}}}{\tiny (recommended)}
+    \end{itemize}
+    }
+    Or, scan{\footnotesize(clickable in pdf)} the following quick response code:
+    \begin{figure}
+        \qrcode[hyperlink, padding, height=7mm, level=H, version=8]{https://github.com/Sofiullah-Iqbal-Kiron/LaTeX/blob/master/Presentation/Beamer/MAT205\%20Mid/MAT205\%20Mid.tex}
+        {\small \caption*{QR}} % usepackage caption
+        \centering
+    \end{figure}
+    \transsplitverticalout[duration=0.8]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Basic Beyond}
+    \begin{block}{Info}
+    	Java store values in memory as a binary string, except char type.
+    \end{block}
+    
+    That's why Java provides bitwise operators to operate on them when we are regardless at focusing on original data.
+   
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \begin{figure}[!h]
+    \centering
+    	\includegraphics[scale=2.3]{E:/Pictures/WallPaper/Java WallPaper/istockphoto-518002738-170667a.jpg}
+    \caption{Java, the Programming Language}
+    \end{figure}
+    
+   
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% SECTION 2
+\section{Deep Dive}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Java's Bitwise Operator}
+    \framesubtitle{Tabular Illustration}
+    
+\begin{center}
+\rowcolors{3}{green!30}{green!60}
+\arrayrulecolor{white}
+\columnseprule = 0.2 mm
+	\begin{longtable}{|| m{5 em} || m{10 em} ||}
+		\hline\hline
+		\rowcolor{teal!20}
+		\multicolumn{2}{c}{\textbf{\textsf{\textcolor{black}{Bitwise Operators}}}}\\
+		\hline\hline
+		 Operators & Operation\\
+		 $\thicksim$ & Unary NOT\\
+		 \& & AND\\
+ 		 \textbf{\textbar} & OR\\
+		 $\wedge$ & XOR\\
+		 $>>$ & Right Shift\\
+		 $>>>$ & Unsigned Right Shift\\
+		 $<<$ & Left Shift\\
+		\hline\hline
+	\end{longtable}
+\end{center}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Unary NOT}
+    \begin{block}{$\thicksim$}
+    	Also known as bitwise complement.
+    \end{block}
+    Inverts all the bits that is, if $0$ then $1$ otherwise $0$.
+    \arrayrulecolor{black}
+    \begin{table}
+    \centering
+    \begin{tabular}{| c  c |}
+    	\hline
+    	A & {\footnotesize $\bar{\textrm{A}}$}\\ \hline\hline
+    	0 & 1\\ \hline
+    	1 & 0\\ \hline
+    \end{tabular}
+    \caption*{\textbf{Truth Table}}
+    \end{table}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Unary NOT}
+    \framesubtitle{An example}
+    \begin{example}
+   	\begin{itemize}
+   		\item[{\footnotesize $A\rightarrow$}] $1000\textrm{ }1111$
+   		\item[{\footnotesize $\bar{A}\rightarrow$}] $0111\textrm{ }0000$
+ 	\end{itemize}
+    \end{example}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise AND}
+    
+    \begin{block}{\&}
+    	Operates bool logical AND operation on every bit of the given numbers.
+    \end{block}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{| c  c c |}
+    	\hline
+    	A & B & A \& B\\ \hline\hline
+    	0 & 0 & 0 \\ \hline
+    	0 & 1 & 0 \\ \hline
+    	1 & 0 & 0 \\ \hline
+    	1 & 1 & 1 \\ \hline
+    \end{tabular}
+    \caption*{\textbf{Truth Table}}
+    \end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise AND}
+    \framesubtitle{An example}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{c  c}
+    	$42\rightarrow$ & $0010\textrm{ }1010$\\
+    	$15\rightarrow$ & $0000\textrm{ }1111$\\ \hline
+    	$42\textrm{ \& }15 = 10\rightarrow$ & $0000\textrm{ }1010$\\
+    \end{tabular}
+    \end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise OR}
+    \begin{block}{Bitwise OR: \textbf{\textbar}}
+    	Combine bits such that if at least one bit is 1 then the resultant bit become 1.
+    \end{block}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{| c  c c |}
+    	\hline
+    	A & B & A \textbf{\textbar} B\\ \hline\hline
+    	0 & 0 & 0 \\ \hline
+    	0 & 1 & 1 \\ \hline
+    	1 & 0 & 1 \\ \hline
+    	1 & 1 & 1 \\ \hline
+    \end{tabular}
+    \caption*{\textbf{Truth Table}}
+    \end{table}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise OR}
+    \framesubtitle{An example}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{c  c}
+    	$42\rightarrow$ & $0010\textrm{ }1010$\\
+    	$15\rightarrow$ & $0000\textrm{ }1111$\\ \hline
+    	$42$ \textbf{\textbar} $15 = 47\rightarrow$ & $0010\textrm{ }1111$\\
+    \end{tabular}
+    \end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise XOR}
+    
+    \begin{block}{Bitwise XOR: $\wedge$}
+    	Combines bits such that when exactly one bit is 1 then the result is 1 otherwise 0.
+    \end{block}
+    
+    \begin{itemize}
+    	\item There is a useful property for programmers, if the second bit is 1 then the first bit is inverted.
+    	\item Or, if the second bit is 0 then the first bit remains same.
+    \end{itemize}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{| c  c c |}
+    	\hline
+    	A & B & A $\wedge$ B\\ \hline\hline
+    	0 & 0 & 0 \\ \hline
+    	0 & 1 & 1 \\ \hline
+    	1 & 0 & 1 \\ \hline
+    	1 & 1 & 0 \\ \hline
+    \end{tabular}
+    \caption*{\textbf{Truth Table}}
+    \end{table}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Bitwise XOR}
+    \framesubtitle{An example}
+    
+    \begin{table}
+    \centering
+    \begin{tabular}{c  c}
+    	$42\rightarrow$ & $0010\textrm{ }1010$\\
+    	$15\rightarrow$ & $0000\textrm{ }1111$\\ \hline
+    	$42$ $\wedge$ $15 = 37\rightarrow$ & $0010\textrm{ }0101$\\
+    \end{tabular}
+    \end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Right Shift}
+    \begin{block}{Right Shift: $>>$}
+    	Shifts all the bits in a value to the right a specified number of times.
+    \end{block}
+    First of all the value will be promoted to be int and then shifted by the specified number of times.\\
+    Right shift is an efficient way for programmers to dividing the number by $2$ or multiplying it by $2^{-n}$.
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Right Shift}
+    \framesubtitle{An example}
+%    \begin{lstlisting}
+%    class RightShift {
+%    
+%    }
+%    \end{lstlisting}
+%    output in a tcolorbox
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Left Shift}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Left Shift}
+    \framesubtitle{An example}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{In the end}
+
+
+\end{document}
