@@ -1,0 +1,75 @@
+\documentclass[11pt]{book}
+
+
+\usepackage{csquotes}
+
+\begin{document}
+
+\part{Management}
+
+\chapter{Introduction to Business}
+
+\textbf{Topics to cover later}
+\begin{enumerate}
+	\item Scope of business
+\end{enumerate}
+
+\section{What is Business}
+Business is the activity performed by an individual or a group of people with a view to earn profit within the government rules and regulations. Main purpose of business is to earn profit.
+
+\section{Elements of Business}
+Three ($3$) main components of business:
+\begin{enumerate}
+	\item[Trade:] is the final stage of business activity and it involves sales and purchase of goods. It can divided into two types such as:
+		\begin{enumerate}
+			\item[Home trade:] when trade takes place within the national boundaries.
+			\item[Foreign trade:] when trade takes place across the national boundaries.
+		\end{enumerate}
+	\item[Commerce:] It is the process of buying, selling and other activities which facilitate trade such as storing, packaging, transportation, insurance, banking, finance and marketing promotion. The principle function of commerce is to remove the hindrances of person, place, time, exchange and knowledge.
+	\item[Industry:] Industry refers to that part of business activity which is engaged in rising, producing, processing, fabrication, extracting and conversion of goods.
+\end{enumerate}
+
+\section{Objective of business}
+\begin{itemize}
+	\item Profit, the main objective of business to earn it.
+	\item Business Profit
+	\item Economic Profit
+	\item Survival
+	\item Growth
+	\item Social Responsibility: the responsibility of a businessmen is to supply goods and services in that way which are not harmful to the society.
+\end{itemize}
+
+\section{Business Input and Output}
+Input:
+\begin{itemize}
+	\item Human resource
+	\item Capital
+	\item Managerial resource
+	\item Technological resource
+\end{itemize}
+Output:
+\begin{itemize}
+	\item Product
+	\item Service
+	\item Profit
+	\item Satisfaction
+	\item Goal
+\end{itemize}
+
+\chapter{Sole Proprietorship}
+\enquote{Sole} means single and \enquote{proprietorship} means ownership. So, the business organization in which a single person owns, manages and controls all the activities of the business is known as sole proprietorship from of business organization. Or, a business enterprise exclusively owned, managed and controlled by a single person with all authority, responsibility and risk is called a sole proprietorship business. \\
+Characteristics or Features of sole proprietorship business:
+\begin{itemize}
+	\item Easy formation
+	\item Single ownership
+	\item No sharing of profit-loss
+	\item Limited capital
+	\item Full controlling power only goes to the sole.
+	\item Unlimited liability
+	\item Limited area of operation
+	\item Freedom in selection of trade
+	\item Secrecy
+	\item Personal relations
+\end{itemize}
+
+\end{document}

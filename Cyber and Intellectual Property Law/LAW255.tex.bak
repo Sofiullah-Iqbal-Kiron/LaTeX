@@ -1,0 +1,108 @@
+\documentclass[14 pt, letterpaper]{extarticle}
+
+\usepackage[document]{ragged2e}
+\usepackage
+{
+	xcolor,
+	graphicx, % \includegraphics and graphics related
+	hyperref,
+	extsizes, % increase extarticle size manually
+}
+
+\title{Cyber and Intellectual Property Law}
+\author
+{
+	\includegraphics[scale=0.2]{../Commands/User Profile} \\ % scale is better scaling for picture. Scale 0.2 means 20 percent will be the printed size of main size.
+	\textit{Sofiullah Iqbal Kiron} \\
+	\rule{11 cm}{2 pt}
+}
+\date{21 may, 2022 \\ {\tiny Last compiled: \today}}
+
+\begin{document}
+	
+	\maketitle
+
+	\section{Definition Nature}
+	Cyber law is a law related to IT and ICT. Internet has rendered a tremendous prospective aspect for the human civilization. The inventors of internet may not really anticipate the scope and far reaching consequences of cyberspace. Cyberlaw is a law governing computer and internet.\linebreak\linebreak
+	Cyber crime cases:
+	\begin{enumerate}
+		\item Online banking frauds.
+		\item Online share trading frauds.
+		\item Source code theft.
+		\item Credit card fraud.
+		\item Tax evasion.
+		\item Virus attack.
+		\item Cyber sabotage.
+		\item Email hijacking.
+		\item Denial of service.
+		\item Hacking.
+		\item Pornography.
+		\item Defamation.
+		\item Selling illegal products.
+	\end{enumerate}
+
+	
+	\textbf{The law related to control the behavior, rights, duties and obligations of the benificiaries of satellite station, satellite communication, internet, cyberspace, ICT etc. is termed as Cyberlaw.}
+	
+	\textbf{Cyberspace is the metaphorical space of computer systems and computer networks where electronic data is stored and online communication take places.}
+	
+	Nature of cyber laws:
+	\begin{enumerate}
+		\item Jurisdiction and sovernity of internet.
+		\item Net Neutrality.
+		\item Free space in cyberspace.
+		\item Internet regulation in different countries.
+	\end{enumerate}
+	
+	\section{Cyber Crime}
+	\textbf{Cyber crime may be defined as E-Crime that are almost conventional crimes in nature committed by using computer \& ICT with an intention to make social disorder.}
+	\linebreak
+	Types of cyber crime:
+	\begin{enumerate}
+		\item Financial Crimes.
+		\item Cyber Pornography.
+		\item Sale of illegal articles.
+		\item Online gambling.
+		\item Intellectual property crimes.
+		\item Email Spoofing.
+		\item Forgery.
+		\item Cyber Defamation.
+		\item Cyeber Stalking.
+	\end{enumerate}
+	
+	\section{Jurisdiction and Cyber Crime}
+	The internet does not tend to make geographical and jurisdictional boundaries but the internet users are remaining under physical jurisdiction. \\
+	Jurisdiction is an aspect of state sovereignty. If refers to judicial, legislative and administrative competence.
+	So the cyber jurisdiction is the jurisdiction enforced by a state upon it's citizen who uses cyberspace.
+	
+	\section{Question solve}
+	Intellectual Property(abbreviated IP) refers to creations of the mind, such as inventions; literary and artistic works, designs and symbols, names and images used in commerce. IP is protected in law. \\
+	The four ($4$) main types of intellectual property are
+	
+	\begin{enumerate}
+		\item[Patent:] is a property right for an investor that is typically granted by a government agency. The patent allows the inventor exclusive rights to invention, which could be a design, process, an improvement or physical invention such as a machine.
+		\item [Copyright:] provide authors and creators of original material the exclusive right to use, copy or duplicate their material.
+		\item[Trademark:] is a symbol, phrase or insignia that is recognizable and represents a product that legally separates it from other products. A trademark is exclusively assigned to a company, meaning the company owns the trademark so that no others may use or copy it.
+		\item [Trade secret:] is a company's process or practice that is not public information, which provides an economic benefit or advantage to the company or holder of the trade secret.
+	\end{enumerate}
+	
+	\textbf{Short notes}\linebreak
+	\begin{itemize}
+		\item Passing off happens when someone deliberately or unintentionally passes of their goods or services as those belonging to another party. This action of misrepresentation often damages the goodwill of a person or business, causing financial or reputation damage. The elements of passing off is goodwill, misrepresentation and damage.
+		\item Digital Signature in cryptography, a digital signature or digital signature scheme is used to pretend the security properties of a signature in digital form. Digital signature schemes normally give two algorithms:
+		\begin{enumerate}
+			\item One for signing which involves the user's public key.
+			\item Other for verifying signatures which involves the user's public key.
+		\end{enumerate}
+		The output of the signature process is called the digital signature. Digital signatures are used to create Public Key Infrastructure(PKI) schemes. User's public key is tied to user by a digital identity certificate issued by a certificate authority.
+		\item Deceptive Similarity is an issue of  marks can be defined as similarity between trademarks that can lead the general public of average intelligence to believe that the mark in question is somehow related to a registered or well-known trademark. So, a trademark should not be registered if it is deceptively similar.
+		\item Infringement of copyright or copyright violations occur when an authorized party recreates all or a portion of an original work, such as a work of art, music or a novel. The duplicated content need not be an exact replica of the original to qualify as an infringement.
+	\end{itemize}
+	
+	\section{Hacking and punishment according to ICT act. 2006}
+	\textbf{Hacking:} is harming any computer, server, network or any other electronic system by accessing it unlawfully with some techniques and special computer programs.
+	\textbf{Punishment:} Whoever commits hacking shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to Taka one crore or with both.
+	
+	\section{•}
+	
+\end{document}

@@ -1,0 +1,49 @@
+\documentclass[11 pt]{article}
+
+
+\usepackage[table, x11names]{xcolor}
+\usepackage[document]{ragged2e}
+\usepackage[T1]{fontenc}
+\usepackage[left=1.8cm, right=1.8cm, top=2cm, bottom=3cm]{geometry}
+
+\usepackage{multicol}
+
+\usepackage
+{
+ array,
+ pgfplots,
+ tabularx,
+ longtable,
+}
+
+% For scripting in Bangla.
+\usepackage{polyglossia}
+\setdefaultlanguage[numerals=Devanagari]{bengali}
+\newfontfamily\bengalifont[Script=Bengali]{Kalpurush}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+	\begin{center}
+	\rowcolors{3}{green!35}{green!70}
+	\arrayrulecolor{white}
+	\columnseprule = 0.5 mm
+		\begin{longtable}{|| m{7 em} || m {7 em} || m {7 em} || m{9 em} ||}
+			\hline\hline
+			\rowcolor{teal!20}
+			\multicolumn{4}{c}{\textbf{\textcolor{black}{Number of Calendars to be purchased by Upozilla}}}\\
+			\hline\hline
+			\rowcolor{red!10}
+			\textbf{উপজেলা} & \textbf{সভাপতি} & \textbf{যোগাযোগ} & \textbf{গৃহীত ক্যালেন্ডার সংখ্যা} \\
+			মুকসুদপুর & আল-আমিন & 01790305534 & ১০০ \\
+			কাশিয়ানি & মো. সাদ্দাম & 01748173757 & ১০০ \\
+			গোপালগঞ্জ সদর & আবদুল্লাহ & 01312127645 & ০০০ \\
+			কোটালিপাড়া & ইমরান মোল্লা & 01966565945 & ২০০ \\
+			টুঙ্গিপাড়া & ইব্রাহিম শেখ & 01961638237 & ১০০ \\
+			\hline\hline
+		\end{longtable}
+	\end{center}
+
+\end{document}

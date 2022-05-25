@@ -1,0 +1,90 @@
+% Set margin to 2.3cm for mobile view compatibility
+% I use "extsizes" package to increase article size manually. This package allows 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt and 20 pt text. Documentclass must be extarticle. But why the geometry package is not working after including extsizes?
+% Syntax text color: \textcolor{red}{}
+% Example text color: \textcolor{red!70}{}
+% New command for red-teletype text: \R{\T{}}
+% F1 (fn + f1 on laptop) for quick build.
+
+\documentclass[12 pt, letterpaper]{extarticle}
+
+\usepackage[document]{ragged2e}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage
+{
+	graphicx, % \includegraphics and graphics related
+	extsizes, % increase extarticle size manually
+	hyperref,
+	forest
+}
+
+\newcommand{\R}{\textcolor{red}} % Just replacement.
+\newcommand{\T}{\texttt}
+
+\title{\textcolor{blue}{Manim}}
+\author
+{
+	\includegraphics[scale=0.2]{../Commands/User Profile} \\ % scale is better scaling for picture. Scale 0.2 means 20 percent will be the printed size of main size.
+	\textit{Sofiullah Iqbal Kiron} \\
+	\R{\rule{11 cm}{2 pt}}
+}
+\date{15 May, 2022 \\ {\tiny Last compiled: \today}}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section*{Manim}
+	Manim stands for \textbf{Mathematical Animation}. Created by \textbf{3blue1brown}. Manim is a custom python library used to animate math explanation. Manim runs on python 3.6 or higher but 3.8 is recommended. \href{https://docs.manim.community/en/stable/}{\textcolor{red}{DOCS here}}.\\
+	\textbf{Mobjects} class is the root abstract class in manim. All other \textbf{Mobjects} like Circle, Rectangle, Triangles are derived from this class.\\
+	
+	\begin{center}
+		\begin{forest}
+			[Mobject
+				[frame]
+				[geometry]
+				[graph]
+				[graphing]
+				[logo]
+				[matrix]
+				[mobjects]
+				[svg]
+				[table]
+				[text]
+				[three\_d]
+				[types]
+				[value\_tracker]
+				[vector\_field]
+			]
+		\end{forest}
+	\end{center}
+
+	\begin{center}
+		\begin{forest}
+			[geometry
+				[arc]
+				[boolean\_ops]
+				[line]
+				[polygram]
+				[shape\_matchers]
+				[tips]
+			]
+		\end{forest}
+	\end{center}
+	
+	\begin{enumerate}
+		\item \R{\T{manim -flags file\_name.py class\_name}}
+		\item Flags
+		\begin{enumerate}
+			\item \R{\T{p - play when class rendered}}
+			\item \R{\T{ql - low quality}}
+			\item \R{\T{qm - medium quality}}
+			\item \R{\T{qh - high quality}}
+			\item \R{\T{qk - 4k quality}}
+			\item \R{\T{a - render all scene class}}
+			\item \R{\T{f - open file browser location}}
+			\item \R{\T{i - .gif instead of .mp4}}
+		\end{enumerate}
+		\item Animation time by run\_time: \R{\T{self.play(animation(mobject), run\_time = seconds)}}
+	\end{enumerate}
+
+\end{document}
