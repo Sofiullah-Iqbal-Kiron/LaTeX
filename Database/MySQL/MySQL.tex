@@ -1,0 +1,53 @@
+% Set margin to 2.3cm for mobile view compatibility
+% I use "extsizes" package to increase article size manually. This package allows 8pt, 9pt, 10pt, 11pt, 12pt,  14pt, 17pt and 20 pt text. Documentclass must be extarticle. But why the geometry package is not working after including extsizes?
+% Syntax text color: \textcolor{red}{}
+% Example text color: \textcolor{red!70}{}
+% New command for red-teletype text: \R{\T{}}
+% F1 (fn + f1 on laptop) for quick build.
+
+\documentclass[12 pt, letterpaper]{extarticle}
+
+\usepackage[document]{ragged2e}\usepackage[margin=2.3cm]{geometry}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl,
+	graphicx, % \includegraphics and graphics related
+	extsizes, % increase extarticle size manually
+	hyperref,
+}
+
+\newcommand{\R}{\textcolor{red}} % Just replacement.
+\newcommand{\T}{\texttt}
+
+\title{\textcolor{blue}{MySQL}}
+\author
+{
+	\includegraphics[scale=0.2]{User Profile.jpg} \\ % scale is better scaling for picture. Scale 0.2 means 20 percent will be the printed size of main size.
+	\textit{Sofiullah Iqbal Kiron} \\
+	\R{\rule{11 cm}{2 pt}}
+}
+\date{21 June, 2022 \\ {\tiny Last compiled: \today}}
+
+\begin{document}
+	
+	\maketitle
+	\justify
+	
+	MySQL is most popular database management software.
+	
+	Websites:
+	\begin{enumerate}
+		\item \href{https://www.mysqltutorial.org/}{MySQL Tutorial}
+		\item \href{https://youtu.be/7S_tz1z_5bA}{YouTube: Mosh}
+	\end{enumerate}
+
+	\section{MySQL data types}
+	There are various type of MySQL data types.
+	\begin{enumerate}
+		\item CHAR(size): String of fixed length of size.
+		\item 
+	\end{enumerate}
+	
+\end{document}

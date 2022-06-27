@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  21 MAY 2022 13:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  11 JUN 2022 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,25 +786,25 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 (./Commands.aux)
 \openout1 = `Commands.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -865,7 +865,7 @@ g
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 34.
  (g:/program files/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -878,161 +878,161 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (./Commands.out) (./Commands.out)
 \@outlinefile=\write5
 \openout5 = `Commands.out'.
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 37.
 <User Profile.jpg, id=15, 361.35pt x 361.35pt>
 File: User Profile.jpg Graphic file (type jpg)
 <use User Profile.jpg>
-Package pdftex.def Info: User Profile.jpg  used on input line 38.
+Package pdftex.def Info: User Profile.jpg  used on input line 37.
 (pdftex.def)             Requested size: 72.2687pt x 72.2687pt.
  [1
 
 {g:/program files/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <.
 /User Profile.jpg>]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-48.
+47.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (7.48598pt too wide) in paragraph at lines 50--51
+Overfull \hbox (7.48598pt too wide) in paragraph at lines 49--50
 []\OT1/cmr/m/n/12 List all in-stalled python pack-ages with ver-sion: []\OT1/cm
 tt/m/n/12 pip list[] \OT1/cmr/m/n/12 or []\OT1/cmtt/m/n/12 pip freeze[]\OT1/cmr
 /m/n/12 .
  []
 
 [2] [3]
-Overfull \hbox (3.49533pt too wide) in paragraph at lines 125--126
+Overfull \hbox (3.49533pt too wide) in paragraph at lines 124--125
 []\OT1/cmr/m/n/12 Show com-mit changes: []\OT1/cmtt/m/n/12 git show commitID[] 
 \OT1/cmr/m/n/12 or, []\OT1/cmtt/m/n/12 git show HEAD n[]\OT1/cmr/m/n/12 ,
  []
 
 
-Overfull \hbox (6.2711pt too wide) in paragraph at lines 132--133
+Overfull \hbox (6.2711pt too wide) in paragraph at lines 131--132
 []\OT1/cmr/m/n/12 Indication: []\OT1/cmtt/m/n/12 git log --before/after="yester
 day/one week
  []
 
 
-Overfull \hbox (2.34612pt too wide) in paragraph at lines 133--134
+Overfull \hbox (2.34612pt too wide) in paragraph at lines 132--133
 []\OT1/cmr/m/n/12 the com-mit mes-sages those has the string/substring "WORD".
  []
 
 [4]
-Overfull \hbox (1.97214pt too wide) in paragraph at lines 145--146
+Overfull \hbox (1.97214pt too wide) in paragraph at lines 144--145
 \OT1/cmr/m/n/12 com-mand fetches([]\OT1/cmtt/m/n/12 git fetch[]\OT1/cmr/m/n/12 
 ) the new com-mits then merge([]\OT1/cmtt/m/n/12 git merge[]\OT1/cmr/m/n/12 )
  []
 
 
-Overfull \hbox (4.56847pt too wide) in paragraph at lines 169--170
+Overfull \hbox (4.56847pt too wide) in paragraph at lines 168--169
 []\OT1/cmr/m/n/12 Rename: []\OT1/cmtt/m/n/12 git remote rename <oldShortName> <
 newShortName>[] 
  []
 
 [5]
-Overfull \hbox (85.22072pt too wide) in paragraph at lines 183--184
+Overfull \hbox (85.22072pt too wide) in paragraph at lines 182--183
 \OT1/cmtt/m/n/10 https://github.com/Sofiullah-Iqbal-Kiron/repository-name-witho
 ut-blackspace.git>[] 
  []
 
 [6]
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 223.
+(Font)              <6> on input line 222.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 223.
+(Font)              <5> on input line 222.
  [7]
-Overfull \hbox (32.68661pt too wide) in paragraph at lines 225--226
+Overfull \hbox (32.68661pt too wide) in paragraph at lines 224--225
 []\OT1/cmr/m/n/12 Get black-eye: [] \OT1/cmtt/m/n/12 git clone https://github.c
 om/An0nUD4Y/blackeye.git[] 
  []
 
 [8]
-Overfull \hbox (7.83347pt too wide) in paragraph at lines 252--253
+Overfull \hbox (7.83347pt too wide) in paragraph at lines 251--252
 []\OT1/cmr/m/n/12 Attack with the help of So-cial En-gi-neer-ing as: \OT1/cmtt/
 m/n/12 Hey, it's an important
  []
 
 
-Overfull \hbox (4.13882pt too wide) in paragraph at lines 254--256
+Overfull \hbox (4.13882pt too wide) in paragraph at lines 253--255
 []\OT1/cmr/m/n/12 Modifying the phish-ing \OT1/cmr/m/it/12 web-site.html \OT1/c
 mr/m/n/12 from black-eye/sites di-rec-tory would
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 
-Overfull \hbox (13.5677pt too wide) in paragraph at lines 264--264
+Overfull \hbox (13.5677pt too wide) in paragraph at lines 263--263
 [][]\OT1/cmr/bx/n/17.28 Compile and Ex-e-cute C Pro-gram through CMD:
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-267.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 267.
+266.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 266.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 267.
+(Font)              for symbol `textbackslash' on input line 266.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
 [10]
-Overfull \hbox (52.35889pt too wide) in paragraph at lines 294--297
+Overfull \hbox (52.35889pt too wide) in paragraph at lines 293--296
 []\OT1/cmtt/m/n/12 create table table[]name (column[]name1 data[]type optional[
 ]properties,
  []
 
 
-Overfull \hbox (8.14587pt too wide) in paragraph at lines 298--301
+Overfull \hbox (8.14587pt too wide) in paragraph at lines 297--300
 []\OT1/cmtt/m/n/12 INSERT INTO table[]name (comma separate columns) values(comm
 a
  []
 
 
-Overfull \hbox (28.76033pt too wide) in paragraph at lines 302--303
+Overfull \hbox (28.76033pt too wide) in paragraph at lines 301--302
 []\OT1/cmr/m/n/12 Get all data from a spe-cific ta-ble in a \OT1/cmr/bx/n/12 SQ
 L \OT1/cmr/m/n/12 file: []\OT1/cmtt/m/n/12 select * from table[]name;[] 
  []
 
 [11]
-Overfull \hbox (28.81512pt too wide) in paragraph at lines 325--327
+Overfull \hbox (28.81512pt too wide) in paragraph at lines 324--326
 []\OT1/cmr/m/n/12 Select some columns: []\OT1/cmtt/m/n/12 SELECT column1, colum
 n2,...  FROM table[]name;[]
  []
 
 
-Overfull \hbox (1.41167pt too wide) in paragraph at lines 327--333
+Overfull \hbox (1.41167pt too wide) in paragraph at lines 326--332
 \OT1/cmr/m/n/12 e.g. []\OT1/cmtt/m/n/12 SELECT * FROM flights WHERE duration < 
 200 and origin =
  []
 
 
-Overfull \hbox (13.76167pt too wide) in paragraph at lines 327--333
+Overfull \hbox (13.76167pt too wide) in paragraph at lines 326--332
 \OT1/cmr/m/n/12 e.g. []\OT1/cmtt/m/n/12 SELECT * FROM flights WHERE duration > 
 300 or destination
  []
 
 
-Overfull \hbox (1.41167pt too wide) in paragraph at lines 327--333
+Overfull \hbox (1.41167pt too wide) in paragraph at lines 326--332
 \OT1/cmr/m/n/12 e.g. []\OT1/cmtt/m/n/12 SELECT * FROM flights WHERE origin IN (
 'New York', 'San
  []
 
 
-Overfull \hbox (16.31396pt too wide) in paragraph at lines 337--339
+Overfull \hbox (16.31396pt too wide) in paragraph at lines 336--338
 []\OT1/cmr/m/n/12 Delete en-tire ta-ble: []\OT1/cmtt/m/n/12 DROP TABLE table[]n
 ame;[] \OT1/cmr/m/n/12 e.g. []\OT1/cmtt/m/n/12 DROP TABLE flights;[] 
  []
@@ -1066,7 +1066,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><g:/program files/texlive/2022/texmf-dist
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><g:/program files/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><g:/program files/texlive/
 2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Commands.pdf (12 pages, 425167 bytes).
+Output written on Commands.pdf (12 pages, 425150 bytes).
 PDF statistics:
  339 PDF objects out of 1000 (max. 8388607)
  297 compressed objects within 3 object streams
