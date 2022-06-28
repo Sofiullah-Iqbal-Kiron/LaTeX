@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  27 JUN 2022 10:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  28 JUN 2022 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,47 +245,74 @@ Package ExtSizes Warning: It is better to use one of the extsizes classes,
 (g:/program files/texlive/2022/texmf-dist/tex/latex/extsizes/size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
+(g:/program files/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+
+(g:/program files/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+\csq@reset=\count270
+\csq@gtype=\count271
+\csq@glevel=\count272
+\csq@qlevel=\count273
+\csq@maxlvl=\count274
+\csq@tshold=\count275
+\csq@ltx@everypar=\toks18
+
+(g:/program files/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(g:/program files/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 (g:/program files/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
 def
 File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count269
+\l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box50
 ) (./LAW255.aux)
 \openout1 = `LAW255.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 22.
 
 (g:/program files/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count277
 \scratchdimen=\dimen148
 \scratchbox=\box51
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count273
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count280
 \MPscratchDim=\dimen149
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks20
 )
 (g:/program files/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
 sty
@@ -298,7 +325,7 @@ g
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
  (g:/program files/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -309,11 +336,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count276
+\c@section@level=\count283
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
  (./LAW255.out) (./LAW255.out)
 \@outlinefile=\write3
 \openout3 = `LAW255.out'.
@@ -321,15 +348,15 @@ LaTeX Info: Redefining \nameref on input line 21.
 <../Commands/User Profile.jpg, id=32, 361.35pt x 361.35pt>
 File: ../Commands/User Profile.jpg Graphic file (type jpg)
 <use ../Commands/User Profile.jpg>
-Package pdftex.def Info: ../Commands/User Profile.jpg  used on input line 24.
+Package pdftex.def Info: ../Commands/User Profile.jpg  used on input line 25.
 (pdftex.def)             Requested size: 72.2687pt x 72.2687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 \OT1/cmr/m/n/14.4 and in-ter-net. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
  
  []
 
@@ -337,35 +364,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
 {g:/program files/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <.
 ./Commands/User Profile.jpg>]
-Underfull \hbox (badness 2384) in paragraph at lines 58--61
+Underfull \hbox (badness 2384) in paragraph at lines 59--62
 \OT1/cmr/bx/n/14.4 & ICT with an in-ten-tion to make so-cial dis-or-der. 
  []
 
 [2] [3]
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 80.
+(Font)              <7> on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 []\OT1/cmr/bx/n/14.4 Short notes 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
  
  []
 
-[4] [5] [6] [7] [8] (./LAW255.aux)
-Package rerunfilecheck Info: File `LAW255.out' has not changed.
-(rerunfilecheck)             Checksum: D8BAA31E87BBA4A6747CDDC4CF79D048;1193.
+[4] [5] [6]
+Overfull \hbox (1.32573pt too wide) in paragraph at lines 132--136
+\OT1/cmr/bx/n/14.4 In-fringe-ment: \OT1/cmr/m/n/14.4 Trade-mark In-fringe-ment 
+is when a per-son makes unau-
+ []
+
+[7] [8] [9]
+Overfull \hbox (2.43127pt too wide) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/14.4 Forgery: Coun-ter-feit cur-rency notes, postage and rev-enu
+e stamps,
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 166.
+
+[10] [11] (./LAW255.aux)
+
+Package rerunfilecheck Warning: File `LAW255.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LAW255.out':
+(rerunfilecheck)             Before: D8BAA31E87BBA4A6747CDDC4CF79D048;1193
+(rerunfilecheck)             After:  DA7225AD6AC37087C394A2DCD43E16CB;1381.
  ) 
 Here is how much of TeX's memory you used:
- 8912 strings out of 478300
- 143656 string characters out of 5842103
- 433588 words of memory out of 5000000
- 26935 multiletter control sequences out of 15000+600000
+ 9844 strings out of 478300
+ 157876 string characters out of 5842103
+ 459079 words of memory out of 5000000
+ 27834 multiletter control sequences out of 15000+600000
  475406 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,778b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,778b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {g:/program files/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
 s1.enc}<g:/program files/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><g:/program files/texlive/2022/texmf-dist/fonts/type1/public/amsfon
@@ -374,10 +423,10 @@ sfonts/cm/cmr17.pfb><g:/program files/texlive/2022/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr6.pfb><g:/program files/texlive/2022/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb><g:/program files/texlive/2022/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1440.pfb>
-Output written on LAW255.pdf (8 pages, 346240 bytes).
+Output written on LAW255.pdf (11 pages, 352249 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 81 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
