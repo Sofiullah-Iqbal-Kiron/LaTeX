@@ -1,0 +1,209 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  6 JUL 2022 09:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template_Report.tex
+(./template_Report.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-05-04>
+(g:/program files/texlive/2022/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(g:/program files/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(g:/program files/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(g:/program files/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(g:/program files/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(g:/program files/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(g:/program files/texlive/2022/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(g:/program files/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count197
+\c@Blindtext=\count198
+\c@blind@countparstart=\count199
+\blind@countxx=\count266
+\blindtext@numBlindtext=\count267
+\blind@countyy=\count268
+\c@blindlist=\count269
+\c@blindlistlevel=\count270
+\c@blindlist@level=\count271
+\blind@listitem=\count272
+\c@blind@listcount=\count273
+\c@blind@levelcount=\count274
+\blind@mathformula=\count275
+\blind@Mathformula=\count276
+\c@blind@randomcount=\count277
+\c@blind@randommax=\count278
+\c@blind@pangramcount=\count279
+\c@blind@pangrammax=\count280
+)
+(g:/program files/texlive/2022/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2021-03-10 v1.2e Show layout parameters
+\oneinch=\count281
+\cnt@paperwidth=\count282
+\cnt@paperheight=\count283
+\cnt@hoffset=\count284
+\cnt@voffset=\count285
+\cnt@textheight=\count286
+\cnt@textwidth=\count287
+\cnt@topmargin=\count288
+\cnt@oddsidemargin=\count289
+\cnt@evensidemargin=\count290
+\cnt@headheight=\count291
+\cnt@headsep=\count292
+\cnt@marginparsep=\count293
+\cnt@marginparwidth=\count294
+\cnt@marginparpush=\count295
+\cnt@footskip=\count296
+\fheight=\count297
+\ref@top=\count298
+\ref@hoffset=\count299
+\ref@voffset=\count300
+\ref@head=\count301
+\ref@body=\count302
+\ref@foot=\count303
+\ref@margin=\count304
+\ref@marginwidth=\count305
+\ref@marginpar=\count306
+\Interval=\count307
+\ExtraYPos=\count308
+\PositionX=\count309
+\PositionY=\count310
+\ArrowLength=\count311
+)
+(g:/program files/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
+def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box50
+) (./template_Report.aux)
+\openout1 = `template_Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+[1
+
+{g:/program files/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [
+1]
+One-sided document style.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+[1] [2] [3] (./template_Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 1380 strings out of 478300
+ 23885 string characters out of 5842103
+ 335875 words of memory out of 5000000
+ 19600 multiletter control sequences out of 15000+600000
+ 473375 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,11n,62p,154b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<g:/program files/texlive/2022/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx10.pfb><g:/program files/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/program files/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/program files/texlive/20
+22/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/program files/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/program files/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><g:/program files
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/program fi
+les/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><g:/progra
+m files/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.p
+fb><g:/program files/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfo
+nt/line10.pfb>
+Output written on template_Report.pdf (5 pages, 95948 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

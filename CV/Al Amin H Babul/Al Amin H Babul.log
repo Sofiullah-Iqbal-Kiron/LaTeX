@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  30 JUN 2022 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  3 JUL 2022 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,35 +1005,35 @@ LaTeX Info: Redefining \textulc on input line 49.
 Package: lato 2019/06/20 Style file for Lato.
 )
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 100.
+ne 127.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 100.
+(Font)              scaled to size 10.0pt on input line 127.
 
 (./Al Amin H Babul.aux)
 \openout1 = `"Al Amin H Babul.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
 
 (g:/program files/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1060,7 +1060,7 @@ g
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 127.
  (g:/program files/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1073,9 +1073,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count349
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 127.
+LaTeX Info: Redefining \pageref on input line 127.
+LaTeX Info: Redefining \nameref on input line 127.
  (./Al Amin H Babul.out) (./Al Amin H Babul.out)
 \@outlinefile=\write8
 \openout8 = `"Al Amin H Babul.out"'.
@@ -1120,190 +1120,161 @@ LaTeX Info: Redefining \nameref on input line 100.
 <profile.jpg, id=10, 270.00874pt x 348.30125pt>
 File: profile.jpg Graphic file (type jpg)
 <use profile.jpg>
-Package pdftex.def Info: profile.jpg  used on input line 125.
+Package pdftex.def Info: profile.jpg  used on input line 128.
 (pdftex.def)             Requested size: 270.00807pt x 348.3004pt.
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 125--125
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 128--128
 [][] 
  []
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125
+LaTeX Font Info:    Trying to load font information for U+msa on input line 128
 .
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125
+LaTeX Font Info:    Trying to load font information for U+msb on input line 128
 .
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 125.
+(Font)              scaled to size 24.88pt on input line 128.
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
-put line 125.
+put line 128.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/roboto/T1RobotoSlab-TLF.fd
 File: T1RobotoSlab-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoS
 lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 125.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 128.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 125.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 125.
+(Font)              scaled to size 12.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 125.
+(Font)              scaled to size 12.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 128.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 125.
+nput line 128.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefr
 ee0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 125.
+nput line 128.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefr
 ee2.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[][][][][][] 
- []
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 125.
+ input line 128.
 
 (g:/program files/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomebr
 ands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 125.
+n input line 128.
 
-Overfull \hbox (27.85751pt too wide) in paragraph at lines 125--125
+Overfull \hbox (28.61801pt too wide) in paragraph at lines 128--128
 []$[]$  $[]$  
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 136.
+(Font)              scaled to size 17.28pt on input line 139.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 136.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 139.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 136.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 139.
 
-Overfull \hbox (6.23924pt too wide) in paragraph at lines 137--141
+Overfull \hbox (9.24329pt too wide) in paragraph at lines 145--154
 [][] [] 
  []
 
 
-Overfull \hbox (14.31932pt too wide) in paragraph at lines 142--151
-[][] [] 
- []
-
-
-Overfull \hbox (12.06427pt too wide) in paragraph at lines 142--151
+Overfull \hbox (6.98824pt too wide) in paragraph at lines 145--154
 [] [] [] 
  []
 
 
-Overfull \hbox (14.31429pt too wide) in paragraph at lines 154--158
+Overfull \hbox (9.23825pt too wide) in paragraph at lines 157--161
 [][] [] 
  []
 
 
-Overfull \hbox (29.33934pt too wide) in paragraph at lines 161--166
+Overfull \hbox (15.34479pt too wide) in paragraph at lines 164--169
 [][] [] 
  []
 
 
-Overfull \hbox (7.93431pt too wide) in paragraph at lines 161--166
+Overfull \hbox (2.85828pt too wide) in paragraph at lines 164--169
 [] [] 
  []
 
 
-Overfull \hbox (18.09926pt too wide) in paragraph at lines 167--173
+Overfull \hbox (13.02322pt too wide) in paragraph at lines 170--176
 [][] [] 
  []
 
 
-Overfull \hbox (8.95934pt too wide) in paragraph at lines 167--173
+Overfull \hbox (3.8833pt too wide) in paragraph at lines 170--176
 [] [] 
  []
 
 
-Overfull \hbox (21.52927pt too wide) in paragraph at lines 167--173
+Overfull \hbox (2.6562pt too wide) in paragraph at lines 170--176
 [] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 176.
+(Font)              scaled to size 10.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 187.
+(Font)              scaled to size 8.0pt on input line 190.
 
-Overfull \hbox (2.71935pt too wide) in paragraph at lines 188--188
-\T1/lato-TLF/m/n/10 Molec-u-lar Bi-ol-ogy, BSMRSTU  
- []
-
-
-Overfull \hbox (2.73135pt too wide) in paragraph at lines 190--192
-[][]\T1/lato-TLF/m/n/10 : kkdutta@bsmrstu.edu.bd 
- []
-
-
-Overfull \hbox (2.71935pt too wide) in paragraph at lines 197--197
-\T1/lato-TLF/m/n/10 Molec-u-lar Bi-ol-ogy, BSMRSTU  
- []
-
-
-Overfull \hbox (2.49643pt too wide) in paragraph at lines 199--201
-[][]\T1/lato-TLF/m/n/10 : \T1/lato-TLF/m/n/8 manoj.bmb18@bsmrstu.edu.bd  
- []
-
-
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 244--244
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 247--247
 [][] []  
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 246.
+ine 249.
 (g:/program files/texlive/2022/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 246.
+(Font)              scaled to size 9.0pt on input line 249.
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 251--251
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 254--254
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 258--258
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 261--261
 [][] []  
  []
 
 
-Overfull \hbox (7.60641pt too wide) in paragraph at lines 267--267
+Overfull \hbox (12.68245pt too wide) in paragraph at lines 270--270
 []\T1/lato-TLF/m/n/12 B.Sc. in Bio-chem-istry & Molec-u-lar Bi-ol-ogy, Fac-ulty
  of Life Sci-ence[] [] | Banga- 
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 267--267
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 270--270
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 273--273
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 276--276
 [][] []  
  []
 
 
-Overfull \hbox (2.55997pt too wide) in paragraph at lines 279--279
+Overfull \hbox (2.55998pt too wide) in paragraph at lines 282--282
 [][] []  
  []
 
@@ -1315,10 +1286,10 @@ Package rerunfilecheck Info: File `"Al Amin H Babul".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  36089 strings out of 478300
- 717206 string characters out of 5842103
- 984085 words of memory out of 5000000
- 53596 multiletter control sequences out of 15000+600000
- 692454 words of font info for 64 fonts, out of 8000000 for 9000
+ 717210 string characters out of 5842103
+ 985553 words of memory out of 5000000
+ 53595 multiletter control sequences out of 15000+600000
+ 692868 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,8n,105p,539b,2377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {g:/program files/texlive/2022/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{
@@ -1334,9 +1305,9 @@ s/texlive/2022/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><g:/program f
 iles/texlive/2022/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb><g:/pro
 gram files/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pf
 b>
-Output written on "Al Amin H Babul.pdf" (1 page, 171271 bytes).
+Output written on "Al Amin H Babul.pdf" (1 page, 172495 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

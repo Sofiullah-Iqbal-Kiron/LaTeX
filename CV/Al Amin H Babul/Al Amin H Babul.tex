@@ -35,11 +35,12 @@
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
 % Change the page layout if you need to
-\geometry{left=1.2cm,right=1.2cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+\geometry{left=1.2cm, right=1.2cm, top=1cm, bottom=1cm, columnsep=0.75cm}
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
+\usepackage{fontawesome5}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -97,45 +98,47 @@
 %% sample.bib contains your publications
 %% \addbibresource{sample.bib}
 
+
+\name{Al-Amin}
+\tagline{Biochemist and Molecular Biologiest}
+%% You can add multiple photos on the left or right
+\photoL{4cm}{profile}
+
+\personalinfo{
+	\email{alamin17bmb@gmail.com}\smallskip
+	\phone{01776307269} \\
+	\linkedin{Al-Amin}
+	\facebook{Al Amin H. Babul} \\
+	\location{Ghagra, Jadunathpur, Dhanbari, Tangail, Bangladesh}
+	%\homepage{nicolasomar.me}
+	%\medium{nicolasomar}
+	%% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+	% \orcid{0000-0000-0000-0000}
+	%% You can add your own arbtrary detail with
+	%% \printinfo{symbol}{detail}[optional hyperlink prefix]
+	% \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+	%% Or you can declare your own field with
+	%% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+	% \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+	% \gitlab{your_id}
+}
+
+
 \begin{document}
-	\name{Al-Amin}
-	\tagline{}
-	%% You can add multiple photos on the left or right
-	\photoL{4cm}{profile}
-	
-	\personalinfo{
-		\email{alamin17bmb@gmail.com}\smallskip
-		\phone{01776307269}
-		\location{Ghagra, Jadunathpur, Dhanbari, Tangail, Bangladesh}\\
-		\linkedin{Al-Amin}
-		%\facebook{Al Amin H. Babul}
-		%\homepage{nicolasomar.me}
-		%\medium{nicolasomar}
-		%% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
-		% \orcid{0000-0000-0000-0000}
-		%% You can add your own arbtrary detail with
-		%% \printinfo{symbol}{detail}[optional hyperlink prefix]
-		% \printinfo{\faPaw}{Hey ho!}[https://example.com/]
-		%% Or you can declare your own field with
-		%% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-		% \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-		% \gitlab{your_id}
-	}
-	
 	\makecvheader
 	%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 	% \AtBeginEnvironment{itemize}{\small}
 	
 	%% Set the left/right column width ratio to 6:4.
-	\columnratio{0.25}
+	\columnratio{0.26}
 	
 	% Start a 2-column paracol. Both the left and right columns will automatically
 	% break across pages if things get too long.
 	\begin{paracol}{2}
-		% ----- STRENGTHS -----
-		\cvsection{Soft Skills}
+		% ----- Skills -----
+		\cvsection{Software \\ \vspace{1mm} Skills}
 		\cvtag{MS Word}
-		\cvtag{MS Excel, Basic}
+		\cvtag{Basic MS Excel}
 		\cvtag{MS PowerPoint}
 		\medskip
 		
@@ -147,28 +150,28 @@
 		\cvtag{Biovia Draw}
 		\cvtag{EndNote}
 		\cvtag{NotePad++}
-		% ----- STRENGTHS -----
+		% ----- Skills -----
 		
-		% labratory skill:start
-		\cvsection{Labratory Skills}
+		% ----- LABRATORY SKILLS -----
+		\cvsection{Labratory \\ \vspace{1mm} Skills}
 		\cvtag{Auto Clave}
 		\cvtag{DNA Extraction}
 		\smallskip
-		% labratory skill:end
+		% ----- LABRATORY SKILLS -----
 		
 		% ----- LEARNING -----
 		\cvsection{Learning}
 		\cvtag{Genomics}
-		\cvtag{Homology Modeling}
+		\cvtag{{\small Homology Modeling}}
 		\cvtag{Bioinformatics}
 		\cvtag{M Docking}
-		\medskip
+		\smallskip
 		
 		\cvtag{Drag Discovery}
 		\cvtag{Drag Design}
 		\cvtag{Biotechnology}
 		\cvtag{Proteomics}
-		\cvtag{Molecular Dynamics Simulation}
+		\cvtag{{\small Molecular Dynamics Simulation}}
 		% ----- LEARNING -----
 		
 		% ----- LANGUAGES -----
@@ -251,14 +254,14 @@
 		\cvevent{Research Secretary}{| Al-Biruni Science Club}{From January 2021 -- Present}{Polton, Dhaka, Bangladesh}
 		\begin{itemize}
 			\item Management and Organizing.
-			\item Collect information \& research.
+			\item Collect information and research.
 		\end{itemize}
 		\divider
 		
 		\cvevent{Lecturer}{| Oversee Intermediate Coaching Center}{January 2021 -- April 2021}{Gopalganj, Bangladesh}
 		\begin{itemize}
 			\item Take Biology Classes.
-			\item Make Proxy classes, sometimes.
+			\item Make Proxy class, sometimes.
 		\end{itemize}
 		% ----- EXPERIENCE -----
 		

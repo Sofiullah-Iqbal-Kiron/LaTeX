@@ -200,7 +200,7 @@
 % Fork: New optional options added for dev and medium accounts
 \NewInfoField{dev}{\faDev}[https://dev.to/]
 \NewInfoField{medium}{\faMedium}[https://medium.com/@]
-\NewInfoField{facebook}{\faFacebookOfficial}[https://www.facebook.com/98a.h.babul]
+\NewInfoField{facebook}{\faFacebookSquare}[https://www.facebook.com/98a.h.babul]
 
 % v1.2: Support for multiple photos
 \newlength{\altacv@photos@width}
