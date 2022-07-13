@@ -5,6 +5,7 @@
 \documentclass[11 pt]{article}
 
 
+% Packages.
 \usepackage[margin=2.5cm]{geometry}
 \usepackage[document]{ragged2e}
 \usepackage[ruled, vlined]{algorithm2e}
@@ -19,13 +20,14 @@
 	array,
 	amsmath,
 	imakeidx, % index, change compiler to MakeIndex then compile. Then compile again with XeLaTeX or PDFLaTeX.
+	mathabx,
 }
 
 \usetikzlibrary{shadows}
 \usetikzlibrary{arrows.meta, arrows}
 
 \title{Assignment CSE201: Data Structure}
-\author{\textbf{Md. Kazi Iqbal Hossen}\\\textbf{18ICTCSE065}\\\textbf{SHIICT, BSMRSTU}}
+\author{\textbf{{\large Md. Kazi Iqbal Hossen}}\\\textbf{18ICTCSE065}\\\textbf{SHIICT, BSMRSTU}}
 
 
 \hypersetup
@@ -66,8 +68,8 @@
 \index{Definition of data structure}{\huge\textcolor{red}{\hspace{5 mm}D}}ata structure is a special way of organizing data in a computer so that we can use those efficiently later. Types of data structures means how the data structure implemented and how it looks like when comparing with the real world, how structured the skeleton that stayed beyond of that data structure, is it linear or non-linear? is it stack type or hierarchical tree type as well.\\
 \index{Basic types of data-structure}The two basic types of data-structure:
 \begin{enumerate}
-	\item Linear
-	\item Non-linear
+	\item[$\blackdiamond$] Linear
+	\item[$\blackdiamond$] Non-linear
 \end{enumerate}
 \index{Algorithmic notations}
 To solve a problem we builds some different logic and algorithm but we don't know actually which algorithm is more efficient for our program in terms of holding less memory and shortest time. That's why we compare algorithms in a manner to find out best algorithmic approach that takes less memory and shortest time to make our program efficient. Due to respect of finding best algorithm there are so many approaches and they are denoted by some kind of mathematical notations. By those notations we measure the performance of an algorithm and scalability.\\
@@ -110,7 +112,7 @@ Some notations are:
 \section{What is bubble sort? Write an algorithm for sorting an array of N elements using bubble sort. Sort this array using bubble sort: [15, 18, 4, 5, 2]}
 \justify
 {
-\index{Bubble sort definition} Bubble sort is a very simple sorting algorithm who sort elements by just swapping two adjacent element is they are not in the correct order. Bubble sort has $O(n^2)$ as it's worst-case and average-case time complexity. Here is the algorithm of bubble sort:
+\index{Bubble sort definition} Bubble sort is a very simple sorting algorithm which sort elements by just swapping two adjacent element is they are not in the correct order. Bubble sort has $O(n^2)$ as it's worst-case and average-case time complexity. Here is the algorithm of bubble sort:
 }
 \index{Bubble sort algorithm}
 \begin{algorithm}
@@ -230,16 +232,16 @@ Inorder: \{3, 5, 8, 11, 14, 16, 17, 18 , 20\}
 	\begin{tikzpicture}[edge from parent/.style={draw, thick}]
 		\node[fill=gray!80, circle, draw](11) {11} [grow=down]
 	 		child {node[fill=gray!60, circle, draw](5) {5}
-	 			child {node[fill=gray!40, circle, draw](3) {3}}
-	 			child {node[fill=gray!40, circle, draw, right of=3](8) {8}}}
+	 			child {node[fill=gray!40, rectangle, draw](3) {3}}
+	 			child {node[fill=gray!40, rectangle, draw, right of=3](8) {8}}}
 	 		child {node[fill=gray!60, circle, draw](16) {16}
-	 		    child {node[fill=gray!40, circle, draw, right of=8](14) {14}}
+	 		    child {node[fill=gray!40, rectangle, draw, right of=8](14) {14}}
 	 			child {node[fill=gray!40, circle, draw](18) {18}
-	 				child {node[fill=gray!20, circle, draw](17) {17}}
-	 				child {node[fill=gray!20, circle, draw](20) {20}}}};
+	 				child {node[fill=gray!20, rectangle, draw](17) {17}}
+	 				child {node[fill=gray!20, rectangle, draw](20) {20}}}};
 	\end{tikzpicture}
 \centering
-\caption{Binary tree with given traversals}
+\caption{Binary tree constructed from given traversals}
 \end{figure}
 
 \pagebreak
@@ -324,7 +326,7 @@ Merge sort is an efficient sorting algorithm that follows Divide and Conquer alg
 \caption{Merge sort illustration}
 \end{figure}
 \index{Steps to sort a list using merge sort algorithm}
-Here we take the total list of integers and recursively divide it in two halves until the divided list size becomes 1 then contineously merge them in sorted manner till we reach the exact length as before.
+Here, considering a list of integers and recursively divide it into two-halves until the length of divided list becomes 1, then contineously merge them in sorted manner untill we reach the exact length as original input.
 \begin{enumerate}
 	\item[Step 1:] [38, 27, 43, 3, 9, 82, 10]
 	\item[Step 2:] [38, 27, 43, 3] [9, 82, 10]
