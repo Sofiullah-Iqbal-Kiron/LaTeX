@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Preface}{2}{0}{1}
+\beamer@sectionintoc {2}{Theory Section}{5}{0}{2}
+\beamer@sectionintoc {3}{MySQL}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{MySQL Basics}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{MySQL Queries}{20}{0}{3}
+\beamer@sectionintoc {4}{Illustration 2}{27}{0}{4}
+\beamer@sectionintoc {5}{Ending Scene}{34}{0}{5}

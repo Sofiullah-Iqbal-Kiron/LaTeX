@@ -16,7 +16,8 @@
 	graphicx, % \includegraphics and graphics related
 	extsizes, % increase extarticle size manually
 	hyperref,
-	forest
+	forest,
+	csquotes, % quotes: \enquote{} -double, \enquote*{} -single.
 }
 
 \newcommand{\R}{\textcolor{red}} % Just replacement.
@@ -74,6 +75,17 @@ Simple bash commands:
 			\item Simple: \R{\T{ls / dir}}
 			\item Hidden included: \R{\T{ls/dir -a}}
 			\item Hidden included with details: \R{\T{ls/dir -all}}
+		\end{enumerate}
+		
+	\item Listing all contents/lines in a "file.ext"\footnote{File name with extension.}
+		\begin{enumerate}
+			\item List all the lines: \R{\T{cat [file\_name].ext}}
+			\item List with line numbers: \R{\T{cat -n [file\_name].ext}}
+		\end{enumerate}
+		
+	\item \textbf{egrep}\footnote{extended global regular expression print, a regex engine available on UNIX, Linux and other platforms} commands
+		\begin{enumerate}
+			\item Print that lines which contains \enquote*{s}: \R{\T{egrep -n -e \enquote*{s} [file\_name].ext}}, here the \enquote*{-n} for print with line numbers and \enquote*{-e} for \enquote{match the expression}.
 		\end{enumerate}
 		
 	\item Let's some fun:
