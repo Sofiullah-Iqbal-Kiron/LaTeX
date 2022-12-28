@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  3 JUL 2022 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.10)  31 OCT 2022 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,18 +1278,29 @@ Overfull \hbox (2.55998pt too wide) in paragraph at lines 282--282
 [][] []  
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+\T1/lato-TLF/m/n/12 Glance[] [] 
+ []
+
 [1
 
- <./profile.jpg>] (./Al Amin H Babul.aux)
+ <./profile.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+[]\T1/lato-TLF/m/n/12 RNA genome se-quenc-ing us-ing R\T1/lato-TLF/m/n/8 (progr
+amming lan-guage).[] [] 
+ []
+
+[2] (./Al Amin H Babul.aux)
 Package rerunfilecheck Info: File `"Al Amin H Babul".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  36089 strings out of 478300
- 717210 string characters out of 5842103
- 985553 words of memory out of 5000000
+ 717194 string characters out of 5842103
+ 984601 words of memory out of 5000000
  53595 multiletter control sequences out of 15000+600000
- 692868 words of font info for 65 fonts, out of 8000000 for 9000
+ 692454 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,8n,105p,539b,2377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {g:/program files/texlive/2022/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{
@@ -1305,9 +1316,9 @@ s/texlive/2022/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><g:/program f
 iles/texlive/2022/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb><g:/pro
 gram files/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pf
 b>
-Output written on "Al Amin H Babul.pdf" (1 page, 172495 bytes).
+Output written on "Al Amin H Babul.pdf" (2 pages, 173593 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

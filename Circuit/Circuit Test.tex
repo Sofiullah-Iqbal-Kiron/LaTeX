@@ -12,14 +12,27 @@
 
 Starting with circuitikz. TikZ will loaded automatically. circuitikz commands are just TikZ commands. It is good practice keep circuits in a figure. [element=value]\\
 \begin{figure}
-\tikz \draw (0, 0) to[R=$R_1$] (2, 0); % [element=value]
-\centering
+    \tikz \draw (0, 0) to[R=$R_1$] (2, 0); % [element=value]
+    \centering
 \end{figure}
 
 \begin{circuitikz}[]
-\draw (0,0) to[isource] (0,3) -- (2,3)
-to[R] (2,0) -- (0,0);
+    \draw (0,0) to[isource] (0,3) -- (2,3)
+    to[R] (2,0) -- (0,0);
 \end{circuitikz}
+
+
+\section*{Block Diagram of 1-bit Register}
+% Flip-Flip definition
+\tikzset
+{sr-ff/.style={flipflop, flipflop def={t1=S, t2=CP, t3=R, t4={\ctikztextnot{Q}}, t6=Q, nd=1}}}
+\begin{figure}
+    \begin{circuitikz}
+        \draw (0,0) node[flipflop D];
+    \end{circuitikz}
+    \centering
+    \caption[]{Diagram of 1-bit register.}
+\end{figure}
 
 
 \end{document}

@@ -1,0 +1,179 @@
+% Set margin to 2.3cm for mobile view compatibility
+% I use "extsizes" package to increase article size manually. This package allows 8pt, 9pt, 10pt, 11pt, 12pt,  14pt, 17pt and 20 pt text. Documentclass must be extarticle. But why the geometry package is not working after including extsizes?
+% Syntax text color: \textcolor{red}{}
+% Example text color: \textcolor{red!70}{}
+% New command for red-teletype text: \R{\T{}}
+% F1 (fn + f1 on laptop) for quick build.
+
+\documentclass[12 pt, letterpaper]{extarticle}
+
+\usepackage[document]{ragged2e}\usepackage[margin=2.3cm]{geometry}
+\usepackage
+{
+	array, % Table formatting.
+	longtable, % Long table which takes up two or more pages.
+	colortbl,
+	graphicx, % \includegraphics and graphics related
+	extsizes, % increase extarticle size manually
+	hyperref,
+	forest,
+	csquotes, % quotes: \enquote{} -double, \enquote*{} -single.
+}
+
+\newcommand{\R}{\textcolor{red}} % Just replacement.
+\newcommand{\T}{\texttt}
+
+\title{\textcolor{blue}{Study CSE309}}
+\author
+{
+	\includegraphics[scale=0.2]{User Profile.jpg} \\ % scale is better scaling for picture. Scale 0.2 means 20 percent will be the printed size of main size.
+	\textit{Sofiullah Iqbal Kiron} \\
+	\textcolor{green}{\rule{11 cm}{3 pt}}
+}
+\date{9 December, 2022 \\ {\tiny Last compiled: \today}}
+\begin{document}
+\maketitle
+\justify
+
+\section*{L1: Introduction}
+The architecture of a computer can be defined as, design of task-performing part of it.
+Which also includes overall fundamental working principle and the internal logical structure of a computing system.
+So, we can say computer architecture includes:
+\begin{itemize}
+	\item Instruction set architecture: attributes of computing system as seen by assembly language programmer. It also includes:
+	      \begin{itemize}
+		      \item Data storage(where is data located?)
+		      \item Addressing mode(how data is accessed?)
+		      \item Exceptional conditions(what happens if something goes wrong?)
+	      \end{itemize}
+	\item Machine architecture: is the view that is seen by the logic designer. It includes:
+	      \begin{itemize}
+		      \item Capabilities and performance characteristics of functional units.
+		      \item Ways in which the components are interconnected.
+		      \item How information flows between components.
+	      \end{itemize}
+\end{itemize}
+In order to design good instruction set, it is important to understand how the architecture might be implemented.
+A computer consist of 3 main functional units:
+\begin{enumerate}
+	\item I/O device
+	      \begin{itemize}
+		      \item Input
+		      \item Output
+	      \end{itemize}
+	\item Memory
+	\item Processor
+	      \begin{itemize}
+		      \item Arithmetic and Logic unit(ALU).
+		      \item Control unit.
+	      \end{itemize}
+\end{enumerate}
+So, there is 5 main components inside functional unit.
+\subsection*{Describing those 5 units}
+\subsubsection*{Input}
+Information handled by a computer must be encoded in a suitable format.
+Any information encoded is basically a bit string which is consists of only '0' and '1'.
+The input unit receives this coded information. This received information is either stored inside computer memory for later use or immediately used to perform the desired operations.
+A computer handles 2 types of information.
+\begin{enumerate}
+	\item Instruction: which controls the transfer of information between computer and its IO devices and also within the computer. A list of instruction that performs a specific task is called a program which is stored in the memory. To execute a program, computer fetches the instruction one by one and specifies the arithmetic and logical operations to perform. A computer is completely controlled by the stored program except any external interrupts occurs which is triggered from any IO device.
+	\item Data: is a kind of information which is used as an operand for a program. So, data could be any number of character. Even, a list of instructions could be data if it is processed by another high-level program. In such cases, that data is called source program.
+\end{enumerate}
+
+\section*{L3: Basic Operational Concept}
+\subsection*{Previous Concept}
+Each activity in the computer is governed by instructions or a set of instruction.
+So, to perform a specific task, corresponding program(set of instruction) for that task first brought into processor from memory.
+Then, the data needed for this operation also brought from memory to processor. After all, the operation is executed.
+
+\subsection*{An example: 1}
+Let \textbf{Add LocA, $R_0$}. The steps required to perform this instruction \\
+\begin{enumerate}
+	\item Fetch the instruction from memory to processor.
+	\item Fetch the corresponding operand into processor located at location A.
+	\item The operand is then added to te content of $R_0$.
+	\item Store the result inside $R_0$.
+\end{enumerate}
+
+This instruction needs to perform two instruction, one memory access operation and another, ALU operation.\\
+To reduce the time needed and optimize/improve the performance this operation can be done separately\\
+\begin{enumerate}
+	\item[Memory access operation:] \textbf{Load LocA, $R_1$}
+		\begin{enumerate}
+			\item Fetch the instruction from memory to processor.
+			\item Fetch the operand to $R_1$ which is located at location A.
+		\end{enumerate}
+	\item[ALU operation] \textbf{Add $R_1$, $R_0$}
+		\begin{enumerate}
+			\item Content of $R_1$ is added to $R_0$.
+			\item After addition, store the result inside $R_0$.
+		\end{enumerate}
+\end{enumerate}
+
+Beside the ALU and Control Unit, processor has some registers which has some specific purpose:
+\begin{itemize}
+	\item[IR: ] Instruction Register, holds the instruction currently being executed. Each of such instruction is executed under a command which is timing signal from control unit. So, the result of that instruction in IR is available in control circuit because timing signal controls all the components which are necessary for execution of that instruction.
+	\item[PC: ] Program Counter, keeps track of the execution of a program. That is, during execution of any instruction, it contains address of the next instruction to be executed. So, the program counter actually points to the next instruction. During execution of current instruction, program counter being automatically updated/incremented.
+	\item[$R_0$\dots$R_{n-1}$:] General Purpose Registers, contains intermediate result during execution of an instruction.
+	\item[MAR \& MDR:] Memory Access Register and Memory Data Register, facilitate communication with memory unit. MAR contains address of the data to be accessed from memory. MDR contains data that is to be read into or written out from memory.
+\end{itemize}
+
+Operating steps for executing a program:
+\begin{enumerate}
+	\item Program get into computer through input unit.
+	\item Then the program resides into memory.
+	\item For execution, program passed to the processing unit.
+	\item To start the execution, PC must point to the first instruction.
+	\item Contents of PC copied to MAR.
+	\item A read signal is sent to the memory then.
+	\item Read content of the memory where MAR pointing to, load the content into MDR. In one such read cycle, only one word can be read. Here, the addressed word is $1^{st}$ instruction of the program.
+	\item Content of the MDR now passed to IR.
+	\item After entering into IR, instruction is ready to be decode and execute.
+	\item If operation involves arithmetic computation then operands must be fetched into ALU which can be taken through input unit or load inside any general purpose register or read directly from memory which is done by previous read cycle.
+	\item ALU performs the operation.
+	\item If the result need to be store in memory, it is passed to MDR.
+	\item MAR is loaded with the memory address where the data to be written, a write cycle is initiated.
+	\item At any point of execution, PC is automatically updated so that it can point to the next instruction to be executed.
+	\item The normal execution is done in the above way.
+	\item If anu exceptional condition occurs during the execution of that program, the execution is interrupted.
+	\item Interruption is a signal generated by any input/output device requesting a service to the processor.
+	\item Then processor listen to that request, save the current internal states which includes content of PC, general purpose register contents and some control information.
+	\item Save this current status inside memory.
+	\item Processor provides the requested service by executing an appropriate interrupt service routine.
+	\item After providing interrupt service, saved state of processor is restored.
+	\item Execution of previous incomplete program begins.
+\end{enumerate}
+
+\section*{L6: Organization of Processor}
+\subsection*{Single Bus Organization}
+\begin{enumerate}
+	\item[6] \textbf{General purpose registers:} $R_0$\dots$R_{n-1}$. The number and use of this general purpose registers vary from processor to processor. Normally used by programmers for any general purpose i.e. storing result of any instructor.
+	\item[7] \textbf{Special purpose registers:} index registers or status pointer are kept for special purposes.
+	\item[8] \textbf{Y, Z \& TEMP:} these registers are transparent to the programmer. A programmer never concerned about them or these registers are never mentioned in any instruction. During the execution of any instruction, processor uses these registers for temporary storage. They are never used to store the data generated by one instruction for later use by another instruction.
+	\item[9] \textbf{MUX:} A 2:1 mux, the output of this mux provides one input to the ALU. If constant value 4 is selected then ALU receives 4 in its one input and if Y is selected the ALU receives contents of the Y as its one input. The constant value 4 is normally selected for increment the content of PC.
+	\item[10] \textbf{ALU(Arithmetic Logic Unit):} the main block where the arithmetic and logical operations are executed. When and instruction is fetched from memory via MDR and loaded into IR, then IR sends it to decoder and control unit. Decoder decodes the instructions and find out which arithmetic/logic operation it consist of and where the operands of operation. According to the information found after decoding, appropriate signals are generated. Let's assume, after decoding, an addition operation found. One operand is the content of R1, another is R2 and R3 here for store the result after operation. ALU receives one operand from Y, another one is directly taken from the internal bus and then output will be passed to Z. Then from Z, the result can be passed to any register via internal processor bus. So for now, content or R1 brought into Y, content of R2 brought into internal processor bus, the select input in MUX is Y. Then, ALU takes one operand as A which is output of MUX(for now, content of Y) and another operand B taken directly from bus, add them and pass the result to bus via Z. R3 takes the result from bus later on.
+\end{enumerate}
+
+\subsection*{Register Transfer \& Organization}
+\begin{enumerate}
+	\item While executing an instruction, a sequence of steps are involved in transferring data from one register to another. For this, $2$ control signals are used:
+	      \begin{enumerate}
+		      \item One control signal used to place the contents on bus from register.
+		      \item Another control signal is used to load the data into register from bus.
+	      \end{enumerate}
+	\item The input and output of any register(say, $R_i$), connected to the bus via $2$ switches and controlled by 2 control signals(say, ${R_i}_{in}$ and ${R_i}_{out}$ respectively).
+	      \begin{enumerate}
+		      \item For ${R_i}_{in}$
+		            \begin{enumerate}
+			            \item If set to 1, then data will be loaded from bus to the register $R_i$.
+			            \item If set to 0, there is no entry into $R_i$.
+		            \end{enumerate}
+		      \item For ${R_i}_{out}$
+		            \begin{enumerate}
+			            \item If set to 1, pass data to the bus from $R_i$.
+			            \item If set to 0, no content/data go out. Gate locked.
+		            \end{enumerate}
+	      \end{enumerate}
+\end{enumerate}
+
+\end{document}

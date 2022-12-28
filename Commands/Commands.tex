@@ -47,61 +47,66 @@ Simple bash commands:
 	\item To remove a directory and all its contents, including sub-directories and files (cmd command): \R{\T{rm -r "directory name"}} r stands for recursive. That means recursively remove all.
 	\item Powershell version: Run as administrator, type \R{\T{\$PSVersionTable}}, hit enter.
 	\item Linux/UNIX command to write something on a file: \R{\T{echo message > fileNameWithExtension}} Ex: \textcolor{red!70}{\texttt{echo Hello > file.txt}}
-	\item List all installed python packages with version: \R{\T{pip list}} or \R{\T{pip freeze}}. Second command will list only packages which was installed via pip.
-	\item Upgrade any python package via pip: \R{\T{pip install <package\_name> --upgrade}} or in shortly \R{\T{pip install <package\_name> -U}}.
-	
+
+	\item Python package manager, PIP:
+	      \begin{enumerate}
+		      \item Lists all installed python packages with version: \R{\T{pip list}}.
+		      \item Lists only packages which was installed via pip: \R{\T{pip freeze}}.
+		      \item Upgrade any python package via pip: \R{\T{pip install <package\_name> --upgrade}} or in shortly \R{\T{pip install <package\_name> -U}}.
+	      \end{enumerate}
+
 	\item Directory:
-		\begin{enumerate}
-			\item Make: \R{\T{mkdir dirName}}
-			\item Change working directory: \R{\T{cd dirNameWithFullPath}}
-			\item Path of working directory: \R{\T{pwd}}
-		\end{enumerate}
-	
-	\item \R{\T{Start}}:
-		\begin{enumerate}
-			\item \R{\T{explorer}}
-			\item \R{\T{texmaker}}
-			\item \R{\T{msedge}} or \R{\T{msedge <link>}}
-			\item \R{\T{chrome}} or \R{\T{chrome <link>}}
-			\item \R{\T{brackets}}
-			\item \R{\T{opera}} or \R{\T{opera <link>}}
-			
-			\item \R{\T{cmd}}
-			\item \R{\T{powershell}}
-		\end{enumerate}
-	
+	      \begin{enumerate}
+		      \item Make: \R{\T{mkdir dirName}}
+		      \item Change working directory: \R{\T{cd dirNameWithFullPath}}
+		      \item Path of working directory: \R{\T{pwd}}
+	      \end{enumerate}
+
+	\item \R{\T{start}}:
+	      \begin{enumerate}
+		      \item \R{\T{explorer}}
+		      \item \R{\T{texmaker}}
+		      \item \R{\T{msedge}} or \R{\T{msedge <link>}}
+		      \item \R{\T{chrome}} or \R{\T{chrome <link>}}
+		      \item \R{\T{brackets}}
+		      \item \R{\T{opera}} or \R{\T{opera <link>}}
+
+		      \item \R{\T{cmd}}
+		      \item \R{\T{powershell}}
+	      \end{enumerate}
+
 	\item List:
-		\begin{enumerate}
-			\item Simple: \R{\T{ls / dir}}
-			\item Hidden included: \R{\T{ls/dir -a}}
-			\item Hidden included with details: \R{\T{ls/dir -all}}
-		\end{enumerate}
-		
+	      \begin{enumerate}
+		      \item Simple: \R{\T{ls / dir}}
+		      \item Hidden included: \R{\T{ls/dir -a}}
+		      \item Hidden included with details: \R{\T{ls/dir -all}}
+	      \end{enumerate}
+
 	\item Listing all contents/lines in a "file.ext"\footnote{File name with extension.}
-		\begin{enumerate}
-			\item List all the lines: \R{\T{cat [file\_name].ext}}
-			\item List with line numbers: \R{\T{cat -n [file\_name].ext}}
-		\end{enumerate}
-		
+	      \begin{enumerate}
+		      \item List all the lines: \R{\T{cat [file\_name].ext}}
+		      \item List with line numbers: \R{\T{cat -n [file\_name].ext}}
+	      \end{enumerate}
+
 	\item \textbf{egrep}\footnote{extended global regular expression print, a regex engine available on UNIX, Linux and other platforms} commands
-		\begin{enumerate}
-			\item Print that lines which contains \enquote*{s}: \R{\T{egrep -n -e \enquote*{s} [file\_name].ext}}, here the \enquote*{-n} for print with line numbers and \enquote*{-e} for \enquote{match the expression}.
-		\end{enumerate}
-		
+	      \begin{enumerate}
+		      \item Print that lines which contains \enquote*{s}: \R{\T{egrep -n -e \enquote*{s} [file\_name].ext}}, here the \enquote*{-n} for print with line numbers and \enquote*{-e} for \enquote{match the expression}.
+	      \end{enumerate}
+
 	\item Let's some fun:
-		\begin{enumerate}
-			\item \R{\T{factor n}} will print prime factors of \R{\T{n}}. It is a build-in program like we say.
-		\end{enumerate}
-		
+	      \begin{enumerate}
+		      \item \R{\T{factor n}} will print prime factors of \R{\T{n}}. It is a build-in program like we say.
+	      \end{enumerate}
+
 	\item Compile TeX files (must have a compiler like MiKTeX or TeXLive pre-installed on your system):
-		\begin{enumerate}
-			\item Produce PDF from TeX: \R{\T{pdflatex [filename].tex}}
-			\item Produce DVI from TeX: \R{\T{latex [filename].tex}}
-			\item DVI to PDF: \R{\T{dvipdfm [filename].dvi}}
-		\end{enumerate}
-	
+	      \begin{enumerate}
+		      \item Produce PDF from TeX: \R{\T{pdflatex [filename].tex}}
+		      \item Produce DVI from TeX: \R{\T{latex [filename].tex}}
+		      \item DVI to PDF: \R{\T{dvipdfm [filename].dvi}}
+	      \end{enumerate}
+
 	\item Get your product key: \R{\T{wmic path SoftwareLicensingService get OA3xOriginalProductKey}}
-	
+
 	\item Open current directory on VS code: \R{\T{code .}}
 	\item Stop execution of a running command: \R{\T{ctrl + c}}
 	\item If we wanna see all the commands(that we typed and hit enter, not matter right or wrong the command was) as a list: \R{\T{history}}
@@ -117,86 +122,101 @@ Simple bash commands:
 	\item Initialize a new empty local repository: \R{\T{git init}} :- a hidden folder will be created with name ".git"
 
 	\item Adding/Staging(give access to git tracker) files:
-		\begin{enumerate}
-			\item Specified: \R{\T{git add fileName}}
-			\item Multiple: \R{\T{git add file1 file2 file3}}, space separated.
-			\item Specified by extension: \R{\T{git add *.ext}}
-			\item All: \R{\T{git add .}}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item Specified: \R{\T{git add fileName}}
+		      \item Multiple: \R{\T{git add file1 file2 file3}}, space separated.
+		      \item Specified by extension: \R{\T{git add *.ext}}
+		      \item All: \R{\T{git add .}}
+	      \end{enumerate}
 	\item Staging logs:
-		\begin{enumerate}
-			\item Full log: \R{\T{git log}}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory. \R{log} is the history the snapshoots of a repository.
-			\item Press space for move to the next page of log.
-			\item One lined: \R{\T{git log --oneline}}
-			\item Last N commits by a non negative integer: \R{\T{git log -N}}, N means non-negative integer as, 2, 6. eg. \R{\T{git commit -3}} will show last 3 log.
-			\item In reverse order, full: \R{\T{git log --reverse}}.
-			\item In reverse order, one lined: \R{\T{git log --oneline --reverse}}.
-			\item Show changed files in each commit: \R{\T{git log --stat}} or \R{\T{git log --oneline --stat}}
-			\item See actual changes in each commit: \R{\T{git log --patch}} or \R{\T{git log --oneline --patch}}
-			\item Show commit changes: \R{\T{git show commitID}} or, \R{\T{git show HEAD~n}}, here HEAD is the last commit we did and n is an integer indicating that go n steps back from HEAD and then show the commit changes.
-			\item Filter logs to be shown by
-				\begin{enumerate}
-					\item Author: \R{\T{git log --author="author\_name"}}
-					\item Date
-					\item Before with this date: \R{\T{git log --before="yyyy-mm-dd"}}
-					\item After with this date: \R{\T{git log --after="yyyy-mm-dd"}}
-					\item Indication: \R{\T{git log --before/after="yesterday/one week ago/two week ago/one month ago/two month ago"}}
-					\item the commit messages those has the string/substring "WORD". It is case sensitive. : \R{\T{git log --grep="WORD"}}
-				\end{enumerate}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item Full log: \R{\T{git log}}, press 'q' to quit from long log list. Each log come up with a unique hexadecimal ID(String with 40 characters maybe). Each commit contains a complete snapshoot of working directory. \R{log} is the history the snapshoots of a repository.
+		      \item Press space for move to the next page of log.
+		      \item One lined: \R{\T{git log --oneline}}
+		      \item Last N commits by a non negative integer: \R{\T{git log -N}}, N means non-negative integer as, 2, 6. eg. \R{\T{git commit -3}} will show last 3 log.
+		      \item In reverse order, full: \R{\T{git log --reverse}}.
+		      \item In reverse order, one lined: \R{\T{git log --oneline --reverse}}.
+		      \item Show changed files in each commit: \R{\T{git log --stat}} or \R{\T{git log --oneline --stat}}
+		      \item See actual changes in each commit: \R{\T{git log --patch}} or \R{\T{git log --oneline --patch}}
+		      \item Show commit changes: \R{\T{git show commitID}} or, \R{\T{git show HEAD~n}}, here HEAD is the last commit we did and n is an integer indicating that go n steps back from HEAD and then show the commit changes.
+		      \item Filter logs to be shown by
+		            \begin{enumerate}
+			            \item Author: \R{\T{git log --author="author\_name"}}
+			            \item Date
+			            \item Before with this date: \R{\T{git log --before="yyyy-mm-dd"}}
+			            \item After with this date: \R{\T{git log --after="yyyy-mm-dd"}}
+			            \item Indication: \R{\T{git log --before/after="yesterday/one week ago/two week ago/one month ago/two month ago"}}
+			            \item the commit messages those has the string/substring "WORD". It is case sensitive. : \R{\T{git log --grep="WORD"}}
+		            \end{enumerate}
+	      \end{enumerate}
 	\item File list in staging area: \R{\T{git ls-files}}
 	\item File list with tree: \R{\T{git ls-tree commitID}}	or, \R{\T{git ls-tree HEAD~n}}
-	
+
 	\item Status:
-		\begin{enumerate}
-			\item Full status: \R{\T{git status}}
-			\item Short status: \R{\T{git status -s}}, I think, \R{\T{-s}} stands for "short".
-		\end{enumerate}
-		
+	      \begin{enumerate}
+		      \item Full status: \R{\T{git status}}
+		      \item Short status: \R{\T{git status -s}}, I think, \R{\T{-s}} stands for "short".
+	      \end{enumerate}
+
 	\item Update the local branch from it's remote: \R{\T{git pull}}. Basically this command fetches(\R{\T{git fetch}}) the new commits then merge(\R{\T{git merge}}) them to the local. Here is the link of \href{https://www.freecodecamp.org/news/git-pull-explained/#:~:text=git\%20pull\%20is\%20a\%20Git,a\%20repository\%20from\%20a\%20remote.&text=By\%20default\%2C\%20git\%20pull\%20does,branches\%20for\%20all\%20other\%20branches.}{freecodecamp.org}
-		
+
 	\item Configuration:
-		\begin{enumerate}
-			\item Full: \R{\T{git config --list}}
-			\item Specified by key: \R{\T{git config <key>}} e.g. To get user name that already been configured, \textcolor{red!70}{{git config user.name}}
-			\item \R{\T{git config --global user.name "My Name"}}
-			\item \R{\T{git config --email myEmail}}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item Full: \R{\T{git config --list}}
+		      \item Specified by key: \R{\T{git config <key>}} e.g. To get user name that already been configured, \textcolor{red!70}{{git config user.name}}
+		      \item \R{\T{git config --global user.name "My Name"}}
+		      \item \R{\T{git config --email myEmail}}
+	      \end{enumerate}
 	\item Get a full copy of an existing repository: \R{\T{git clone <url>}}
-	
+
 	\item Set default editor for git
 	\item Open the dot git folder: \R{\T{start .git}}
 	\item Remove tracking access from git: delete the \R{\T{.git}} hidden directory.
-	
+
 	\item Update git: \R{\T{git update-git-for-windows}}
 	\item Every git commit contains a distinct ID, Message, Date/Time, Author, Complete snapshot of project.
 
 	\item Remote:
-		\begin{enumerate}
-			\item Remote repository is a repository exits on server/online.
-			\item Add: \R{\T{git remote add <shortname> <url>}}
-			\item Lists all the remotes with server link details: \R{\T{git remote -v}}
-			\item Inspect: If you want to see more information about a particular remote: \R{\T{git remote show <remoteShortName>}}
-			\item Rename: \R{\T{git remote rename <oldShortName> <newShortName>}}
-			\item Remove: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
-			\item To see remote servers you have configured, you can run the \R{\T{git remote}} command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can use \R{\T{-v}} option to shows Related URLs that git has stored for the shortname.
-		\end{enumerate}	
-	
+	      \begin{enumerate}
+		      \item Remote repository is a repository exits on server/online.
+		      \item Add: \R{\T{git remote add <shortname> <url>}}
+		      \item Lists all the remotes with server link details: \R{\T{git remote -v}}
+		      \item Inspect: If you want to see more information about a particular remote: \R{\T{git remote show <remoteShortName>}}
+		      \item Rename: \R{\T{git remote rename <oldShortName> <newShortName>}}
+		      \item Remove: \R{\T{git remote rm <shortname>}} or \R{\T{git remote remove <shortname>}}
+		      \item To see remote servers you have configured, you can run the \R{\T{git remote}} command. It lists the shortnames of each remote handle you've specified. If you've cloned your repository, you should at least see "origin" that is the default name Git gives to the server you cloned from. Can use \R{\T{-v}} option to shows Related URLs that git has stored for the shortname.
+	      \end{enumerate}
+
 	\item \textbf{Have Bug}, After adding a remote to a repository, we can fetch by the shortname: \R{\T{git fetch <shortname>}}
-	
+
 	\item Creating a repository from scratch with Github's command example:
-		\begin{enumerate}
-			\item[\#1] \R{\T{echo "\# Repository Name" >> README.md}}
-			\item[\#2] \R{\T{git init}}
-			\item[\#3] \R{\T{git add README.md}}
-			\item[\#4] \R{\T{git commit -m "first commit"}}
-			\item[\#5] \R{\T{git branch -M master/main}}
-			\item[\#6] \R{\T{\footnotesize git remote add <short name/nick name> <url:\\https://github.com/Sofiullah-Iqbal-Kiron/repository-name-without-blackspace.git>}}
-			\item[\#7] \R{\T{git push -u origin master/main}}
-			\item[\#8] \textit{Pore aita niye ghataghati korbo.}
-		\end{enumerate}
-	
+	      \begin{enumerate}
+		      \item[\#1] \R{\T{echo "\# Repository Name" >> README.md}}
+		      \item[\#2] \R{\T{git init}}
+		      \item[\#3] \R{\T{git add README.md}}
+		      \item[\#4] \R{\T{git commit -m "first commit"}}
+		      \item[\#5] \R{\T{git branch -M master/main}}
+		      \item[\#6] \R{\T{\footnotesize git remote add <short name/nick name> <url:\\https://github.com/Sofiullah-Iqbal-Kiron/repository-name-without-blackspace.git>}}
+		      \item[\#7] \R{\T{git push -u origin master/main}}
+		      \item[\#8] \textit{Pore aita niye ghataghati korbo.}
+	      \end{enumerate}
+
 \end{enumerate}
+
+
+\section*{Debian Based Linux Distributions}
+
+\href{https://en.wikipedia.org/wiki/Debian}{Wiki!} \\
+Some debian based linux distros are: \textbf{Mint, Ubuntu, Deepin, Kali, Parrot} and many more. I will prefer \textbf{Ubuntu}.
+
+\subsection*{Terminal Commands}
+\begin{enumerate}
+	\item Update apt packages: \R{\T{sudo apt update}}.
+\end{enumerate}
+
+\subsection*{What is "APT"?}
+APT: Advanced Packaging Tool is a software utility used to manage softwares on Debian.
+
 
 \section*{Kali Linux}
 \begin{enumerate}
@@ -204,18 +224,18 @@ Simple bash commands:
 	\item We use python for ethical hacking and will make many many tools with this. Automate.
 	\item Know who is the user: whoami
 	\item Internet configuration: ifconfig
-	\item Three must have skill: gathering information, 	
-	
+	\item Three must have skill: gathering information,
+
 	\item \R{\T{cat}} \textit{(concatenate)} command
-		\begin{enumerate}
-			\item Show all the contents of given  filename: \R{\T{cat file\_name}}
-			\item Show contents of multiple files: \R{\T{cat file1 file2}}
-			\item Show contents preceding with line numbers: \R{\T{cat -n file\_name}}
-			\item Create a file: \R{\T{cat > file\_name.ext}}
-			\item Copy content of file1 to file2: \R{\T{cat file1 > file2}}
-			\item : \R{\T{cat }}
-			\item : \R{\T{cat }}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item Show all the contents of given  filename: \R{\T{cat file\_name}}
+		      \item Show contents of multiple files: \R{\T{cat file1 file2}}
+		      \item Show contents preceding with line numbers: \R{\T{cat -n file\_name}}
+		      \item Create a file: \R{\T{cat > file\_name.ext}}
+		      \item Copy content of file1 to file2: \R{\T{cat file1 > file2}}
+		      \item : \R{\T{cat }}
+		      \item : \R{\T{cat }}
+	      \end{enumerate}
 \end{enumerate}
 
 \subsection{Snapshot}
@@ -236,10 +256,10 @@ Before this: Create and connect your \textbf{ngrok} account through terminal to 
 	\item Get blackeye:  \R{\T{ git clone https://github.com/An0nUD4Y/blackeye.git}}
 	\item Change directory to blackeye: \R{\T{cd blackeye}}
 	\item Run blackeye.sh:
-		\begin{enumerate}
-			\item \R{\T{bash blackeye.sh\footnote{better choice}}}
-			\item \R{\T{chmod +x blackeye.sh}} $\rightarrow$ \R{\T{./blackeye.sh}}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item \R{\T{bash blackeye.sh\footnote{better choice}}}
+		      \item \R{\T{chmod +x blackeye.sh}} $\rightarrow$ \R{\T{./blackeye.sh}}
+	      \end{enumerate}
 	\item Choose an option
 	\item While the process is running, do this job: open two terminal, one on blackeye, second on that sites folder that you wanna phish. Run this command on first terminal: \R{\T{./ngrok http 8080}}, before this, run this command on second terminal: \R{\T{php -S localhost:8080}} .
 	\item Now at the first terminal, the phishing link is ready to go\dots
@@ -254,16 +274,16 @@ Cautions:
 \begin{enumerate}
 	\item Become anonymous, zsecurity has a tutorial on youtube for this.
 	\item Change the mac address:
-		\begin{enumerate}
-			\item \R{\T{ifconfig eth0 down}} to disable ethernet connection eth0
-			\item \R{\T{}}
-			\item \R{\T{ifconfig eth0 up}}
-		\end{enumerate}
+	      \begin{enumerate}
+		      \item \R{\T{ifconfig eth0 down}} to disable ethernet connection eth0
+		      \item \R{\T{}}
+		      \item \R{\T{ifconfig eth0 up}}
+	      \end{enumerate}
 	\item Get connected with a VPN.
 	\item Attack with the help of Social Engineering as: \texttt{Hey, it's an important message for you. Please check it out right now.} Or, \texttt{Check your facebook security and make it strong.}, etc. Also can use my various corporate g-mail accounts for this. Create a g-mail from non-native country with the same name as company or site like, \textit{facebooksecurityhub3032@gmail.com}
 	\item Create another git and github account for hacking.
 	\item Modifying the phishing \textit{website.html} from blackeye/sites directory would be good to phishing attack. Learn \textbf{HTML}, \textbf{CSS} and \textbf{PHP} well. Or insect the code from original page with the help of browser insect option.
-	\item 
+	\item
 \end{enumerate}
 
 This tutorial pdf is for educational purposes only. Do not hack anyone without permission. \\
@@ -281,78 +301,97 @@ Some issues: \textit{how to fix blackeye tool for phishing website link is not s
 \end{enumerate}
 
 \section*{SQLite}
-	\justify
-	{
+\justify
+{
 	SQLite is a lightweight, reliable, portable database management tool, written in C, published in $2000$. Every commands(query in SQL) ends with a semicolon. We can write query in both uppercase or lowercase but writing queries in uppercase is conventional. TEXT type data allowed with both of single quote and double quote. Most like Python syntax/keywords. Not case-sensitive or case-insensitive.\\
-	}
-	Data types in SQLite:
-	\begin{enumerate}
-		\item NULL
-		\item INTEGER
-		\item REAL
-		\item TEXT
-		\item BLOB
-	\end{enumerate}
-	SQLite has no built-in boolean types. So, we have to store boolean 0(False) \& 1(True) inside of a INTEGER variable.\\
+}
+Data types in SQLite:
+\begin{enumerate}
+	\item NULL
+	\item INTEGER
+	\item REAL
+	\item TEXT
+	\item BLOB
+\end{enumerate}
+SQLite has no built-in boolean types. So, we have to store boolean 0(False) \& 1(True) inside of a INTEGER variable.\\
 
-	\pagebreak
-	Queries:
-	\begin{enumerate}
-		\item Start query operation on a SQL file with sqlite3 engine:\\
-			\R{\T{sqlite3 file\_name.sql}}\\
-			e.g. \textcolor{red!70}{sqlite3 flights.sql}
-		\item Get help: \R{\T{.help}}
-		\item Create table: \\
-			\R{\T{create table table\_name (column\_name1 data\_type optional\_properties, column\_name2 \dots);}}\\
-			e.g. \textcolor{red!70}{create table flights (id INTEGER PRIMARY KEY AUTOINCREMENT, origin TEXT NOT NULL, destination TEXT NOT NULL, duration INTEGER NOT NULL);}
-		\item Show all the tables exist inside the database: \R{\T{.tables}}
-		\item Insert data into table:\\
-			\R{\T{INSERT INTO table\_name (comma separate columns) values(comma separated values for each corresponding column);}}\\
-			e.g. \textcolor{red!70}{INSERT INTO flights (origin, destination, duration) values('New York', 'San Francisco', 415);}
-		
-		\item Get all data from a specific table in a \textbf{SQL} file: \R{\T{select * from table\_name;}}
-			\begin{enumerate}
-				\item \R{\T{select}}: get/obtain/return.
-				\item \R{\T{*}}: all columns.
-				\item \R{\T{from}}: from which table.
-				\item \R{\T{table\_name}}: specify the table in a particular SQL file.
-			\end{enumerate}
-			
-		\item Organize table in a specific mode: \R{\T{.mode value}}\\
-		Values would be:
-		\begin{enumerate}
-			\item \R{\T{column}}:  Preferred by sir \href{https://brianyu.me/}{Brain Yu}.
-			\item \R{\T{ html}}: Then we can copy and paste the tags and elements in a HTML document.
-			\item \R{\T{box}}: Boxed table, so pretty as well. My preferred.
-			\item \R{\T{line}}:  Good one.
-			\item \R{\T{table}}
-			\item \R{\T{insert}}: With SQL insert statement.
-			\item Or get description: \R{\T{.help .mode}}
-		\end{enumerate}
-		
-		\item Select all columns where rows have a particular value:\\
-			\R{\T{select * from table\_name where column\_name = value;}}\\
-			e.g. \textcolor{red!70}{\T{select * from flights where origin = 'Tokyo';}}
-		\item Select some columns: \R{\T{SELECT column1, column2,\dots\hspace{0.1cm} FROM table\_name;}}
-			e.g. \textcolor{red!70}{\T{SELECT origin, destination FROM flights;}}
-		\item Conditional selection:\\
-			\R{\T{SELECT * FROM table\_name WHERE conditions}}(python's like).\\
-			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300;}}\\
-			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration < 200 and origin = 'New York';}}\\
-			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300 or destination = 'San Francisco';}}\\
-			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin IN ('New York', 'San Francisco');}}
-		\item Select by pattern matching: \R{\T{SELECT * FROM flights WHERE origin like '\%regex\%'}}\\
-			e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin LIKE '\%a\%';}}
-		\item Delete a row: \R{\T{DELETE FROM table\_name WHERE conditions;}}\\
-			e.g. \textcolor{red!70}{\T{DELETE FROM flights WHERE duration > 100;}}
-		\item Delete entire table: \R{\T{DROP TABLE table\_name;}}
-			e.g. \textcolor{red!70}{\T{DROP TABLE flights;}}
-		\item Exit from sqlite3 prompt console: \R{\T{.quit}}
-	\end{enumerate}
-	
-	\begin{tabular}{c c c}
-		 1  & 2   & 3     \\
-		one & two & three
-	\end{tabular}
+\pagebreak
+Queries:
+\begin{enumerate}
+	\item Start query operation on a SQL file with sqlite3 engine:\\
+	      \R{\T{sqlite3 file\_name.sql}}\\
+	      e.g. \textcolor{red!70}{sqlite3 flights.sql}
+	\item Get help: \R{\T{.help}}
+	\item Create table: \\
+	      \R{\T{create table table\_name (column\_name1 data\_type optional\_properties, column\_name2 \dots);}}\\
+	      e.g. \textcolor{red!70}{create table flights (id INTEGER PRIMARY KEY AUTOINCREMENT, origin TEXT NOT NULL, destination TEXT NOT NULL, duration INTEGER NOT NULL);}
+	\item Show all the tables exist inside the database: \R{\T{.tables}}
+	\item Insert data into table:\\
+	      \R{\T{INSERT INTO table\_name (comma separate columns) values(comma separated values for each corresponding column);}}\\
+	      e.g. \textcolor{red!70}{INSERT INTO flights (origin, destination, duration) values('New York', 'San Francisco', 415);}
+
+	\item Get all data from a specific table in a \textbf{SQL} file: \R{\T{select * from table\_name;}}
+	      \begin{enumerate}
+		      \item \R{\T{select}}: get/obtain/return.
+		      \item \R{\T{*}}: all columns.
+		      \item \R{\T{from}}: from which table.
+		      \item \R{\T{table\_name}}: specify the table in a particular SQL file.
+	      \end{enumerate}
+
+	\item Organize table in a specific mode: \R{\T{.mode value}}\\
+	      Values would be:
+	      \begin{enumerate}
+		      \item \R{\T{column}}:  Preferred by sir \href{https://brianyu.me/}{Brain Yu}.
+		      \item \R{\T{ html}}: Then we can copy and paste the tags and elements in a HTML document.
+		      \item \R{\T{box}}: Boxed table, so pretty as well. My preferred.
+		      \item \R{\T{line}}:  Good one.
+		      \item \R{\T{table}}
+		      \item \R{\T{insert}}: With SQL insert statement.
+		      \item Or get description: \R{\T{.help .mode}}
+	      \end{enumerate}
+
+	\item Select all columns where rows have a particular value:\\
+	      \R{\T{select * from table\_name where column\_name = value;}}\\
+	      e.g. \textcolor{red!70}{\T{select * from flights where origin = 'Tokyo';}}
+	\item Select some columns: \R{\T{SELECT column1, column2,\dots\hspace{0.1cm} FROM table\_name;}}
+	      e.g. \textcolor{red!70}{\T{SELECT origin, destination FROM flights;}}
+	\item Conditional selection:\\
+	      \R{\T{SELECT * FROM table\_name WHERE conditions}}(python's like).\\
+	      e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300;}}\\
+	      e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration < 200 and origin = 'New York';}}\\
+	      e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE duration > 300 or destination = 'San Francisco';}}\\
+	      e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin IN ('New York', 'San Francisco');}}
+	\item Select by pattern matching: \R{\T{SELECT * FROM flights WHERE origin like '\%regex\%'}}\\
+	      e.g. \textcolor{red!70}{\T{SELECT * FROM flights WHERE origin LIKE '\%a\%';}}
+	\item Delete a row: \R{\T{DELETE FROM table\_name WHERE conditions;}}\\
+	      e.g. \textcolor{red!70}{\T{DELETE FROM flights WHERE duration > 100;}}
+	\item Delete entire table: \R{\T{DROP TABLE table\_name;}}
+	      e.g. \textcolor{red!70}{\T{DROP TABLE flights;}}
+	\item Exit from sqlite3 prompt console: \R{\T{.quit}}
+\end{enumerate}
+
+\begin{tabular}{c c c}
+	1   & 2   & 3     \\
+	one & two & three
+\end{tabular}
+
+\pagebreak
+
+\section*{MySQL}
+Tutorial by Mosh Hamedani and mysqltutorial.org\\
+
+\subsection*{Executing Query: }
+\begin{enumerate}
+	\item Change database: \R{\T{USE database\_name;}}
+	\item Execute system command on MySQL command line client: \R{\T{system system\_command}}
+	\item Rename table: \R{\T{RENAME TABLE old\_name TO new\_name;}}
+	\item Show all column with details of a table in tabular form:
+	      \begin{enumerate}
+		      \item \R{\T{DESCRIBE table\_name}}
+		      \item \R{\T{DESCRIBE database\_name.table\_name}}
+		      \item \R{\T{DESC table\_name}}
+		      \item \R{\T{DESC database\_name.table\_name}}
+	      \end{enumerate}
+\end{enumerate}
 
 \end{document}

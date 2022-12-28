@@ -1,0 +1,138 @@
+\documentclass[10 pt]{article}
+
+
+% Packages with options.
+\usepackage[utf8]{inputenc} % Input encoder, basically for English
+\usepackage[table]{xcolor} % Color your document
+\usepackage[skins]{tcolorbox} % Colored / nice textbox
+\usepackage[document]{ragged2e} % Various text alignment.
+\usepackage[short, nodayofweek, level, 12hr]{datetime}
+\usepackage[usestackEOL]{stackengine}
+\usepackage[hidelinks]{hyperref} % Add hyperlink / clickable link
+\usepackage[left=3cm, right=3cm, top=3cm, bottom=2cm]{geometry} % Controls output page attributes.
+
+% Packages without options.
+\usepackage
+{
+ array, % Manipulate the table rules
+ listings, % Code listing
+ authblk, % Author affiliation
+ mVersion, % Adding version later of date
+ tikz,
+ eso-pic,
+ graphicx,
+}
+
+
+\setVersion{0.0}
+\increaseBuild % Will update version at each recompilation
+
+
+% Setting up code listing environment properties.
+\lstset
+{
+ language = SQL,
+ backgroundcolor = \color{black!5},
+ basicstyle = \footnotesize\ttfamily, % Add all style properties without comma separator.
+ keywordstyle = \color{blue},
+ commentstyle = \color{green!80},
+ showstringspaces = false,
+ stringstyle = \color{red},
+ captionpos = b, %, b: bottom
+ numbers=left,
+ frameshape={RYRYNYYYY}{yny}{yny}{RYRYNYYYY},
+ tabsize=2,
+ morekeywords={IF, USE, DATABASE, ENGINE, AFTER},
+ fontawesome,
+}
+
+% Setting up font faces/families.
+%\setmainfont[Ligatures=TeX]{Times New Roman}
+
+\newcommand{\myName}{\textbf{MD. Kazi Iqbal Hossen}}
+\newcommand{\myMail}{sofiul.k.1023@gmail.com}
+
+
+\title{Assignment of CSE309: MySQL Query}
+\author
+{
+	\myName \\
+	\href{mailto:\myMail}{\myMail}
+}
+\date{25 December, 2022 \\ \currenttime \\ Version: \version}
+\affil
+{
+	\textbf{18ICTCSE065} \\
+	BSMRSTU, Department of CSE \\
+	{\tiny Copyright\faCopyright\hspace{2pt} under Sofiullah Book Agency}
+}
+% \institute{Bangabandhu Sheikh Mujibur Rahman Science and Technology University}(Omit this, replaced by \affil{})
+
+
+\begin{document}
+
+% \pagecolor{green!20}
+\maketitle
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}};
+\clearpage
+\pagebreak
+\pagecolor{white}
+
+\begin{lstlisting}[caption={MySQL Query on cse309.instructor table.}]
+-- create a new database
+CREATE DATABASE IF NOT EXISTS cse309;
+
+-- active this database
+USE cse309;
+
+-- create table: instructor
+CREATE TABLE
+IF NOT EXISTS
+instructor(
+		ID INT NOT NULL PRIMARY KEY,
+    name VARCHAR(64) NOT NULL,
+    designation VARCHAR(20) NOT NULL,
+    salary INT NOT NULL DEFAULT 10000
+    )
+ENGINE=INNODB;
+
+-- alter table: instructor
+ALTER TABLE instructor
+ADD joined DATE NOT NULL
+AFTER salary;
+
+-- insert data into instructor
+INSERT INTO instructor (ID, name, designation, salary, joined)
+VALUES
+		(1, "Dr. Mrinal Kanti Baowaly", "Associate Professor", 50000, "2018-02-01"),
+		(2, "Dr. Saleh Ahmed", "Associate Professor", 45000, "2019-01-01"),
+    (3, "Md. Nesarul Hoque", "Assistant Professor", 38000, "2020-05-10"),
+    (4, "Md. Monowar Hossain", "Assistant Professor", 35000, "2020-10-04"),
+    (5, "Abu Bakar Muhammad Abdullah", "Lecturer", 30000, "2021-10-11"),
+    (6, "Nasif Ahmed", "Lecturer", 28000, "2019-09-15"),
+    (7, "Husnul Ajra", "Assistant Professor", 42000, "2018-08-01");
+    
+-- view data
+SELECT * FROM instructor;
+SELECT * FROM instructor
+	WHERE salary>30000;
+SELECT name FROM instructor
+	WHERE designation='lecturer';
+    
+-- delete data/tuple/row from table
+DELETE FROM instructor
+	WHERE ID=7;
+    
+-- insert tuple that was just deleted
+INSERT INTO instructor (ID, name, designation, salary, joined)
+	VALUES (7, "Husnul Ajra", "Assistant Professor", 42000, "2018-08-01");
+    
+-- update data
+UPDATE instructor
+	SET salary=43000
+		WHERE name='Husnul Ajra';
+
+-- Query written and organized by: 18ICTCSE065.
+\end{lstlisting}
+
+\end{document}
