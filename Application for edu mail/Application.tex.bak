@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage[document]{ragged2e}
+\usepackage[usestackEOL]{stackengine}
+\usepackage[a4paper]{geometry}
+\usepackage
+{
+	polyglossia,
+	anyfontsize,
+	tcolorbox
+}
+
+\setmainlanguage[numerals=Devanagari]{bengali}
+\setotherlanguage{english}
+\newfontfamily\bengalifont[Script=Bengali]{Kalpurush}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\fontsize{11}{11}\selectfont % After that, all font size will be 11 (unit not detected till)
+তারিখ: ২ ফেব্রুয়ারি, ২০২৩  ইং. \linebreak
+
+\vspace{1 pt}
+বরাবর, \linebreak
+সিস্টেম এনালিস্ট \\
+বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় \\
+গোপালগঞ্জ - ৮১০০ \\
+মাধ্যম: সভাপতি, কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ \\
+বিষয়:  \textbf{প্রাতিষ্ঠানিক ই-মেইল প্রাপ্তির জন্য আবেদন।} \linebreak
+
+\vspace{2 pt}
+
+জনাব, \linebreak
+যথাবিহিত সম্মান প্রদর্শনপূর্বক বিনীত নিবেদন এই যে, আমি মো. কাজী ইকবাল হোসেন (কিরন), অত্র বিশ্ববিদ্যালয়ের CSE বিভাগের ২০১৮-২০১৯ সেশনের ছাত্র।
+
+\vfill
+
+{
+\fontsize{12}{12}\selectfont
+নিবেদক, \\
+মো. কাজী ইকবাল হোসেন (কিরন) \\
+কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগ \\
+18ICTCSE065 \\
+বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় \\
+গোপালগঞ্জ - ৮১০০
+}
+
+\end{document}
+

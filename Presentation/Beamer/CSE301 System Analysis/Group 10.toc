@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Preamble}{2}{0}{1}
+\beamer@sectionintoc {2}{Basic Beyond}{5}{0}{2}
+\beamer@sectionintoc {3}{Illustration 1}{18}{0}{3}
+\beamer@sectionintoc {4}{Illustration 2}{26}{0}{4}
+\beamer@sectionintoc {5}{Ending Scene}{33}{0}{5}
